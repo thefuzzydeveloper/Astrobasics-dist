@@ -2,11 +2,11 @@
     "version": "1.2.56",
     "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tAstroBasics Diamond Chart Pro - MAJOR UPDATE!</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Decoupled Dark Mode from Font Settings to eliminate previous UI confusion.<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Improved scrolling experience. Now the scroller adjusts as per the monitor refresh rate giving a better experience!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Implemented a Zero CPU Usage option (in settings) that reduces cpu usage (for old PCs) disabling smooth scroller and animations so the app remains functional even on old hardware!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Removed circular dependencies and hardened the code!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Added Update using installer for bug-free and faster updates! The developer recommends to update using download installer once and restart system for updated logo!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Added a new standalone updater so even if app dies after update, fresh install can be performed crucially keeping your preferences intact !<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Added a new splash screen!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Fixed fatal updater that caused GIT LFS files to be texts causing uncompatibility error!<br>\n\t<b><span style=\"color: #CF153E;\">\n\t\t[-]</b> Known issue with this update is that it logs errors on opening the app first time... It is completely safe to ignore those logs for now! <br>\n\t</div>\n</div>",
     "files": {
-        "AstroBasics.exe": "d05a208bdba7c62eb1d316095bfe48844b3eebcf6f0aa37e2fde180029f8e628",
-        "refresh_astrobasics.exe": "2865db2c771e8d7eb9a011bb7f28a80e5ee318a376d561aa5d43c35c9e386c26",
+        "AstroBasics.exe": "ac385f162865382b68139cff341abbcf641d0a854e8b3e3f15fe00adf54b99ab",
+        "refresh_astrobasics.exe": "27a9d45db1c89af2cd69f6f8635701e8a2d991a5bd6a522bb78e1cf27c6ca8b0",
         "_internal/animation.pyd": "7e5c1248ecb6e62365fd208d5f731236b1be21251e03346e6b379cfc370c1fc0",
         "_internal/astro_engine.pyd": "18070acbf4b4eb44c7ddf69b106e956885f5ebc13ec6435772130e9f7592eca7",
-        "_internal/base_library.zip": "eca76142eccc634cd5dcccefdae7f102ad2e1c2489b7368e76f8557ee073aae7",
+        "_internal/base_library.zip": "4c8b678482816dc5e6fb1fa57e59a8cf118e1ff3351df57ace01b20fdb1aaec9",
         "_internal/chart_renderer.pyd": "060ae1428ed0d0e91be124e6f0427ea892ee0f600e46665cbf30b881e4569008",
         "_internal/custom_vargas.pyd": "3b353e3b919b2d89e4f0a69e34ff5fd1fa6e10daa5ab77a5c5324f09d89114f0",
         "_internal/dark_theme.qss": "7b4d82e864e5d18c8a4f95cd851242b36936d86d7468031e4de355f5ed2c2db4",
@@ -84,7 +84,7 @@
         "_internal/dynamic_settings_modules/transit_module.pyd": "2f381fbf3af5c0ba7212a13f64046e5e9732ae772a821acaf7fd2ae022312ab6",
         "_internal/dynamic_settings_modules/vishmottari_module.pyd": "18963d0397b0c3355c55507fec1a7befb359559d5784fc5a4ad4b65c880d1e91",
         "_internal/dynamic_settings_modules/zz_logger_module.pyd": "68058306e6d08be4b8f7d04a5edc9420617a9f9b6bcd557ad2527865879f4230",
-        "_internal/dynamic_settings_modules/z_updater.pyd": "24627d836f689914051ecace06cf4759a2e726d1fb1ffb057982ba44681362b7",
+        "_internal/dynamic_settings_modules/z_updater.pyd": "a13b79e80633f5f8120dee282bcf321c503459001f6b062668ed0b6cad86bfb6",
         "_internal/ephe/seasm06.se1": "97c05e3197edbbf39dee8df5bf1d42e810187948e912a25fb4336c6f408d9353",
         "_internal/ephe/seasm102.se1": "d7c1d0921b81dfcf7851d24c2f0a857f58f2adf05c5ce72a4883e02b605c1b50",
         "_internal/ephe/seasm108.se1": "5f29735c07c3ab86c63049ae0b26854f77940eb516f810acfffee22c3efcaeb3",
@@ -5328,4 +5328,4 @@
         "_internal/tzdata-2026.2.dist-info/licenses/LICENSE": "cd6a56aa134cebb80bd4ffc5a0ccbfc846ac2dce04760670729c65822ae5f3ae",
         "_internal/tzdata-2026.2.dist-info/licenses/licenses/LICENSE_APACHE": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
     }
-} 
+}
