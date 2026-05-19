@@ -1,0 +1,29 @@
+END USER LICENSE AGREEMENT (EULA)
+
+FOR NON-COMMERCIAL USE ONLY
+
+IMPORTANT-READ CAREFULLY: 
+
+By installing, copying, or otherwise using AstroBasics Diamond Chart Pro, hereby referred to as "AstroBasics", you agree to be bound by the terms of this End User License Agreement. 
+If you do not agree to the terms of this EULA, do not install or use the software.
+
+GRANT OF LICENSE
+
+This application is licensed, not sold. 
+The Developer grants you a personal, non-exclusive, non-transferable, and revocable license to install and use AstroBasics for personal, educational, or other non-commercial purposes only.
+
+RESTRICTIONS ON COMMERCIAL USE
+
+1. You may NOT use this software for any commercial purpose. 
+2. Prohibited commercial uses include, but are not limited to:
+	a) Selling, renting, leasing, or distributing the modified/unmodified software.
+	b) Using the software or its generated outputs to provide paid services, professional readings, or business consultations.
+	c) Incorporating the software or its codebase into a commercial product, service, or enterprise environment.
+
+OWNERSHIP AND INTELLECTUAL PROPERTY
+
+AstroBasics —including its underlying source code, design, logos, and features— remains the exclusive property of the Developer. This EULA only grants you a limited right to use the software; it does not transfer any ownership rights to you. Furthermore, you may not use the Developer's name, brand, logos, or trademarks for any commercial, promotional, or associative purposes without explicit written consent.
+
+DISCLAIMER OF WARRANTY
+
+The software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the Developer be liable for any claim, damages, or other liability arising from, out of, or in connection with the software or the use of the software.
