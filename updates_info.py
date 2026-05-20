@@ -1021,3 +1021,39 @@ v1_2_58= """
 	</div>
 </div>
 """
+
+
+
+v1_2_6= """
+<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
+		AstroBasics Diamond Chart Pro - MAJOR UPDATE!</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+	<b><span style="color: #059669;">
+		[+]</span></b>Decoupled Dark Mode from Font Settings to eliminate previous UI confusion.<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Improved scrolling experience. Now the scroller adjusts as per the monitor refresh rate giving a better experience!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Implemented a Zero CPU Usage option (in settings) that reduces cpu usage (for old PCs) disabling smooth scroller and animations so the app remains functional even on old hardware!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Removed circular dependencies and hardened the code!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Added Update using installer for bug-free and faster updates! The developer recommends to update using download installer once and restart system for updated logo!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Added a new standalone updater so even if app dies after update, fresh install can be performed crucially keeping your preferences intact !<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Added a new splash screen!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Fixed fatal updater that caused GIT LFS files to be texts causing uncompatibility error!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Added a welcome message to log screen<br>
+	<b><span style="color: #CF153E;">
+		[+]</span></b>Fixed location worker class<br>
+	<b><span style="color: #CF153E;">
+		[+]</span></b>Fixed a minor error where use corrected true position was not being saved<br>
+	<b><span style="color: #CF153E;">
+		[-]</b> Known issue with this update is that it logs errors on opening the app first time... It is completely safe to ignore those logs for now! <br>
+	</div>
+</div>
+"""
