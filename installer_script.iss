@@ -1,6 +1,6 @@
 ; --- Configuration Variables ---
 #define MyAppName "AstroBasics"
-#define MyAppVersion "1.2.7"
+#define MyAppVersion "1.2.8"
 #define MyAppPublisher "The Developer"
 #define MyAppExeName "AstroBasics.exe"
 
@@ -79,6 +79,21 @@ Root: HKCU; Subkey: "Software\Classes\.milan"; ValueType: string; ValueName: "";
 Root: HKCU; Subkey: "Software\Classes\AstroBasics.Milan"; ValueType: string; ValueName: ""; ValueData: "Kundali Milan Session"; Flags: uninsdeletekey
 Root: HKCU; Subkey: "Software\Classes\AstroBasics.Milan\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\icon.ico"; Flags: uninsdeletekey
 Root: HKCU; Subkey: "Software\Classes\AstroBasics.Milan\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1"""; Flags: uninsdeletekey
+; Register the new .astrobasic extension for Current User
+Root: HKCU; Subkey: "Software\Classes\.astrobasic"; ValueType: string; ValueName: ""; ValueData: "AstroBasics.Chart"; Flags: uninsdeletevalue
+Root: HKCU; Subkey: "Software\Classes\AstroBasics.Chart"; ValueType: string; ValueName: ""; ValueData: "AstroBasics Chart File"; Flags: uninsdeletekey
+Root: HKCU; Subkey: "Software\Classes\AstroBasics.Chart\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\icon.ico"; Flags: uninsdeletekey
+Root: HKCU; Subkey: "Software\Classes\AstroBasics.Chart\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1"""; Flags: uninsdeletekey
+; Register the .astroanalysis extension
+Root: HKCU; Subkey: "Software\Classes\.astroanalysis"; ValueType: string; ValueName: ""; ValueData: "AstroBasics.Analysis"; Flags: uninsdeletevalue
+Root: HKCU; Subkey: "Software\Classes\AstroBasics.Analysis"; ValueType: string; ValueName: ""; ValueData: "AstroBasics Analysis Report"; Flags: uninsdeletekey
+Root: HKCU; Subkey: "Software\Classes\AstroBasics.Analysis\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\icon.ico"; Flags: uninsdeletekey
+Root: HKCU; Subkey: "Software\Classes\AstroBasics.Analysis\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1"""; Flags: uninsdeletekey
+; Register the .astroresearch extension
+Root: HKCU; Subkey: "Software\Classes\.astroresearch"; ValueType: string; ValueName: ""; ValueData: "AstroBasics.Research"; Flags: uninsdeletevalue
+Root: HKCU; Subkey: "Software\Classes\AstroBasics.Research"; ValueType: string; ValueName: ""; ValueData: "AstroBasics Research Session"; Flags: uninsdeletekey
+Root: HKCU; Subkey: "Software\Classes\AstroBasics.Research\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\icon.ico"; Flags: uninsdeletekey
+Root: HKCU; Subkey: "Software\Classes\AstroBasics.Research\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1"""; Flags: uninsdeletekey
 
 [Run]
 ; Checkbox option to launch the application when the installer finishes
