@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: numpy
-Version: 2.4.5
+Version: 2.4.6
 Summary: Fundamental package for array computing in Python
 Author: Travis E. Oliphant et al.
 Maintainer-Email: NumPy Developers <numpy-discussion@python.org>
