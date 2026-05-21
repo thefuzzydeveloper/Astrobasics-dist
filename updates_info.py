@@ -1057,3 +1057,20 @@ v1_2_6= """
 	</div>
 </div>
 """
+
+
+
+v1_2_7= """
+<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
+		AstroBasics Diamond Chart Pro - Updated!</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+		[+]</span></b>Added a new feature to match kundalis - Kundali Milan plugin install using installer to register ".milan" files!<br>
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+		[+]</span></b>Fixed few minor bugs across the app!<br>
+	<b><span style="color: #CF153E;">
+		[-]</b> Known issue with this update is that it logs errors on opening the app first time... It is completely safe to ignore those logs for now! <br>
+	</div>
+</div>
+"""

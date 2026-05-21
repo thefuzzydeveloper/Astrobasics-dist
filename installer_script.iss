@@ -1,6 +1,6 @@
 ; --- Configuration Variables ---
 #define MyAppName "AstroBasics"
-#define MyAppVersion "1.2.56"
+#define MyAppVersion "1.2.6"
 #define MyAppPublisher "The Developer"
 #define MyAppExeName "AstroBasics.exe"
 
@@ -14,6 +14,8 @@ AppPublisher={#MyAppPublisher}
 WizardStyle=modern
 SetupMutex={#MyAppName}SetupMutex
 CloseApplications=yes
+; Refresh icons and associations after installation
+ChangesAssociations=yes
 
 ; --- License Agreement ---
 ; This will force the user to accept the non-commercial terms before installing
@@ -70,6 +72,13 @@ Name: "{group}\Uninstall {#MyAppName}"; Filename: "{uninstallexe}"; IconFilename
 
 ; Desktop Shortcut (Now tied to the Task checkbox)
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\icon.ico"; Tasks: desktopicon
+
+[Registry]
+; Register .milan extension for Current User (due to PrivilegesRequired=lowest)
+Root: HKCU; Subkey: "Software\Classes\.milan"; ValueType: string; ValueName: ""; ValueData: "AstroBasics.Milan"; Flags: uninsdeletevalue
+Root: HKCU; Subkey: "Software\Classes\AstroBasics.Milan"; ValueType: string; ValueName: ""; ValueData: "Kundali Milan Session"; Flags: uninsdeletekey
+Root: HKCU; Subkey: "Software\Classes\AstroBasics.Milan\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\icon.ico"; Flags: uninsdeletekey
+Root: HKCU; Subkey: "Software\Classes\AstroBasics.Milan\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1"""; Flags: uninsdeletekey
 
 [Run]
 ; Checkbox option to launch the application when the installer finishes
