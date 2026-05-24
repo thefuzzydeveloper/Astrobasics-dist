@@ -1123,3 +1123,17 @@ v1_3_0= """
 	</div>
 </div>
 """
+
+
+v1_3_1= """
+<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
+		AstroBasics Diamond Chart Pro - MAJOR UPDATE!</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+		[+]</span></b>Added one more option in Outiles Now you can directly view the Argalas in Outlines!<br>
+	<b><span style="color: #CF153E;">
+		[-]</b> ALL OLDER VERSION FILES WILL NO LONGER OPEN SO IT IS RECOMMENDED TO TAKE PROPER BACKUP! <br>
+	</div>
+</div>
+"""
