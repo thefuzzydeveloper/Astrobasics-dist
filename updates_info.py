@@ -1164,3 +1164,18 @@ v1_3_21= """
 		[+]</span></b>Improved Custom plugins API guide added more examples and better FAQs regarding plugins creation!<br>
 </div>
 """
+
+
+v1_3_22= """
+<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
+		AstroBasics Diamond Chart Pro - What's changed?</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+		[+]</span></b>Even better exports, removed unnecessary metadata files form site packages!<br>
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+		[+]</span></b>Minor fix in panchang from main app view, which was showing wrong tithis.<br>
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+		[+]</span></b>Added new tabs in Detailed analysis, currently experimental!<br>
+</div>
+"""
