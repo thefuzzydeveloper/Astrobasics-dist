@@ -1217,6 +1217,6 @@ v1_3_3= """
 	<p style="font-size: 13px; color: #475569; ">
 		[+]</span></b>Improved on the fly transit calculations monumentally now it is highly configurable!<br>
 	<p style="font-size: 13px; color: #475569; ">
-		[+]</span></b>The whole app is even faster now with multiprocessing support!<br>
+		[+]</span></b>Added multiprocessing support for heavy calculations!<br>
 </div>
 """
