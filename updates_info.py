@@ -1262,19 +1262,7 @@ v1_3_42= """
 """
 
 
-v1_3_43= """
-<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
-	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
-		AstroBasics Diamond Chart Pro - What's changed?</h2>
-	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
-	<p style="font-size: 13px; color: #475569; ">
-		[+]</span></b>If this update worked means windows defender is no longer blocking the updates!<br>
-
-</div>
-"""
-
-
-v1_3_44= """
+v1_3_45= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
 		AstroBasics Diamond Chart Pro - What's changed?</h2>
