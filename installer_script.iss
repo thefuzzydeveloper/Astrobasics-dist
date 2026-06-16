@@ -1,6 +1,6 @@
 ; --- Configuration Variables ---
 #define MyAppName "AstroBasics"
-#define MyAppVersion "1.3.80"
+#define MyAppVersion "1.3.83"
 #define MyAppPublisher "The Developer"
 #define MyAppExeName "AstroBasics.exe"
 
