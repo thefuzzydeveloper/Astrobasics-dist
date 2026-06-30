@@ -1,0 +1,151 @@
+In classical Vedic astrology, when an auspicious or benefic alignment (such as a *Raja Yoga*, *Gajakesari Yoga*, or *Mahapurusha Yoga*) is systematically neutralized or stripped of its power, it is known as **Yoga Bhanga**.
+
+While a malefic *Arishta* or *Dosha* getting cancelled (*Arishta Bhanga*) is a massive relief, a good yoga experiencing *Bhanga* represents a broken promise—the structural setup is visible in the chart, but the real-world material and spiritual fruits fail to manifest due to underlying planetary vulnerabilities.
+
+---
+
+## The Classical Rules of Benefic Yoga Bhanga
+
+An auspicious yoga undergoes structural collapse under several primary conditions:
+
+1. **Navamsha Rot (D9 Debilitation):** A planet may look magnificent and hold high dignity in the Rashi (D1) chart, but if it drops into its debilitation sign in the Navamsha (D9) chart, its foundational core is compromised.
+2. **Combustion (Astangata):** If the key benefic planet responsible for generating the yoga gets too close to the Sun, its individual expression is scorched and internalized, preventing it from projecting its benefits onto the native's external life.
+3. **Dusthana Trapping:** If an auspicious combination occurs entirely inside an unmitigated Dusthana house ($6^{\text{th}}$, $8^{\text{th}}$, or $12^{\text{th}}$ house), the energy of the yoga is heavily taxed by conflicts, chronic delays, or structural losses.
+4. **Nodal Suffocation:** Tight structural conjunctions or direct, exact aspects from Rahu or Ketu cloud the purity of the yoga-forming benefics, corrupting their output with illusion or sudden disruption.
+
+---
+
+## Code Replacements
+
+Here are the modular replacements for your core classical benefic yoga scanning functions. These updates seamlessly incorporate the classical **Yoga Bhanga** cancellation rules using the unified 7-element tuple architecture `([houses], [planets], relation, name, evidence, is_cancelled, bhang_evidence)`.
+
+### 1. Replacement for `check_gajakesari`
+
+```python
+def check_gajakesari(planets, d9_planets=None):
+    results = []
+    ju, mo = planets.get("Jupiter"), planets.get("Moon")
+    if ju and mo:
+        diff = (ju["house"] - mo["house"]) % 12
+        if diff in [0, 3, 6, 9]:
+            rel = "conjunction" if diff == 0 else ("aspect" if diff == 6 else "kendra")
+            ev = _("Jupiter is in the {j} house, which forms a Kendra from the Moon in the {m} house.").format(j=ju["house"], m=mo["house"])
+            
+            # Classical Benefic Yoga Bhanga Check
+            is_cancelled = False
+            bhang_ev = ""
+            
+            if ju["combust"]:
+                is_cancelled = True
+                bhang_ev = _("Yoga Bhanga: Jupiter is combust by the Sun, scorching its divine benevolence.")
+            elif ju["debilitated"] or mo["debilitated"]:
+                is_cancelled = True
+                bhang_ev = _("Yoga Bhanga: One of the primary participating luminaries occupies its debilitation sign.")
+            elif ju["house"] in [6, 8, 12] and mo["house"] in [6, 8, 12]:
+                is_cancelled = True
+                bhang_ev = _("Yoga Bhanga: The configuration is heavily obscured within adverse Dusthana houses.")
+            elif d9_planets:
+                ju9, mo9 = d9_planets.get("Jupiter"), d9_planets.get("Moon")
+                if (ju9 and ju9["debilitated"]) or (mo9 and mo9["debilitated"]):
+                    is_cancelled = True
+                    bhang_ev = _("Yoga Bhanga: Root decay detected; participating planets are debilitated in the D9 Navamsha.")
+                    
+            results.append(([("D1", ju["house"]), ("D1", mo["house"])], ["Jupiter", "Moon"], rel, "Gajakesari Yoga", ev, is_cancelled, bhang_ev))
+    return results
+
+```
+
+---
+
+### 2. Replacement for `check_budhaditya`
+
+```python
+def check_budhaditya(planets, d9_planets=None):
+    results = []
+    sun, mer = planets.get("Sun"), planets.get("Mercury")
+    if sun and mer and sun["house"] == mer["house"]:
+        sign = _(ZODIAC_NAMES[sun["sign_num"]])
+        ev = _("The Sun and Mercury are exactly conjoined in the {h} house in the sign of {s}.").format(h=sun["house"], s=sign)
+        
+        # Classical Benefic Yoga Bhanga Check
+        is_cancelled = False
+        bhang_ev = ""
+        
+        if mer["debilitated"] or sun["debilitated"]:
+            is_cancelled = True
+            bhang_ev = _("Yoga Bhanga: Intellectual capacity is weakened due to structural debilitation of a key component.")
+        elif sun["house"] in [6, 8, 12]:
+            is_cancelled = True
+            bhang_ev = _("Yoga Bhanga: The alignment is trapped inside a Dusthana, draining its public and administrative manifestation.")
+        elif d9_planets:
+            mer9 = d9_planets.get("Mercury")
+            if mer9 and mer9["debilitated"]:
+                is_cancelled = True
+                bhang_ev = _("Yoga Bhanga: Mercury falls into its debilitation sign in the Navamsha (D9), fracturing its logical stability.")
+                
+        results.append(([("D1", sun["house"])], ["Sun", "Mercury"], "conjunction", "Budhaditya Yoga", ev, is_cancelled, bhang_ev))
+    return results
+
+```
+
+---
+
+### 3. Replacement Example for Pancha Mahapurusha Yogas (e.g., `check_ruchaka`)
+
+```python
+def check_ruchaka(planets, d9_planets=None):
+    results, ma = [], planets.get("Mars")
+    if ma and ma["house"] in [1, 4, 7, 10] and ma["sign_num"] in [1, 8, 10]:
+        ev = _("Mars is in Kendra ({h}H) placed powerfully in {s}.").format(h=ma["house"], s=_(ZODIAC_NAMES[ma["sign_num"]]))
+        
+        # Classical Benefic Yoga Bhanga Check
+        is_cancelled = False
+        bhang_ev = ""
+        
+        if ma["combust"]:
+            is_cancelled = True
+            bhang_ev = _("Yoga Bhanga: Mars is completely combust, internalizing or frustrating its outward drive and courage.")
+        elif d9_planets:
+            ma9 = d9_planets.get("Mars")
+            if ma9 and ma9["debilitated"]:
+                is_cancelled = True
+                bhang_ev = _("Yoga Bhanga: Mars suffers hidden fragmentation by falling into Cancer in the D9 Navamsha chart.")
+                
+        results.append(([("D1", ma["house"])], ["Mars"], "special", "Ruchaka Yoga", ev, is_cancelled, bhang_ev))
+    return results
+
+```
+
+---
+
+### 4. Replacement for `check_dharma_karmadhipati_yoga`
+
+```python
+def check_dharma_karmadhipati_yoga(planets, d9_planets=None):
+    results, hl = [], get_house_lords(planets)
+    p9, p10 = planets.get(hl.get(9)), planets.get(hl.get(10))
+    if p9 and p10 and p9["house"] == p10["house"] and hl.get(9) != hl.get(10):
+        ev = _("The 9th lord ({l9}) and 10th lord ({l10}) are strictly conjoined in the {h} house.").format(l9=_(hl.get(9)), l10=_(hl.get(10)), h=p9["house"])
+        
+        # Classical Benefic Yoga Bhanga Check
+        is_cancelled = False
+        bhang_ev = ""
+        
+        if p9["house"] in [6, 8, 12]:
+            is_cancelled = True
+            bhang_ev = _("Yoga Bhanga: The highest status-building Raja Yoga is trapped in a dusthana, creating heavy friction in destiny.")
+        elif p9["combust"] or p10["combust"]:
+            is_cancelled = True
+            bhang_ev = _("Yoga Bhanga: One of the high-ranking house lords is combust, obstructing professional execution.")
+            
+        results.append(([("D1", p9["house"])], [hl.get(9), hl.get(10)], "rajayoga", "Dharma-Karmadhipati Raja Yoga", ev, is_cancelled, bhang_ev))
+    return results
+
+```
+
+---
+
+> ### Architectural Note on Layout Adjustments
+> 
+> 
+> Because the user-interface modifications made to your list populator, canvas engine, and click handlers are already fully equipped to accept these 7-element outputs, updating these functions instantly hooks the new rules up to your side-by-side system template. A cancelled beneficial yoga will now automatically be presented with grey text, a visual strike-through, a localized defensive overlay on the canvas, and explicit astrological cancellation breakdown details in your text panel.

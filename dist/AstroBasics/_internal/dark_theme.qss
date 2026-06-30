@@ -237,30 +237,31 @@ QScrollBar::handle:horizontal:hover { background: #00FFFF; }
 QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal { width: 0px; }
 
 /* ==========================================
-LIST WIDGETS
+   LIST WIDGETS (UPDATED FOR DYNAMIC COLORS)
 ========================================== */
 QListView, QListWidget {
     border: 1px solid #00FFFF;
     border-radius: 4px;
-    background: #15101E;
+    background: #FFFFFF;
     outline: none;
-    color: #E0FFFF;
+    /* Do not set a global base item text color here so programmatic brushes can render */
 }
+
 QListView::item, QListWidget::item {
     padding: 4px;
     border-bottom: 1px solid #2D2541;
-    color: #E0FFFF;
-}
-QListView::item:hover, QListWidget::item:hover {
-    background-color: #2D2541;
-    color: #FF00FF;
-}
-QListView::item:selected, QListWidget::item:selected {
-    background-color: rgba(0, 255, 255, 0.15);
-    color: #00FFFF;
-    border-left: 3px solid #00FFFF;
 }
 
+QListView::item:hover, QListWidget::item:hover {
+    background-color: #2D2541;
+    color: #FF00FF; /* Keeps high-visibility neon magenta on hover */
+}
+
+QListView::item:selected, QListWidget::item:selected {
+    background-color: rgba(0, 255, 255, 0.15);
+    color: #00FFFF; /* Highlight selected items in cyan */
+    border-left: 3px solid #00FFFF;
+}
 QLabel#lblDasha {
     color: #FFFF00; 
     font-size: {SMALL_FONT}px;
