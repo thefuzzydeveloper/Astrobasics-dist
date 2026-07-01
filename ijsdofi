@@ -1,15 +1,168 @@
+YOGA_CONFIG = {
+    # 1. Master Category Definitions for Filtering, UI Tabs, and Logic Branching
+    "CATEGORIES": {
+        "DHANA": {
+            "display_name": "Dhana Yogas (Wealth & Prosperity)",
+            "description": "Combinations indicating financial abundance, assets, liquid wealth, and material success.",
+            "primary_houses": [2, 5, 9, 11]
+        },
+        "RAJA": {
+            "display_name": "Raja Yogas (Status, Power & Governance)",
+            "description": "Combinations of Kendra and Trikona lords yielding high social status, authority, and career success.",
+            "primary_houses": [1, 4, 7, 10, 5, 9]
+        },
+        "MAHAPURUSHA": {
+            "display_name": "Pancha Mahapurusha Yogas (Great Persona)",
+            "description": "Non-luminary planets occupying own or exaltation signs in Angles (Kendras).",
+            "primary_houses": [1, 4, 7, 10]
+        },
+        "LUNARY_SOLAR": {
+            "display_name": "Core Luminary Yogas (Chandra & Surya)",
+            "description": "Formations dependent on planetary configurations relative to the Moon and Sun.",
+            "primary_houses": []
+        },
+        "PARIVARTANA": {
+            "display_name": "Parivartana Yogas (House Exchanges)",
+            "description": "Mutual exchange of signs between two planetary lords.",
+            "primary_houses": []
+        },
+        "ARISHTA_DARIDRA": {
+            "display_name": "Arishta & Daridra Yogas (Afflictions/Challenges)",
+            "description": "Combinations indicating financial bottlenecks, health struggles, or structural delays.",
+            "primary_houses": [6, 8, 12]
+        }
+    },
 
+    # 2. Complete Yoga Registry Mapping Identifiers to Categories and Analytical Metadata
+    "REGISTRY": {
+        
+        # --- DHANA (WEALTH) YOGAS ---
+        "LAXMI_YOGA": {
+            "name": "Laxmi Yoga",
+            "category": "DHANA",
+            "type": "benefic",
+            "base_weight": 9.0,
+            "description": "Occurs when the Lagna Lord is exceptionally strong, and the 9th Lord occupies a Kendra or Trikona in its own or exalted sign."
+        },
+        "VASUMATI_YOGA": {
+            "name": "Vasumati Yoga",
+            "category": "DHANA",
+            "type": "benefic",
+            "base_weight": 8.0,
+            "description": "All natural benefics (Jupiter, Venus, Mercury) occupy Upachaya houses (3, 6, 10, 11) from either Lagna or Moon."
+        },
+        "AKHANDA_SAMRAJYA": {
+            "name": "Akhanda Samrajya Yoga",
+            "category": "DHANA",
+            "type": "benefic",
+            "base_weight": 10.0,
+            "description": "The 2nd, 9th, or 11th lord is in a Kendra from the Moon, while Jupiter rules either the 2nd, 5th, or 11th house."
+        },
+        "CHANDRA_MANGALA": {
+            "name": "Chandra Mangala Yoga",
+            "category": "DHANA",
+            "type": "benefic",
+            "base_weight": 6.5,
+            "description": "Moon and Mars are in conjunction or in mutual 180-degree aspect, showing aggressive earnings and financial drive."
+        },
+        "DHANA_LAGNA_2_11": {
+            "name": "Dhana Yoga (Core Wealth Interconnection)",
+            "category": "DHANA",
+            "type": "benefic",
+            "base_weight": 7.5,
+            "description": "Mutual association, aspect, or exchange between the Lagna Lord, 2nd Lord (Wealth), and 11th Lord (Gains)."
+        },
+        "ADHI_YOGA_CHANDRA": {
+            "name": "Chandradhi Yoga",
+            "category": "DHANA",
+            "type": "benefic",
+            "base_weight": 8.5,
+            "description": "Natural benefics occupy the 6th, 7th, and 8th houses from the Moon, yielding immense wealth, leadership, and victory over adversaries."
+        },
 
+        # --- RAJA YOGAS (STATUS & AUTHORITY) ---
+        "DHARMA_KARMA_ADHIPATI": {
+            "name": "Dharma Karma Adhipati Yoga",
+            "category": "RAJA",
+            "type": "benefic",
+            "base_weight": 9.5,
+            "description": "Conjunction, mutual aspect, or exchange between the 9th Lord (Dharma) and 10th Lord (Karma)."
+        },
+        "VIPREET_HARSHA": {
+            "name": "Harsha Vipreet Raja Yoga",
+            "category": "RAJA",
+            "type": "benefic",
+            "base_weight": 6.0,
+            "description": "The 6th lord is isolated in the 6th, 8th, or 12th house, converting a liability into sudden success or inheritance."
+        },
 
+        # --- PANCHA MAHAPURUSHA YOGAS ---
+        "RUCHAKA_YOGA": {
+            "name": "Ruchaka Yoga",
+            "category": "MAHAPURUSHA",
+            "type": "benefic",
+            "base_weight": 8.0,
+            "description": "Mars is exalted or in its own sign in a Kendra house, granting courage, leadership, and physical vitality."
+        },
+        "BHADRA_YOGA": {
+            "name": "Bhadra Yoga",
+            "category": "MAHAPURUSHA",
+            "type": "benefic",
+            "base_weight": 8.0,
+            "description": "Mercury is exalted or in its own sign in a Kendra house, bringing elite intellect, business acumen, and speech."
+        },
+        "HAMSA_YOGA": {
+            "name": "Hamsa Yoga",
+            "category": "MAHAPURUSHA",
+            "type": "benefic",
+            "base_weight": 8.0,
+            "description": "Jupiter is exalted or in its own sign in a Kendra house, offering wisdom, high morality, and spiritual grace."
+        },
+        "MALAVYA_YOGA": {
+            "name": "Malavya Yoga",
+            "category": "MAHAPURUSHA",
+            "type": "benefic",
+            "base_weight": 8.0,
+            "description": "Venus is exalted or in its own sign in a Kendra house, giving artistic talent, material luxuries, and charisma."
+        },
+        "SASA_YOGA": {
+            "name": "Sasa Yoga",
+            "category": "MAHAPURUSHA",
+            "type": "benefic",
+            "base_weight": 8.0,
+            "description": "Saturn is exalted or in its own sign in a Kendra house, bringing long-term authority, perseverance, and mass influence."
+        },
 
-    results, hl = [], get_house_lords(planets)
-    l12 = planets.get(hl.get(12))
-    if l12 and l12["house"] == 8:
-        ju, ra = planets.get("Jupiter"), planets.get("Rahu")
-        is_cancelled = False
-        bhang_ev = ""
-        if ju roleplay and l12["house"] in get_aspected_houses("Jupiter", ju["house"]) and not (ra and ju["house"] == ra["house"]):
-            is_cancelled = True
-            bhang_ev = _("Parashari Bhanga: Benefic oversight cancels the standard structural crisis of the combination.")
-        results.append(([("D1", 12), ("D1", 8)], [l12["name"]], "vipreet", "Vimala Yoga (Var B)", _("The 12th lord ({p}) occupies the 8th dusthana house.").format(p=_(l12["name"])), is_cancelled, bhang_ev))
-    return results
+        # --- CORE LUMINARY YOGAS ---
+        "GAJA_KESARI": {
+            "name": "Gaja Kesari Yoga",
+            "category": "LUNARY_SOLAR",
+            "type": "benefic",
+            "base_weight": 7.5,
+            "description": "Jupiter is in a Kendra (1st, 4th, 7th, 10th) from the Moon, ensuring lasting reputation and overcoming obstacles."
+        },
+        "SUNAPHA_YOGA": {
+            "name": "Sunapha Yoga",
+            "category": "LUNARY_SOLAR",
+            "type": "benefic",
+            "base_weight": 5.0,
+            "description": "Planets other than the Sun occupy the 2nd house from the Moon, indicating self-earned stability."
+        },
+
+        # --- DARIDRA / CHALLENGE YOGAS ---
+        "KEMADRUMA_YOGA": {
+            "name": "Kemadruma Yoga",
+            "category": "ARISHTA_DARIDRA",
+            "type": "malefic",
+            "base_weight": -7.0,
+            "description": "No planets occupy the 2nd or 12th house from the Moon, nor are there planets in Kendras from the Lagna, creating isolation or financial volatility."
+        },
+        "DARIDRA_YOGA_CORE": {
+            "name": "Daridra Yoga",
+            "category": "ARISHTA_DARIDRA",
+            "type": "malefic",
+            "base_weight": -6.0,
+            "description": "The 11th lord of gains is relegated to a dusthana house (6th, 8th, or 12th), bringing high overhead expenses or debt cycles."
+        }
+    }
+}
