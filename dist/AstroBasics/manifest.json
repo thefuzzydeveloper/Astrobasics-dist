@@ -1,6 +1,6 @@
 {
-    "version": "1.3.86",
-    "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tWhat's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Added a new yoga engine!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Make sure to enable D9 chart to view confirmation of one yoga in D9 as well!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Minor fixes to yoga engine!<br>\n\t</div>\n</div>",
+    "version": "1.3.87",
+    "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tWhat's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>You can now view wether kshauryakarma (shaving/haircut) is allowed today and next permitted date at top right of chart area!<br>\n\t</div>\n</div>",
     "files": {
         "AstroBasics.exe": "05f3adab097ce58985d01dc8e911fe33d3b4dcc965f635a3b48a7726246a1148",
         "refresh_astrobasics.exe": "ad463af08051f60933d8cda7d978541ec41b076b0c0b52540fbdecfdf31b4d12",
