@@ -1949,3 +1949,25 @@ v1_3_90 = """
 	</div>
 </div>
 """
+
+
+
+v1_3_91 = """
+<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
+		What's Changed?</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+	<b><span style="color: #059669;">
+		[+]</span></b>Fixed wrong status of kshauryakarma!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>AstroBasics now support Exporting all calaulations to PDF!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Minor fixes in PDF Export engine!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>AstroBasics now has a website, and an android app! Download the android app directly from website and follow the installtion instructions! <a href = "https://thefuzzydeveloper.github.io/Astrobasics-website/"> CLICK HERE FOR WEBSITE! </a><br>
+	<b><span style="color: #059669;">
+		[+]</span></b>You can open website form Help / About menu bar or help sidebar, follow instructions for installation!</a><br>
+	</div>
+</div>
+"""
