@@ -1,6 +1,6 @@
 {
-  "version": "v2026.07.24_2344",
-  "releaseNotes": "Fixed Bugs on loading Folders!",
+  "version": "v2026.07.24_2352",
+  "releaseNotes": "Added more modules for better functioning",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
   "apkUrl": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/AstroBasics-debug.apk",
   "requiresNativeUpdate": false
