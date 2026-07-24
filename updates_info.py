@@ -1968,6 +1968,10 @@ v1_3_91 = """
 		[+]</span></b>AstroBasics now has a website, and an android app! Download the android app directly from website and follow the installtion instructions! <a href = "https://thefuzzydeveloper.github.io/Astrobasics-website/"> CLICK HERE FOR WEBSITE! </a><br>
 	<b><span style="color: #059669;">
 		[+]</span></b>You can open website form Help / About menu bar or help sidebar, follow instructions for installation!</a><br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Don't forget to report developer of issues and errors!</a><br>
+	
+
 	</div>
 </div>
 """
