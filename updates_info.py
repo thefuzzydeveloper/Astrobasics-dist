@@ -1970,8 +1970,8 @@ v1_3_91 = """
 		[+]</span></b>You can open website form Help / About menu bar or help sidebar, follow instructions for installation!</a><br>
 	<b><span style="color: #059669;">
 		[+]</span></b>Don't forget to report developer of issues and errors!</a><br>
-	
-
+	<b><span style="color: #CF153E;">
+		[-]</span></b>Remember auto-update feature is unavailable for android of now so developer will annnounce when updates are available for android!</a><br>
 	</div>
 </div>
 """
