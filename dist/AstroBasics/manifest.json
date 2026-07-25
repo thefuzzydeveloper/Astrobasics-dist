@@ -1,8 +1,8 @@
 {
-    "version": "1.3.92",
-    "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tWhat's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Enhanced kshauryakarma engine to report exact timings and proper windows for absolute clarity!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>AstroBasics now support Exporting all calaulations to PDF!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Minor fixes in PDF Export engine!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>AstroBasics now has a website, and an android app! Download the android app directly from website and follow the installtion instructions! <a href = \"https://thefuzzydeveloper.github.io/Astrobasics-website/\"> CLICK HERE FOR WEBSITE! </a><br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>You can open website form Help / About menu bar or help sidebar, follow instructions for installation!</a><br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>The app is highly advanced now and features OTA updates thereby making updates super efficient and easy to push and download!</a><br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Don't forget to report developer of issues and errors!</a><br>\n\t</div>\n</div>",
+    "version": "1.3.93",
+    "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tWhat's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Enhanced kshauryakarma engine to report exact timings and proper windows for absolute clarity!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>FIxed working directory bug that casued stray files/folders to spawned!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Added a new charts manager that automatically searches for all present charts and displays them in a new window making management of charts easier!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>AstroBasics now has a website, and an android app! Download the android app directly from website and follow the installtion instructions! <a href = \"https://thefuzzydeveloper.github.io/Astrobasics-website/\"> CLICK HERE FOR WEBSITE! </a><br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>You can open website form Help / About menu bar or help sidebar, follow instructions for installation!</a><br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>The app is highly advanced now and features OTA updates thereby making updates super efficient and easy to push and download!</a><br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Don't forget to report developer of issues and errors!</a><br>\n\t</div>\n</div>",
     "files": {
-        "AstroBasics.exe": "eb0a6d7184e4c54ba7a71befbe7b1543c59e61d43e23353645a0a3a71d4dbee3",
+        "AstroBasics.exe": "395c028beae4d8da00dba22bb7ccfaa5932424c13a88078310ec69ccf917b147",
         "refresh_astrobasics.exe": "ad463af08051f60933d8cda7d978541ec41b076b0c0b52540fbdecfdf31b4d12",
         "_internal/animation.pyd": "c322659d11147dff6f44d48e0ee5eb8105e8bd45dc845c6db71badd01e7ffbfe",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -21,7 +21,7 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "368df452cb16c6e9cdb38a07307853be8c7620dcb988ce525c20fd1d453614cf",
-        "_internal/base_library.zip": "bb506d2ff11b59c8fd91d093f20e5c92b11c108d7db74557a585a999f1cd01ca",
+        "_internal/base_library.zip": "94abb12697c052d976137cc6dee56bd5ff69faa3907d8862df5d111d0ae54d59",
         "_internal/chart_renderer.pyd": "bf6f5def4ef85407705bdd863a0f52dfe59ef0569380fcdc530be4c5c760a325",
         "_internal/custom_vargas.pyd": "2fb3c740184bfcb2137a5edd46121f86cadcaec8bcab60c13c5aa464b805fe9f",
         "_internal/dark_theme.qss": "0ea74d7477d196fecfa49486335c2dec350209a85dd7d282bbc2f17c51958fc7",
@@ -851,11 +851,9 @@
         "_internal/pytz/zoneinfo/US/Mountain": "32e819c00a43b3c348f539d700d425504f20b8d068c16418d26fa9b693e775c9",
         "_internal/pytz/zoneinfo/US/Pacific": "68977bb9ad6d186fefc6c7abd36010a66e30008dcb2d376087a41c49861e7268",
         "_internal/pytz/zoneinfo/US/Samoa": "7c262b62985863aad47f13b0ef5db2e5cc917b5d38002de9a2ea83ddb0883458",
-        "_internal/translation/en.json": "3497ceac0c791c85192ee14bfef10b3ac2367289506828a7f80bbfa94d167f8b",
         "_internal/translation/hi.json": "52cbf5ccf4b6bb2a6d98bf4baf71baee347143132ce004208cca399fa64d3424",
         "_internal/translation/master_english.json": "3497ceac0c791c85192ee14bfef10b3ac2367289506828a7f80bbfa94d167f8b",
         "_internal/translation/sa.json": "f0e523faa7a423634efdfa4a2dba8aaf2629246c25f51221204eaacb57a17d55",
-        "_internal/translation/updater_en.json": "cbecf671533c98697ff17bfe6dbf7840319d9429b326f10ad69d8f52d59f6986",
         "_internal/tzfpy/tzfpy.pyd": "0ce4815ff43629c14383cd1edcb9cf32b792677ebd88de2665b8650af4bb97d2"
     }
 }

@@ -2001,3 +2001,30 @@ v1_3_92 = """
 	</div>
 </div>
 """
+
+
+
+v1_3_93 = """
+<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
+		What's Changed?</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+	<b><span style="color: #059669;">
+		[+]</span></b>Enhanced kshauryakarma engine to report exact timings and proper windows for absolute clarity!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>FIxed working directory bug that casued stray files/folders to spawned!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Added a new charts manager that automatically searches for all present charts and displays them in a new window making management of charts easier!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>AstroBasics now has a website, and an android app! Download the android app directly from website and follow the installtion instructions! <a href = "https://thefuzzydeveloper.github.io/Astrobasics-website/"> CLICK HERE FOR WEBSITE! </a><br>
+	<b><span style="color: #059669;">
+		[+]</span></b>You can open website form Help / About menu bar or help sidebar, follow instructions for installation!</a><br>
+	<b><span style="color: #059669;">
+		[+]</span></b>The app is highly advanced now and features OTA updates thereby making updates super efficient and easy to push and download!</a><br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Don't forget to report developer of issues and errors!</a><br>
+	</div>
+</div>
+"""
+
