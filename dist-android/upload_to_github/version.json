@@ -1,9 +1,9 @@
 {
-  "version": "v2026.07.26_1649",
-  "releaseNotes": "Enhanced chart view, Updated Kshauryakarma logic and improved save/load of data added MD lord to save data for support with kundali milan. Major security Update!",
+  "version": "v2026.07.26_1710",
+  "releaseNotes": "Enhanced chart view, Updated Kshauryakarma logic and improved save/load of data added MD lord to save data for support with kundali milan. Major security Update! Enhanced Dasha Module",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "1721617663a41611a7c6440bfd4ab325dbfecf6dddfac079a8237e705df4cdd1",
-  "signature": "IYLHcb7WTcUWH/E1sXBznPwfDFCtbM0qWZ/bnGqX0YbpdXLjlNNmLrXxspS4eDXvJ0usN8QpSH9McA/VWM5FeIN9j8H7bBv+aZ0OIFejV0HKbrt7xxt1LAG7cHjTACJkd7YdOWcou3Zn120Ct7dl6xCLvRNiUiNMdF/YRdrHlxQ6u2o0nIIp7EDqHUZUoTVhwXhoa1pCMmGHGbax6wCHDV1sN+0pP8GVHSqc55mwSTLC6+BjrIl8ttkfsBcbh0xuUGErQ/OwfvF+6gp0eVBOECF5VXMB2nYOnauyfBt4mI28FEkWUO+nJosnIgOsuL8sobPDg5Iy0mcMQ/kf6MLYKA==",
+  "checksum": "8f9bd67954a5371fdc8677c5aa8bbb8d64aebf05ba71c9548f90557cd0ae42c4",
+  "signature": "cRpWAymyHWC+cROF+OO4wJaXD/mRHCn7diL7Rj/eW9XO4Xi1lAvaUlc6PbHGH2zWz0+iwY1wjvom0C/74xaesq3A49Mfcapae2vgbycbM+zm7c5DM5ymEPu5EuMhuqHzcIZQ2I2r/qr1k/9iMZNRzIaNmEFUPksDSlEf7dkhVs1xyC5VY2jm7AcWrNov747lzzcnvHvG9B4gKmCUsYb1MRCxDZgZPQD21OCVPaIAB1CCQ2xq2OEzTtrvnfvT5U9SHKJJHqTDqRs8eBm0bt7WUJ6z3G3jCZnzsN1BIFkNLe+m86w/ALuiJisw1/eHEy8F/CFyac/3iGlUhNWTACYgug==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
