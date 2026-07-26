@@ -3,5 +3,5 @@
   "releaseNotes": "Fixed Overview of Dasha Module! Now it shows crisp and better view for smaller view screens!",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
   "apkUrl": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/AstroBasics-debug.apk",
-  "requiresNativeUpdate": false
+  "requiresNativeUpdate": true
 }
