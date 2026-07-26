@@ -1,6 +1,6 @@
 {
-  "version": "v2026.07.26_1221",
-  "releaseNotes": "Fixed Overview of Dasha Module! Now it shows crisp and better view for smaller view screens!",
+  "version": "v2026.07.26_1226",
+  "releaseNotes": "Fixed Overview of Dasha Module! Now it shows crisp and better view for smaller view screens! Added better theming for light mode top bar!",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
   "apkUrl": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/AstroBasics-debug.apk",
   "requiresNativeUpdate": false
