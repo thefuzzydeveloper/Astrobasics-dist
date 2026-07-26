@@ -1,8 +1,8 @@
 {
-    "version": "1.3.94",
-    "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tWhat's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Enhanced kshauryakarma engine to report exact timings and proper windows for absolute clarity!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>FIxed working directory bug that casued stray files/folders to spawned!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Added a new charts manager that automatically searches for all present charts and displays them in a new window making management of charts easier!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>AstroBasics now has a website, and an android app! Download the android app directly from website and follow the installtion instructions! <a href = \"https://thefuzzydeveloper.github.io/Astrobasics-website/\"> CLICK HERE FOR WEBSITE! </a><br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>You can open website form Help / About menu bar or help sidebar, follow instructions for installation!</a><br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>The app is highly advanced now and features OTA updates thereby making updates super efficient and easy to push and download!</a><br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Added Option regarding true or mean position for nodes!</a><br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Minor fixes in the custom rules engine!</a><br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Don't forget to report developer of issues and errors!</a><br>\n\t</div>\n</div>",
+    "version": "1.3.95",
+    "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tWhat's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>AstroBasics now support importing saved charts from Jagannath Hora app!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Improved security of android app!<br>\n\t</div>\n</div>",
     "files": {
-        "AstroBasics.exe": "55fde6329b8606263eea0a4b104a3ab480e8f9a40ee0485485fda477a8e6fe0b",
+        "AstroBasics.exe": "91fa0fb10f11776b96d00025ba8d3e7594e8ba72e19add2cfed4a48fb3a42530",
         "refresh_astrobasics.exe": "ad463af08051f60933d8cda7d978541ec41b076b0c0b52540fbdecfdf31b4d12",
         "_internal/animation.pyd": "c322659d11147dff6f44d48e0ee5eb8105e8bd45dc845c6db71badd01e7ffbfe",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -21,7 +21,7 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "d51af429332af9a9538f9d509140b176ba8db175500e6e64d522f0f768e7066e",
-        "_internal/base_library.zip": "5d9d0764babc83befe506e1937a579bba964cda26e037d2050bfc17042325825",
+        "_internal/base_library.zip": "9acb528201c7856d2b020c7f2fe8e96307e3fe86d05f96a82ca697ba4cc21da5",
         "_internal/chart_renderer.pyd": "bf6f5def4ef85407705bdd863a0f52dfe59ef0569380fcdc530be4c5c760a325",
         "_internal/custom_vargas.pyd": "2fb3c740184bfcb2137a5edd46121f86cadcaec8bcab60c13c5aa464b805fe9f",
         "_internal/dark_theme.qss": "0ea74d7477d196fecfa49486335c2dec350209a85dd7d282bbc2f17c51958fc7",
@@ -851,9 +851,11 @@
         "_internal/pytz/zoneinfo/US/Mountain": "32e819c00a43b3c348f539d700d425504f20b8d068c16418d26fa9b693e775c9",
         "_internal/pytz/zoneinfo/US/Pacific": "68977bb9ad6d186fefc6c7abd36010a66e30008dcb2d376087a41c49861e7268",
         "_internal/pytz/zoneinfo/US/Samoa": "7c262b62985863aad47f13b0ef5db2e5cc917b5d38002de9a2ea83ddb0883458",
+        "_internal/translation/en.json": "3497ceac0c791c85192ee14bfef10b3ac2367289506828a7f80bbfa94d167f8b",
         "_internal/translation/hi.json": "52cbf5ccf4b6bb2a6d98bf4baf71baee347143132ce004208cca399fa64d3424",
         "_internal/translation/master_english.json": "3497ceac0c791c85192ee14bfef10b3ac2367289506828a7f80bbfa94d167f8b",
         "_internal/translation/sa.json": "f0e523faa7a423634efdfa4a2dba8aaf2629246c25f51221204eaacb57a17d55",
+        "_internal/translation/updater_en.json": "cbecf671533c98697ff17bfe6dbf7840319d9429b326f10ad69d8f52d59f6986",
         "_internal/tzfpy/tzfpy.pyd": "0ce4815ff43629c14383cd1edcb9cf32b792677ebd88de2665b8650af4bb97d2"
     }
 }
