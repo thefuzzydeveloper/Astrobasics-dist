@@ -1,6 +1,6 @@
 {
-  "version": "v2026.07.26_1117",
-  "releaseNotes": "Added Gochar (Transit) module and dasha module Fixed dasha module for better view",
+  "version": "v2026.07.26_1130",
+  "releaseNotes": "Fixed Multi-Dasha Module appearance on smaller width devices",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
   "apkUrl": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/AstroBasics-debug.apk",
   "requiresNativeUpdate": false
