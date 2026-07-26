@@ -1,7 +1,9 @@
 {
-  "version": "v2026.07.26_1236",
-  "releaseNotes": "Fixed Overview of Dasha Module! Now it shows crisp and better view for smaller view screens!",
+  "version": "v2026.07.26_1649",
+  "releaseNotes": "Enhanced chart view, Updated Kshauryakarma logic and improved save/load of data added MD lord to save data for support with kundali milan. Major security Update!",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "apkUrl": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/AstroBasics-debug.apk",
+  "checksum": "1721617663a41611a7c6440bfd4ab325dbfecf6dddfac079a8237e705df4cdd1",
+  "signature": "IYLHcb7WTcUWH/E1sXBznPwfDFCtbM0qWZ/bnGqX0YbpdXLjlNNmLrXxspS4eDXvJ0usN8QpSH9McA/VWM5FeIN9j8H7bBv+aZ0OIFejV0HKbrt7xxt1LAG7cHjTACJkd7YdOWcou3Zn120Ct7dl6xCLvRNiUiNMdF/YRdrHlxQ6u2o0nIIp7EDqHUZUoTVhwXhoa1pCMmGHGbax6wCHDV1sN+0pP8GVHSqc55mwSTLC6+BjrIl8ttkfsBcbh0xuUGErQ/OwfvF+6gp0eVBOECF5VXMB2nYOnauyfBt4mI28FEkWUO+nJosnIgOsuL8sobPDg5Iy0mcMQ/kf6MLYKA==",
+  "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
