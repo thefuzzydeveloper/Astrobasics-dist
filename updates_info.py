@@ -2070,3 +2070,19 @@ v1_3_95 = """
 </div>
 """
 
+
+v1_3_96 = """
+<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
+		What's Changed?</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+	<b><span style="color: #059669;">
+		[+]</span></b>AstroBasics now support importing saved charts from Jagannath Hora app!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Improved security of android app!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Improved security of the main app Implemented super secure way to migrate files and forgot password/reset vault method!<br>
+	</div>
+</div>
+"""
