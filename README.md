@@ -52,7 +52,7 @@ This repository (`Astrobasics-dist`) serves as the official distribution hub for
 ### 🛡️ Release Integrity & Security
 * **Zero Telemetry**: AstroBasics runs 100% offline without background tracking, analytics, or ads.
 * **OS Vault Protection**: Saved charts and session state are secured via native OS Credential Vault hardware encryption.
-* **Engine**: Powered by Python, PyQt6, and optional Swiss Ephemeris (`swisseph`) with offline J2 mathematical fallbacks.
+* **Engine**: Powered by Python, PyQt6, and optional Swiss Ephemeris (`swisseph`) with J2 mathematical fallbacks.
 
 *Note: Astrology helps only those who are genuinely in need; try not to test astrology itself using this software.*
 
