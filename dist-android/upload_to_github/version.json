@@ -1,9 +1,9 @@
 {
-  "version": "v2026.07.27_0920",
+  "version": "v2026.07.27_1013",
   "releaseNotes": "Improved readibility and user experience",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "21fb03f207da7feece0a5111be9ec81dba25d948803adb5c069100d7a9d22467",
-  "signature": "MAaIQXXuqaxE6fnpXo6tVLrbBBNXKkzF/3LKFCrIeAN2UJ1OXjsXZVdEaK47aJnXmItyaPjdaXEWmfJFUggvLfopaWtCcXLB+XaXgtLT+BQyp67J5Kme6IBrIlN0a3a+TQuJmd5sL3AgyXIsfYABytKa7edYMgGyJecwJqOFfPmA7zh0hA4uzC4xFh4QbFYkBfgEvYqnVi2KTdZBN5Hn65htyHupC9KCcWudGhHLcOuBhfsl9aBqk9xvasGjE8VMdON7w3c8IlbVkh2S+pPUIorb6hgyc/NYnp8baV1tbrROcfMVvNB4lTwXNEeh00Y5R9wM4PuOTuc/ClIdwyT38A==",
+  "checksum": "4e26f59b369c41763dbac067760fa01c46d39e88683559b028fa7846c4e5bfc8",
+  "signature": "e5N2DezVvLcfEgVpFkImLUT56P77V3DyEW6CT3jheGRQATWCwvJzrYC6MrdNfaYhoT9d66kqLz1uw7aD22F5Lk8uQ2lWFmeamMGP4luAfJZXPbcacS6OtBCvUqz1kvkjPBlEaxk2TBLpzUgJdzBFm6aoGsoEgKAGx/9PjHTQiRQzuo9n6fSu+u+7dxRdeoPHiI5Tu5P81PbXDCBwn5YD55RZpBGE3skqB6wpJ+MtDaf1gfbxFCWrG/u34KvBDb/AADTxVHv6ukFk8+dXcFHrFASdGoxlcgJvNdczByPQcmeRG0qyMWAbk2UHje6zSh1vSzPdwEqe+ITo0GD6zvwS8g==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
