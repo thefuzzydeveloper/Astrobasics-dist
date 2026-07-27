@@ -1,5 +1,3 @@
-readme_content = """# 🌌 AstroBasics Diamond Chart Pro | Vedic Astrology Desktop Suite
-
 [![Main Website](https://img.shields.io/badge/Main%20Website-GitHub%20Repository-gold?style=for-the-badge&logo=github)](https://github.com/thefuzzydeveloper/Astrobasics-dist)
 [![Download Windows EXE](https://img.shields.io/badge/Download-Windows%20Installer%20(.exe)-blue?style=for-the-badge&logo=windows)](https://github.com/thefuzzydeveloper/Astrobasics-dist/releases/download/v-final-installer/astrobasics_installer.exe)
 [![Download Android APK](https://img.shields.io/badge/Download-Android%20App%20(.apk)-green?style=for-the-badge&logo=android)](https://github.com/thefuzzydeveloper/Astrobasics-dist/releases/download/v-final-installer/AstroBasics.apk)
@@ -163,7 +161,6 @@ Optionally color-code chart house borders into visual overlays:
 > **Note:** Astrology helps only those who are genuinely in need; try not to test astrology itself using this software.
 
 *AstroBasics Diamond Chart Pro is released for consultation, educational, and research purposes. Built with Python, PyQt6, and optional Swiss Ephemeris (`swisseph`) calculations.*
-"""
 
 with open("readme.md", "w", encoding="utf-8") as f:
     f.write(readme_content)
