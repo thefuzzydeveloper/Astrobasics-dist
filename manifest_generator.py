@@ -1,4 +1,54 @@
-import os, hashlib, json
+# manifest_generator.py
+
+import os, hashlib, json, base64
+
+try:
+    from cryptography.hazmat.primitives.asymmetric import ed25519
+    from cryptography.hazmat.primitives import serialization
+except ImportError:
+    print("[!] Warning: 'cryptography' library not found. Install it via 'pip install cryptography'.")
+
+KEYS_DIR = r"F:\Gaming\Godot\Requirements\WindowsExport\keys"
+PRIV_KEY_PATH = os.path.join(KEYS_DIR, "ed25519_private.pem")
+PUB_KEY_PATH = os.path.join(KEYS_DIR, "ed25519_public.pem")
+
+def get_or_generate_private_key():
+    """Loads existing Ed25519 key pair or creates a new pair if missing."""
+    os.makedirs(KEYS_DIR, exist_ok=True)
+    if os.path.exists(PRIV_KEY_PATH):
+        with open(PRIV_KEY_PATH, "rb") as f:
+            return serialization.load_pem_private_key(f.read(), password=None)
+    
+    print(f"[+] Key pair not found in '{KEYS_DIR}'. Generating new Ed25519 key pair...")
+    private_key = ed25519.Ed25519PrivateKey.generate()
+    public_key = private_key.public_key()
+
+    priv_bytes = private_key.private_bytes(
+        encoding=serialization.Encoding.PEM,
+        format=serialization.PrivateFormat.PKCS8,
+        encryption_algorithm=serialization.NoEncryption()
+    )
+    pub_bytes = public_key.public_bytes(
+        encoding=serialization.Encoding.PEM,
+        format=serialization.PublicFormat.SubjectPublicKeyInfo
+    )
+
+    with open(PRIV_KEY_PATH, "wb") as f:
+        f.write(priv_bytes)
+    with open(PUB_KEY_PATH, "wb") as f:
+        f.write(pub_bytes)
+
+    print(f"[+] Keys saved to:\n    Private: {PRIV_KEY_PATH}\n    Public:  {PUB_KEY_PATH}")
+    return private_key
+
+def sign_manifest_dict(manifest_data):
+    """Signs the canonical JSON byte structure and inserts the base64 signature."""
+    private_key = get_or_generate_private_key()
+    manifest_data.pop("signature", None)
+    canonical_bytes = json.dumps(manifest_data, sort_keys=True).encode('utf-8')
+    sig = private_key.sign(canonical_bytes)
+    manifest_data["signature"] = base64.b64encode(sig).decode('utf-8')
+    return manifest_data
 
 BUILD_DIR = os.path.abspath("dist\\AstroBasics") 
 OUTPUT_FILE = os.path.join(BUILD_DIR, "manifest.json")
@@ -124,10 +174,13 @@ def build_manifest():
             
             manifest["files"][rel_path] = get_file_hash(filepath)
             
+    # Sign the manifest digitally before saving
+    manifest = sign_manifest_dict(manifest)
+
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(manifest, f, indent=4)
         
-    print(f"\nSuccess! Generated {OUTPUT_FILE} for Version {version}")
+    print(f"\nSuccess! Generated and Digitally Signed {OUTPUT_FILE} for Version {version}")
     print("-" * 40)
     print("📦 BUILD SECURITY AUDIT:")
     print(f"   Native C-Binaries (.pyd/.so/.dll): {stats['c_binaries']}")
