@@ -1,9 +1,9 @@
 {
-  "version": "v2026.07.27_0848",
-  "releaseNotes": "Added font settings options! Enhanced readibility of the charts by increasing default font sizes!",
+  "version": "v2026.07.27_0920",
+  "releaseNotes": "Improved readibility and user experience",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "d59cc476ce07b48aac2ef09d1dbf2eec027305f0fb12b070b1ac80a2619667bc",
-  "signature": "hVYaBNntsISQpG8klicvojhCc64XslZ+I62GiYLNqrS4Km5rPUwaQgbdlTBC32gXqdtXx9fFyIrs2aKMl2eNesOtpsXhylVonDTLWfjIxYZnn9ScsUjYRxTAPMJ37tmXRY46Kns5g7HzMakD4LldXC4jsjGsmBeiDeR8rAZVShRN1Jscow5kyh0gFm3XpA0x2dRDqdFB5Gds4v8LRcc1heQaseDHdPyT7Rcj5J9IFILQ2uXVM1luD3C6eo6hcQVSWg5xRajaOXIFMyfSDKy/KnR38m+DVhC/VNlT/yIMy6CF6PBB3iFluptNzSUrfZXUM4t4wCIOw/SLReaURE6AKQ==",
+  "checksum": "21fb03f207da7feece0a5111be9ec81dba25d948803adb5c069100d7a9d22467",
+  "signature": "MAaIQXXuqaxE6fnpXo6tVLrbBBNXKkzF/3LKFCrIeAN2UJ1OXjsXZVdEaK47aJnXmItyaPjdaXEWmfJFUggvLfopaWtCcXLB+XaXgtLT+BQyp67J5Kme6IBrIlN0a3a+TQuJmd5sL3AgyXIsfYABytKa7edYMgGyJecwJqOFfPmA7zh0hA4uzC4xFh4QbFYkBfgEvYqnVi2KTdZBN5Hn65htyHupC9KCcWudGhHLcOuBhfsl9aBqk9xvasGjE8VMdON7w3c8IlbVkh2S+pPUIorb6hgyc/NYnp8baV1tbrROcfMVvNB4lTwXNEeh00Y5R9wM4PuOTuc/ClIdwyT38A==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }

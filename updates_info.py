@@ -2090,30 +2090,34 @@ v1_3_96 = """
 
 
 v1_3_97 = """
-<div style="font-family: 'Segoe UI', Arial, sans-serif;">
-	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
-		MAJOR SECURITY UPDATE!
-	</h2>
-	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
-	
-	<p style="font-size: 13px; color: #334155; margin-bottom: 10px; line-height: 1.5;">
-		<b><span style="color: #059669;">[+]</span> Ed25519 Signature Verification:</b> Asymmetric cryptographic verification of <code>manifest.json</code> ensures update authenticity.<br>
+	<div style="font-family: 'Segoe UI', Arial, sans-serif;">
+		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
+			What's Changed?
+		</h2>
+		<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
 		
-		<b><span style="color: #059669;">[+]</span> SHA-256 Per-File Integrity Checks:</b> Calculates cryptographic hashes for all downloaded files and binaries to block tampered content.<br>
-		
-		<b><span style="color: #059669;">[+]</span> Domain Whitelisting & HTTPS:</b> Enforces strict HTTPS prefix matching against trusted domains to prevent arbitrary URL redirection.<br>
-		
-		<b><span style="color: #059669;">[+]</span> Path Traversal Defense:</b> Canonicalizes target paths to block out-of-bounds directory traversal and arbitrary file deletion.<br>
-		
-		<b><span style="color: #059669;">[+]</span> Anti-Rollback & Replay Protection:</b> Enforces version floors to prevent malicious application downgrades.<br>
-		
-		<b><span style="color: #059669;">[+]</span> DoS & OOM Mitigation:</b> Strictly limits HTTP response sizes (max 10 MB for manifests, 1 MB for API payloads) to prevent memory exhaustion.<br>
-		
-		<b><span style="color: #059669;">[+]</span> Executable Header / Magic Byte Validation:</b> Verifies binary headers (e.g. Windows <code>MZ</code> bytes) before staging executable updates.<br>
-		
-		<b><span style="color: #059669;">[+]</span> Atomic Downloads & File-Locking Safety:</b> Downloads write to temporary <code>.part</code> files before hash validation. Locked Windows files safely transition via <code>.delete_me</code> flags.<br>
-		
-		<b><span style="color: #059669;">[+]</span> Local Data Protection:</b> Built-in <code>PROTECTED_DIRS</code> and <code>PROTECTED_FILES</code> constants prevent user saves, databases, and configs from being overwritten.
+		<p style="font-size: 13px; color: #334155; margin-bottom: 10px; line-height: 1.5;">
+			<b><span style="color: #059669;">[+]</span> Ed25519 Signature Verification:</b> Asymmetric cryptographic verification of <code>manifest.json</code> ensures update authenticity.<br>
+			
+			<b><span style="color: #059669;">[+]</span> SHA-256 Per-File Integrity Checks:</b> Calculates cryptographic hashes for all downloaded files and binaries to block tampered content.<br>
+			
+			<b><span style="color: #059669;">[+]</span> Domain Whitelisting & HTTPS:</b> Enforces strict HTTPS prefix matching against trusted GitHub endpoints to prevent arbitrary URL redirection.<br>
+			
+			<b><span style="color: #059669;">[+]</span> Path Traversal Defense & Portable Storage:</b> Canonicalizes target paths and utilizes unprivileged user document directories to prevent directory traversal and unauthorized file access.<br>
+			
+			<b><span style="color: #059669;">[+]</span> Anti-Rollback & Replay Protection:</b> Enforces version floors to prevent malicious application downgrades.<br>
+			
+			<b><span style="color: #059669;">[+]</span> DoS & OOM Mitigation:</b> Strictly limits HTTP response payload sizes across updater downloads (10 MB manifests, 1 MB API payloads) and online timezone lookups (512 KB) to prevent memory exhaustion.<br>
+			
+			<b><span style="color: #059669;">[+]</span> Executable Header / Magic Byte Validation:</b> Verifies binary headers (e.g., Windows <code>MZ</code> bytes) prior to staging executable updates.<br>
+			
+			<b><span style="color: #059669;">[+]</span> Atomic Downloads & File-Locking Safety:</b> Writes downloads to temporary <code>.part</code> files before hash validation, transitioning locked Windows files safely via <code>.delete_me</code> flags.<br>
+
+			<b><span style="color: #059669;">[+]</span> Emergency Recovery Key System & Migration:</b> Features salted <code>vault_recovery.bin</code> payloads for master password recovery and safe batch migration of legacy encrypted charts.<br>
+			
+			<b><span style="color: #059669;">[+]</span> Process Isolation & Multiprocessing Watchdog:</b> Runs background calculations in isolated worker processes guarded by a 15-second execution timeout.<br>
+			
+			<b><span style="color: #059669;">[+]</span> Local Data Protection:</b> Built-in <code>PROTECTED_DIRS</code> and <code>PROTECTED_FILES</code> constants prevent user saves, databases, and configs from being overwritten.
 	</p>
 </div>
 """

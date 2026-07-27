@@ -2,11 +2,8 @@
 
 import os, hashlib, json, base64
 
-try:
-    from cryptography.hazmat.primitives.asymmetric import ed25519
-    from cryptography.hazmat.primitives import serialization
-except ImportError:
-    print("[!] Warning: 'cryptography' library not found. Install it via 'pip install cryptography'.")
+from cryptography.hazmat.primitives.asymmetric import ed25519
+from cryptography.hazmat.primitives import serialization
 
 KEYS_DIR = r"F:\Gaming\Godot\Requirements\WindowsExport\keys"
 PRIV_KEY_PATH = os.path.join(KEYS_DIR, "ed25519_private.pem")
