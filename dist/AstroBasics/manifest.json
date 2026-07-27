@@ -1,9 +1,9 @@
 {
-    "version": "1.3.96",
-    "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tWhat's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>AstroBasics now support importing saved charts from Jagannath Hora app!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Improved security of android app!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Improved security of the main app Implemented super secure way to migrate files and forgot password/reset vault method!<br>\n\t</div>\n</div>",
+    "version": "1.3.97",
+    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tMAJOR SECURITY UPDATE!\n\t</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t\n\t<p style=\"font-size: 13px; color: #334155; margin-bottom: 10px; line-height: 1.5;\">\n\t\t<b><span style=\"color: #059669;\">[+]</span> Ed25519 Signature Verification:</b> Asymmetric cryptographic verification of <code>manifest.json</code> ensures update authenticity.<br>\n\t\t\n\t\t<b><span style=\"color: #059669;\">[+]</span> SHA-256 Per-File Integrity Checks:</b> Calculates cryptographic hashes for all downloaded files and binaries to block tampered content.<br>\n\t\t\n\t\t<b><span style=\"color: #059669;\">[+]</span> Domain Whitelisting & HTTPS:</b> Enforces strict HTTPS prefix matching against trusted domains to prevent arbitrary URL redirection.<br>\n\t\t\n\t\t<b><span style=\"color: #059669;\">[+]</span> Path Traversal Defense:</b> Canonicalizes target paths to block out-of-bounds directory traversal and arbitrary file deletion.<br>\n\t\t\n\t\t<b><span style=\"color: #059669;\">[+]</span> Anti-Rollback & Replay Protection:</b> Enforces version floors to prevent malicious application downgrades.<br>\n\t\t\n\t\t<b><span style=\"color: #059669;\">[+]</span> DoS & OOM Mitigation:</b> Strictly limits HTTP response sizes (max 10 MB for manifests, 1 MB for API payloads) to prevent memory exhaustion.<br>\n\t\t\n\t\t<b><span style=\"color: #059669;\">[+]</span> Executable Header / Magic Byte Validation:</b> Verifies binary headers (e.g. Windows <code>MZ</code> bytes) before staging executable updates.<br>\n\t\t\n\t\t<b><span style=\"color: #059669;\">[+]</span> Atomic Downloads & File-Locking Safety:</b> Downloads write to temporary <code>.part</code> files before hash validation. Locked Windows files safely transition via <code>.delete_me</code> flags.<br>\n\t\t\n\t\t<b><span style=\"color: #059669;\">[+]</span> Local Data Protection:</b> Built-in <code>PROTECTED_DIRS</code> and <code>PROTECTED_FILES</code> constants prevent user saves, databases, and configs from being overwritten.\n\t</p>\n</div>",
     "files": {
-        "AstroBasics.exe": "4ad795ede097162617332c822b0bf26fc014925d7028cb408684af3ceeb34dda",
-        "refresh_astrobasics.exe": "ad463af08051f60933d8cda7d978541ec41b076b0c0b52540fbdecfdf31b4d12",
+        "AstroBasics.exe": "6b1b4e42c8acd1d4538533ae3c65c45de54a219d00bec34ff1c128c15f9db82b",
+        "refresh_astrobasics.exe": "69fb34fe34ad1280dfdaae3f65da4227ed0cd25c4b5c61aa11a7ed65da76ac14",
         "_internal/animation.pyd": "c322659d11147dff6f44d48e0ee5eb8105e8bd45dc845c6db71badd01e7ffbfe",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
         "_internal/api-ms-win-crt-conio-l1-1-0.dll": "25bbdabc7b8d8edf5cd05b5591edca13236724cad1011393e010df3c58fd6f7e",
@@ -21,7 +21,7 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "d51af429332af9a9538f9d509140b176ba8db175500e6e64d522f0f768e7066e",
-        "_internal/base_library.zip": "c4b16e07cfa89d08d843f88688b0dd7ee857734321575d5107e1e738bedd50a2",
+        "_internal/base_library.zip": "e9d69776c3e8ff22be30d85547d9a2e98e9862412627d263a4d1ad5d4191c716",
         "_internal/chart_renderer.pyd": "bf6f5def4ef85407705bdd863a0f52dfe59ef0569380fcdc530be4c5c760a325",
         "_internal/custom_vargas.pyd": "2fb3c740184bfcb2137a5edd46121f86cadcaec8bcab60c13c5aa464b805fe9f",
         "_internal/dark_theme.qss": "0ea74d7477d196fecfa49486335c2dec350209a85dd7d282bbc2f17c51958fc7",
@@ -85,7 +85,7 @@
         "_internal/dynamic_settings_modules/vishmottari_module.pyd": "6955bb3470b0bd5746fa6c9d477057acc15cc0d83646d73b687ebfa98ee6ac7d",
         "_internal/dynamic_settings_modules/yoga_explorer_plugin.pyd": "804f40b0bf1edeb159e17f2f6fa8284469da99766ee20f8a632c8e8a1aaa2006",
         "_internal/dynamic_settings_modules/zz_logger_module.pyd": "dd7b4e5ed1aac2e0480f2766e7955a75dc781b246db191496e15e97bae3495aa",
-        "_internal/dynamic_settings_modules/z_updater.pyd": "60719d80ee34090cb96fc8686b164e78ff664eb2b2912bd5735d49e8a65c20dd",
+        "_internal/dynamic_settings_modules/z_updater.pyd": "abee6d829b9cbac1e5b7fb98e85ce62e78e57643f2419aa3bc1f3f378cfe7f5f",
         "_internal/ephe/semom06.se1": "d8be0eaffc82d7a07c4c88fb4984be4b15757716864e6db8e7f1f378dfbb0659",
         "_internal/ephe/semom102.se1": "5c0f5cd45a20ef6f25c3d99d5824adaa4715c36015ec0d01468a8b9da0a64f38",
         "_internal/ephe/semom108.se1": "e9aedc8af9761b35f18d884c8708d357f48d63467a8fb335a04251464caaaeff",
@@ -857,5 +857,6 @@
         "_internal/translation/sa.json": "f0e523faa7a423634efdfa4a2dba8aaf2629246c25f51221204eaacb57a17d55",
         "_internal/translation/updater_en.json": "cbecf671533c98697ff17bfe6dbf7840319d9429b326f10ad69d8f52d59f6986",
         "_internal/tzfpy/tzfpy.pyd": "0ce4815ff43629c14383cd1edcb9cf32b792677ebd88de2665b8650af4bb97d2"
-    }
+    },
+    "signature": "qA+5nL2YI7THpcyL2Yudvc6HJIgUQiz5I/0FM2fwFv8LEAduZ433ZLClfl2eCDxWdsVU63y2BvzLugGknHm+Aw=="
 }
