@@ -1,4 +1,3 @@
-
 <div align="center">
 
   <!-- APP ICON & HEADER -->
@@ -159,4 +158,4 @@ Switch menus, chart details, tooltips, and exported reports across three languag
 
 *Note: Astrology helps only those who are genuinely in need; try not to test astrology itself using this software.*
 
-**[🌐 Visit Web Portal](https://thefuzzydeveloper.github.io/Astrobasics-website/) • [🐛 Report Issues](https://www.google.com/search?q=https://github.com/thefuzzydeveloper/Astrobasics-dist/issues) • [⭐ Star Repository**](https://www.google.com/url?sa=E&source=gmail&q=https://github.com/thefuzzydeveloper/Astrobasics-dist)
+[🌐 Visit Web Portal](https://thefuzzydeveloper.github.io/Astrobasics-website/) • [🐛 Report Issues](https://github.com/thefuzzydeveloper/Astrobasics-dist/issues) • [⭐ Star Repository](https://github.com/thefuzzydeveloper/Astrobasics-dist)
