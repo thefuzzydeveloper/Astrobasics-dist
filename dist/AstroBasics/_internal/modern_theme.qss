@@ -450,3 +450,30 @@ QProgressBar::chunk {
         stop: 1 #EA580C    
     );
 }
+
+
+/* ==========================================
+MODERN SAAS SHELL & TOP BAR STYLES
+========================================== */
+QFrame#saasTopHeader {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+QFrame#saasNavRail {
+    background-color: #F8FAFC;
+    border-right: 1px solid #E2E8F0;
+}
+
+QPushButton#btnQuickAction {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 12px;
+    font-weight: bold;
+}
+
+QPushButton#btnQuickAction:hover {
+    background-color: #2563EB;
+}
