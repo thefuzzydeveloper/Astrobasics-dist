@@ -1,9 +1,9 @@
 {
-  "version": "v2026.07.29_1722",
+  "version": "v2026.07.29_1729",
   "releaseNotes": "UX Patch",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "3870c0b88eb84f59d73a497b89ab1fa9a98f0ebb84c9660fb0b35fdc5304c71b",
-  "signature": "FUN6zqctOHk4Zjyn76AP8ggJdP4xry+ErMLGxVdd6S0EuH6K412jYxYUOJqtp4wcz20usoIeNs4Iq2NgI33GPpfHp28TJD3mhI6fiPnrBSvWqxjH0zhcVucQD/AMA0JMDVqP8VNwbExOoUlIqF6A13g8O4bGbWGTzhLB96sKBwu2SRXE3ovVreDP1mi9ESGhuX2G6KdaP8kSdxqEJrCEN9MZXY8E5M/bo61XoDhgf2sO/wfFpJrx2uPAiOhfwg1xuCb7EPoUnro7whRUkdt3x5dcAAZMPgyOtADnwZk/knvkKJ26MiO0OeAIXnSgTlxIg2ymGgybR4aCnpYhufhZBQ==",
+  "checksum": "aa8dc789b9364aadf6f2bd19e24e57b9e5e14f9d5c96295bb2d82f30843a0693",
+  "signature": "BZhwhulMtIY30+ZJT1PheU4DD1glz4Zj3MyedfO2Tu+vE4aQOKzbNUUiOdQBNLvD3JcD4/hmXUFee9wRSPvz0ImjgWZg7ZnRSkkA2bVuDFtCHfyHbYMvVcFlhsWg09EfdiXh707ZskdeScvTI4mBLT8JWUAAZ2LvO9CmStHfw+IEKtRhk4TbVT18xq/ethGnvhnMN7ZMyNc47pgwaheB+6SiUdOCFYutJGe1kxZ6lxWfE02UYBBZARlQGZsfFMB39cYfernjEI+VoOckSIYSvDPFzYo1wny/U2J6pYymLVtHa6r/CryBpNKa4g/1wz/ZKgCHByKEM8bETiHCf/PPig==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
