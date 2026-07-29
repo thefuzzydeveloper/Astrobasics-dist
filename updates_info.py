@@ -2150,7 +2150,9 @@ v1_3_98 = """
 	<b><span style="color: #059669;">
 		[+]</span></b>In case of any issues, try resetting to default layout or deleting "astro_settings.json" file from app folder!<br>
 	<b><span style="color: #059669;">
-		[+]</span></b>AstroBasics will require license verification soon (on request of few users)... contact developer for a lifetime license of AstroBasics!<br>
+		[-->]</span></b>On request of few users, AstroBasics will require license verification soon....<br>
+	<b><span style="color: #059669;">
+		[-->]</span></b>That being said, the developer will provide lifetime license of AstroBasics for fist few users, contact developer for a lifetime license of AstroBasics Diamond Chart Pro!<br>
 	</div>
 </div>
 """
