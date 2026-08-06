@@ -1,8 +1,8 @@
 {
-    "version": "1.3.991",
-    "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tWhat's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>UX improvements, added a siderail bar ofr easy access of menus!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Improvd gochar module!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>In case of any issues, try resetting to default layout or deleting \"astro_settings.json\" file from app folder!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>The developer recommends resetting all settings once after this update!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Fixed transit module for legibility!<br>\n\t<b><span style=\"color: #0000FF;\">\n\t\t[-->]</span></b>On request of few users, AstroBasics will require license verification soon....<br>\n\t<b><span style=\"color: #0000FF;\">\n\t\t[-->]</span></b>That being said, the developer will provide lifetime license of AstroBasics for FREE fist few users, contact developer for a lifetime license of AstroBasics Diamond Chart Pro!<br>\n\t</div>\n</div>",
+    "version": "1.3.992",
+    "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tWhat's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>UX improvements, added a siderail bar ofr easy access of menus!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Improvd gochar module!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>In case of any issues, try resetting to default layout or deleting \"astro_settings.json\" file from app folder!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>The developer recommends resetting all settings once after this update!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Fixed transit module for legibility!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Improved overall codal tamper integrity!<br>\n\t<b><span style=\"color: #0000FF;\">\n\t\t[-->]</span></b>On request of few users, AstroBasics will require license verification soon....<br>\n\t<b><span style=\"color: #0000FF;\">\n\t\t[-->]</span></b>That being said, the developer will provide lifetime license of AstroBasics for FREE fist few users, contact developer for a lifetime license of AstroBasics Diamond Chart Pro!<br>\n\t</div>\n</div>",
     "files": {
-        "AstroBasics.exe": "061f7a63736146b8d340150a65db8158ce9b4dc192885764747f6b3319178e39",
+        "AstroBasics.exe": "a8acabf50fb852f5fe2fa9616e4fea05ae9753e367b56701e28a2473d9cca3e7",
         "refresh_astrobasics.exe": "9d40a1317aa7f72098f248a3af623268510ecb7be112662991995f79887d4a2e",
         "_internal/animation.pyd": "79cdf8189971fa29f05a474153cd802bf2f5e5a938628f99855de82c2d16ae38",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -21,18 +21,19 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "73303603e9ea5d2893bd267009d1333118eecf23b840289084e1509822d635e2",
-        "_internal/base_library.zip": "e09687492b88444eebb4388fb020d3f4320e91a6bb245f2d39bec651f5ba242d",
-        "_internal/chart_renderer.pyd": "a867e5f9dc1163734cc512aca51dad4512c6f34ac9c8ee007b012c93b9fada54",
+        "_internal/base_library.zip": "a524948648d66b975e125b1f91d427f23df33a69b458339e2d455647e43cb16d",
+        "_internal/chart_renderer.pyd": "1de2176c63ff897352ac0ba9174ce78c1a777296dd113e228decab8c3d7b70f2",
         "_internal/count_lines.pyd": "ed6807635efa9391694d0bb6d524c2421cfa802dbbca9fb9f5a2054c5771ea27",
         "_internal/custom_vargas.pyd": "c5c9404a5c9bef121e5eb681eff6944a7f490c6ebbd303642f6413a900752d10",
         "_internal/dark_theme.qss": "0ea74d7477d196fecfa49486335c2dec350209a85dd7d282bbc2f17c51958fc7",
+        "_internal/entry.pyd": "6f65fe169e19d4895802ead8da252cc4ab27cbf99913321c2e4e58f208fc51d0",
         "_internal/extract_strings.pyd": "b73227c06b9019e3d7540b450a5c03e117354dc3585983cb830a7c4621c76b73",
         "_internal/help_content.pyd": "6eb57f8c7d5458525be3bb7542ac1d6c5ef7d9230f25f70eafa037b43a9c7823",
         "_internal/kshaurakarma_engine.pyd": "ee0bec68bf07b5a4dcb1cb8d2156ac424fe1605b9e65277c297906aa125a7c1b",
         "_internal/libcrypto-3.dll": "53c529145339fb042a3dcd3a09c2d7753204f8b4fc79d99e0d31e69a33985958",
         "_internal/libffi-8.dll": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
         "_internal/libssl-3.dll": "b17a87979862d19241edc4318f967e24c3ec356ed6c2368f561179fab2311001",
-        "_internal/license_manager.pyd": "c2e9d184e0d1a5da79a99661f108b644cf2a2b6c8e48577bdc1630dc6b97868a",
+        "_internal/license_manager.pyd": "de764a1a3327c6e9f53b1af231e0fe0f4defed90cc05c5092508ff8ffe15e907",
         "_internal/modern_theme.qss": "7fe182626a806e826a7ab97d3127f50cfbeb3db5cff3fcba4cc71d206956a992",
         "_internal/pyexpat.pyd": "133942bde91fe43289076a0b50a01b265df4ead078617cca6f6604a4166e1260",
         "_internal/python3.dll": "22c6e46d8bd563cdb072650901461ef68be2ea6cb1e80af859559d9395a27e39",
@@ -860,5 +861,5 @@
         "_internal/translation/updater_en.json": "cbecf671533c98697ff17bfe6dbf7840319d9429b326f10ad69d8f52d59f6986",
         "_internal/tzfpy/tzfpy.pyd": "0ce4815ff43629c14383cd1edcb9cf32b792677ebd88de2665b8650af4bb97d2"
     },
-    "signature": "q8TH2E6yj2qz0beGegBKL5E4iB5dl4Fx/NrjdJYtW7W08DWYX6VmIfdBVxOCiacRxDH8EL0VW64NJcTkrcq3AQ=="
+    "signature": "rsPJuEeCY+Tgo5WTk+mxA5/X2gAhN7KHRFSOZH2DtDHQD3JeKdV3GtKDpxKQl2C3ekpGjHgmn4afxdSbl3pbCA=="
 }

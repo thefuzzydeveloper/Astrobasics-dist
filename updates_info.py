@@ -2202,3 +2202,31 @@ v1_3_991 = """
 	</div>
 </div>
 """
+
+
+
+v1_3_992 = """
+<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
+		What's Changed?</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+	<b><span style="color: #059669;">
+		[+]</span></b>UX improvements, added a siderail bar ofr easy access of menus!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Improvd gochar module!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>In case of any issues, try resetting to default layout or deleting "astro_settings.json" file from app folder!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>The developer recommends resetting all settings once after this update!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Fixed transit module for legibility!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Improved overall codal tamper integrity!<br>
+	<b><span style="color: #0000FF;">
+		[-->]</span></b>On request of few users, AstroBasics will require license verification soon....<br>
+	<b><span style="color: #0000FF;">
+		[-->]</span></b>That being said, the developer will provide lifetime license of AstroBasics for FREE fist few users, contact developer for a lifetime license of AstroBasics Diamond Chart Pro!<br>
+	</div>
+</div>
+"""
