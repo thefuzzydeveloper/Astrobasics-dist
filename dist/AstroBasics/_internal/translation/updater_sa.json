@@ -1,0 +1,23 @@
+{
+    "chart_renderer.py": {
+        "Body Part": "",
+        "Direction": "",
+        "Gender": "",
+        "Guna": "",
+        "Varna": ""
+    },
+    "dynamic_settings_modules/muhurta_module.py": {
+        "Muhurta Module": ""
+    },
+    "dynamic_settings_modules/multi_dasha_module.py": {
+        "Dashas Explorer, Integrates across multiple dasha systems.": ""
+    },
+    "dynamic_settings_modules/numerology_module.py": {
+        "Find out moolank, naamank, bhagyank, Lo Shu grid (different variations), house compatibilty and friend/partnership compatibilty.": ""
+    },
+    "dynamic_settings_modules/pdf_exporter_module.py": {
+        "Nakshatra (Pada)": "",
+        "Select Planet Details Table Columns to Export": "",
+        "Select Report Sections to Include in PDF": ""
+    }
+}
