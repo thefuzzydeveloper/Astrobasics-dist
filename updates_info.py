@@ -2244,3 +2244,15 @@ v1_3_993 = """
 	</div>
 </div>
 """
+
+v1_3_994 = """
+<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
+		What's Changed?</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+	<b><span style="color: #059669;">
+		[+]</span></b>Enhanced LAC, now it shows three possible life areas!<br>
+	</div>
+</div>
+"""
