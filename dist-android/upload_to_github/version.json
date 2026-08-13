@@ -1,9 +1,9 @@
 {
-  "version": "v2026.08.06_1823",
-  "releaseNotes": "Added Vargottama and strength indicators in chart!",
+  "version": "v2026.08.13_1130",
+  "releaseNotes": "UX improvements",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "cf8111536973e817ee7ff11408bb49b6f2a87f6463f01200480470c64dd406c0",
-  "signature": "VJhYa3A3HK1/IfMk9gJhoGSFLhPtkPZUufyZHSqoGKfbWwxYfUXruABVqC2VHgjsBUjUOHkBzF6dokAjU5qBsizvRn+nHavrsDoyEv731Bi4ZbdbNZumPNaJ14R78ajIRXRmjnPAk3OXU6erPqlHxXCg48xdwbMvjUhCs5/60pCbeLp4f7UjYiqm4pg7kQRLy0z2IYSBMjPCHIE8wSDl/JDYNrvMZXHdWFS1fiEJhCZh/mkcvrphwO17MvF/SZiz2lj9ht0PHFcamJAdjGuFukXJ6DeDur9NBd1ENh4VGuomGyMgnv/ViHz6tMl6bIXwb1Me/LU7qxxNDkduQyIvTQ==",
+  "checksum": "d2685bd93a86a1ac078ce4048d4596cd1f90ad4ade204adf18d1f0c8d53e3168",
+  "signature": "F9YSwz6J3e7gheN7NI+AeqXX8OEQXGmBPcsV0GddZ7CLbAKB2eL08wGorZ9q2Q7+0RB7MhvVUNpYc6yGmQeLI5ByBhvQE7wYCing3IKavrXUK75VhgyDAIZo7uYFbENapdvAVj9WhoWiTW9FQu0I5dMMjONWAbe/rr0FPCku/GDNJDXkV94a28wQ1g+hsvm9JtGaytkk7xLli8VTGj2WljlAWfS3bdmzCBkYGt68WZmCqDN1LP1kX+g47SgxZlJ4gWiltEiyqqQt3hCVYUocQ2k703eoGVur3c3YZFj2S+aFrrHm4ZVkYbiu1kmR5Af/s7pP0nVOmUNz7vcZ1O6BTw==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
