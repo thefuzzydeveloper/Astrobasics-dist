@@ -1,9 +1,9 @@
 {
-  "version": "v2026.08.14_1122",
-  "releaseNotes": "Font improvement",
+  "version": "v2026.08.14_1138",
+  "releaseNotes": "Fonts Improvement",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "85ba586fcab93444d075036474335928b6ea89d38fa5af6af4f6e0109ff39507",
-  "signature": "Hyfhm/BBpf6Js5K4NVPx8X73QOwCuAggDNOoOgNuBJayerNmA+s6m1TJFXT89vHU+xKGpHhwryG997Xd01KwEQFU4OxR3G76zaO8SrWvNSbfGGJp/tLA347eayRDSJ27L0ZOFQaBFRDIcHo4UmqNVcOav48CIkqaWeTXv8RcvpW3O8m5agtjFUr6cqNF96qSk1C9hLq/3T72xd+Zd+lxo2W8mTkAebMg1XCwMvF9k5exYr9yAbSx8AQlnz9Xkmxq4ZwwWvB874spMmY8eUk7Arrn3/LbTB9K0GG3WCrcO9W0T6JPI8/Y5UWf87lBc99lw3EOWiBxfPnsMtMFWPuC2Q==",
+  "checksum": "c030db5f3905c19e300ee25528d5dcdf1495693d456c9ae1c85b593d48251259",
+  "signature": "GQamACTxcl/yLRA0GUphLRsVrCM3TzyqwqNLWgM+m6TvdSK/QKPzx9KjdKlZp02D5WLYcv3td1jqByMqREpYvjJ0XOr9m/ls6T21niPT631RuZbgyW2GIx2U+MTCtsq6R6cbKoRvGYJVGBxU+PR/7o+GW2BhEQ+JrlcGKjp7uU7ZisFpYSBzoiQ251cF1nx1/PCL/olz/o+J9voegSx+imbmt5Cnh+hYS8KuHdOZ2auyB+AEgJs4UO5D8uB/O6hwwMFv4pW/630v7NCCGWNPxdO5z8ZXarpP+NuwYbbJhOPmR22P3WSzAa4Usd0peQ/Y5HQwbVzwAnPsM7DkMK4a9A==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
