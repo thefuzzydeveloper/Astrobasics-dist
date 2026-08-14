@@ -1,9 +1,9 @@
 {
-  "version": "v2026.08.14_1104",
-  "releaseNotes": "font improvement",
+  "version": "v2026.08.14_1122",
+  "releaseNotes": "Font improvement",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "54516d291186d6fb5b450074b772964e80c6a01e346ace2d543d4be35b24c331",
-  "signature": "j/eXJ4ShnpDK4oXPt5ifGU8E7iFQrVMlawinYMOBGcWouYQL0Qs9hNOOxo1W5ns+A90Ma5l3yof0mjrNmgke7XteKfX61obqnm+dGEXZyXalsSLYfNLkLlqTp/tS3QD/xyvwmUb6LWC4Jt9YR580BTj1pVtYhDghYyULoAmDJFsVRqXCcsUeUAnl3lPaWp1VaQ1hgnzkXGrlW+ht8B9tMzm/eEom6aog1oL85w2t9IC6r9T9lw7XMv4I7AkbRPU3ihFSE2V6/48MAyeOeoRNQwESCzG8lv7/8QDf474BYvw7ADQXHOwfgYjL8eGUfWZWylr+f6CAosLHThOafJc90g==",
+  "checksum": "85ba586fcab93444d075036474335928b6ea89d38fa5af6af4f6e0109ff39507",
+  "signature": "Hyfhm/BBpf6Js5K4NVPx8X73QOwCuAggDNOoOgNuBJayerNmA+s6m1TJFXT89vHU+xKGpHhwryG997Xd01KwEQFU4OxR3G76zaO8SrWvNSbfGGJp/tLA347eayRDSJ27L0ZOFQaBFRDIcHo4UmqNVcOav48CIkqaWeTXv8RcvpW3O8m5agtjFUr6cqNF96qSk1C9hLq/3T72xd+Zd+lxo2W8mTkAebMg1XCwMvF9k5exYr9yAbSx8AQlnz9Xkmxq4ZwwWvB874spMmY8eUk7Arrn3/LbTB9K0GG3WCrcO9W0T6JPI8/Y5UWf87lBc99lw3EOWiBxfPnsMtMFWPuC2Q==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
