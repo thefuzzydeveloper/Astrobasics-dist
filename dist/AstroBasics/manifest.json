@@ -1,8 +1,8 @@
 {
-    "version": "1.3.996",
-    "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tWhat's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Enhanced LAC, now it shows three possible life areas!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Improved naming rules!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Encryption  is now optional allowing debugging and intercompatibility of files between android and desktop app!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Android users must re-install the app (latest version from website) for app being shown in \"Open with...\" dialogue for sharing charts on third party apps (like whatsapp)!<br>\n\t</div>\n</div>",
+    "version": "1.3.997",
+    "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tWhat's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Enhanced LAC, now it shows three possible life areas!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Improved naming rules!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Updated the updater!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Encryption  is now optional allowing debugging and intercompatibility of files between android and desktop app!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Android users must re-install the app (latest version from website) for app being shown in \"Open with...\" dialogue for sharing charts on third party apps (like whatsapp)!<br>\n\t</div>\n</div>",
     "files": {
-        "AstroBasics.exe": "ddc74868aac7ecfd340fa01ec837212dc1acf777d0071414d33317d41079c562",
+        "AstroBasics.exe": "fa09f3b84ebe0c2df4cb7f07dacca9d579e16d58381a3354b2c62742f82b2fd9",
         "refresh_astrobasics.exe": "9d40a1317aa7f72098f248a3af623268510ecb7be112662991995f79887d4a2e",
         "_internal/animation.pyd": "089aaa83b27dc320edf3966f655917c34e17ba5dde733fcf90ca4774abb9f46a",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -21,7 +21,7 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "73303603e9ea5d2893bd267009d1333118eecf23b840289084e1509822d635e2",
-        "_internal/base_library.zip": "0d232d108cb109f2473c63ed9c4c90e5f73aff65ac9ecaf76ae4285cd96c849d",
+        "_internal/base_library.zip": "0f0ecc04e654ff67dafecb38a6c27d14590602b4c75dc0663de5eb31538b48ef",
         "_internal/chart_renderer.pyd": "1de2176c63ff897352ac0ba9174ce78c1a777296dd113e228decab8c3d7b70f2",
         "_internal/count_lines.pyd": "ed6807635efa9391694d0bb6d524c2421cfa802dbbca9fb9f5a2054c5771ea27",
         "_internal/custom_vargas.pyd": "c5c9404a5c9bef121e5eb681eff6944a7f490c6ebbd303642f6413a900752d10",
@@ -87,7 +87,7 @@
         "_internal/dynamic_settings_modules/vishmottari_module.pyd": "785359210d3d74dee2372a199ced4d491308dae7976d412f86fa93a58603c0ac",
         "_internal/dynamic_settings_modules/yoga_explorer_plugin.pyd": "ee387da37747dd0bce6901f47719b6a278c073a5661e554500a9934e8117d01a",
         "_internal/dynamic_settings_modules/zz_logger_module.pyd": "6e97bcf42d47b62aa77d06e117f63b5ab5d7f29689a84de0071008f248479c8a",
-        "_internal/dynamic_settings_modules/z_updater.pyd": "d8be3a032603bbab54675b54fc12cce537cad9219bc18e6330f96e05c3303261",
+        "_internal/dynamic_settings_modules/z_updater.pyd": "4bfce725299c017727a12b313d7563957ddc436129812fc84ee5e738db19537b",
         "_internal/ephe/semom06.se1": "d8be0eaffc82d7a07c4c88fb4984be4b15757716864e6db8e7f1f378dfbb0659",
         "_internal/ephe/semom102.se1": "5c0f5cd45a20ef6f25c3d99d5824adaa4715c36015ec0d01468a8b9da0a64f38",
         "_internal/ephe/semom108.se1": "e9aedc8af9761b35f18d884c8708d357f48d63467a8fb335a04251464caaaeff",
@@ -864,7 +864,7 @@
         "_internal/tzfpy/tzfpy.pyd": "0ce4815ff43629c14383cd1edcb9cf32b792677ebd88de2665b8650af4bb97d2"
     },
     "voting": {
-        "id": "v1_3_996",
+        "id": "v1_3_997",
         "title": "Which feature should be implemented next?",
         "options": {
             "1": "Forecasting earthquakes and natural disasters",
@@ -873,5 +873,5 @@
             "4": "KP Astrology"
         }
     },
-    "signature": "p/52f/9JXghQZ9HSR5yxjrFrMmQ5FNzpGfd2j094+gkhli9viFPj1fsLvwbj0hId+53P3ZMW12AhPgRt+qnRBA=="
+    "signature": "M0WyMZDcHGWBgzJE8vZcHv1pgviNTfTz4J2qqDw0wCZCRBNHwETrK+ckwMQmJV4+0bT4zuSPtR6O+bTgmTkKCA=="
 }

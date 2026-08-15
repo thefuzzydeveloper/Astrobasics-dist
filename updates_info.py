@@ -2289,3 +2289,23 @@ v1_3_996= """
 	</div>
 </div>
 """
+
+v1_3_997= """
+<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
+		What's Changed?</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
+	<b><span style="color: #059669;">
+		[+]</span></b>Enhanced LAC, now it shows three possible life areas!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Improved naming rules!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Updated the updater!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Encryption  is now optional allowing debugging and intercompatibility of files between android and desktop app!<br>
+	<b><span style="color: #059669;">
+		[+]</span></b>Android users must re-install the app (latest version from website) for app being shown in "Open with..." dialogue for sharing charts on third party apps (like whatsapp)!<br>
+	</div>
+</div>
+"""
