@@ -2,7 +2,7 @@
     "version": "1.3.997",
     "changelog": "<div style=\"font-family: 'Segoe UI', system-ui, sans-serif;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">\n\t\tWhat's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t<p style=\"font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;\">\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Enhanced LAC, now it shows three possible life areas!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Improved naming rules!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Updated the updater!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Encryption  is now optional allowing debugging and intercompatibility of files between android and desktop app!<br>\n\t<b><span style=\"color: #059669;\">\n\t\t[+]</span></b>Android users must re-install the app (latest version from website) for app being shown in \"Open with...\" dialogue for sharing charts on third party apps (like whatsapp)!<br>\n\t</div>\n</div>",
     "files": {
-        "AstroBasics.exe": "fa09f3b84ebe0c2df4cb7f07dacca9d579e16d58381a3354b2c62742f82b2fd9",
+        "AstroBasics.exe": "aa28af041679956c5c5e9c9bfb575604954800d9217f1211ebebc800ce4cc30c",
         "refresh_astrobasics.exe": "9d40a1317aa7f72098f248a3af623268510ecb7be112662991995f79887d4a2e",
         "_internal/animation.pyd": "089aaa83b27dc320edf3966f655917c34e17ba5dde733fcf90ca4774abb9f46a",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -21,7 +21,7 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "73303603e9ea5d2893bd267009d1333118eecf23b840289084e1509822d635e2",
-        "_internal/base_library.zip": "0f0ecc04e654ff67dafecb38a6c27d14590602b4c75dc0663de5eb31538b48ef",
+        "_internal/base_library.zip": "cfe0ca5847978923690d1f8a2ddb7ffdd9c88dd9a1c18d5cf565ee44a07ca574",
         "_internal/chart_renderer.pyd": "1de2176c63ff897352ac0ba9174ce78c1a777296dd113e228decab8c3d7b70f2",
         "_internal/count_lines.pyd": "ed6807635efa9391694d0bb6d524c2421cfa802dbbca9fb9f5a2054c5771ea27",
         "_internal/custom_vargas.pyd": "c5c9404a5c9bef121e5eb681eff6944a7f490c6ebbd303642f6413a900752d10",
@@ -87,7 +87,7 @@
         "_internal/dynamic_settings_modules/vishmottari_module.pyd": "785359210d3d74dee2372a199ced4d491308dae7976d412f86fa93a58603c0ac",
         "_internal/dynamic_settings_modules/yoga_explorer_plugin.pyd": "ee387da37747dd0bce6901f47719b6a278c073a5661e554500a9934e8117d01a",
         "_internal/dynamic_settings_modules/zz_logger_module.pyd": "6e97bcf42d47b62aa77d06e117f63b5ab5d7f29689a84de0071008f248479c8a",
-        "_internal/dynamic_settings_modules/z_updater.pyd": "4bfce725299c017727a12b313d7563957ddc436129812fc84ee5e738db19537b",
+        "_internal/dynamic_settings_modules/z_updater.pyd": "c18e410238f077010a0aea4b6245c70e43f47493a462ad4fadb136c331a0638f",
         "_internal/ephe/semom06.se1": "d8be0eaffc82d7a07c4c88fb4984be4b15757716864e6db8e7f1f378dfbb0659",
         "_internal/ephe/semom102.se1": "5c0f5cd45a20ef6f25c3d99d5824adaa4715c36015ec0d01468a8b9da0a64f38",
         "_internal/ephe/semom108.se1": "e9aedc8af9761b35f18d884c8708d357f48d63467a8fb335a04251464caaaeff",
@@ -190,7 +190,6 @@
         "_internal/ephe/sepl_96.se1": "c4e2e0c7108e45e59c15bb14274efa1d6162cfe1084412cc04a2996847f70c3e",
         "_internal/keyring/backend_complete.bash": "955b8f083f152c3181634dbf70b1eda1dec46f33b56fa88a80288b8e44e58a3b",
         "_internal/keyring/backend_complete.zsh": "77c6db88887155cef684d09dda3412279740ec221c9f189659964c0525b0e532",
-        "_internal/my_plugins/rashi.pyd": "72d39a297443f5caee7b9eca6be1574decf810acf3a53e275d0cd272975e8312",
         "_internal/numpy/fft/_pocketfft_umath.cp314-win_amd64.pyd": "2ff71d7a936ee915c3a6ac319d918e4377bad732eb906124711224e1150107ee",
         "_internal/numpy/linalg/lapack_lite.cp314-win_amd64.pyd": "50d10a40079765ebcc1eb846d17cd54d660330529fc080960280dd7b84603215",
         "_internal/numpy/linalg/_umath_linalg.cp314-win_amd64.pyd": "04d5b3d2f0e8493762eafb13249f2e386645212a8a4858a82c5f7957279bf839",
@@ -873,5 +872,5 @@
             "4": "KP Astrology"
         }
     },
-    "signature": "M0WyMZDcHGWBgzJE8vZcHv1pgviNTfTz4J2qqDw0wCZCRBNHwETrK+ckwMQmJV4+0bT4zuSPtR6O+bTgmTkKCA=="
+    "signature": "nZpFuf7QJBDR+5S1HQLPvjp4M9IhiFiEPzWMuX+oZbjgztMlVS+CY/1cNzGEiAsYIuLERM0uxSLkWsg5QwDJDw=="
 }
