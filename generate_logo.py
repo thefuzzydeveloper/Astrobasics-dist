@@ -1,3 +1,5 @@
+# generate_logo.py
+
 import math
 from PIL import Image, ImageDraw, ImageFilter
 

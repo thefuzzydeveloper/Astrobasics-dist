@@ -1,7 +1,6 @@
-import os
-import sys
-import subprocess
-import logging
+# compress_binaries.py -->> causes slow opening of apps so not used 
+
+import os, sys, subprocess, logging
 from pathlib import Path
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
