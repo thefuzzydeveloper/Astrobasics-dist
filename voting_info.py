@@ -8,3 +8,14 @@ v1_3_78 = {
 	"4": "Medical Astrology"
 	}
 }
+
+v1_3_996 = {
+	"id": "v1_3_996",
+	"title": "Which feature should be implemented next?",
+	"options": {
+	"1": "Forecasting earthquakes and natural disasters",
+	"2": "Medical Astrology",
+	"3": "Prasna Astrology",
+	"4": "KP Astrology"
+	}
+}
