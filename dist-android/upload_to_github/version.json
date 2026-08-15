@@ -5,5 +5,5 @@
   "checksum": "d02c417fff3c4bbfcbf355f6a6b4bf08d8cdaf7ff3551ed0fe3128d8ba7ade83",
   "signature": "ifrgRgdleflGWHDOhiBkdTr3wCfzmar6e5jS8eSFYbLZ2CXmIT+v1gGoYWvgG6/R1hCD0JYPlbh00nuS2D4CiVOCt/S/ywQIOzJc0zCYd7ZksNFKuuP+6CIwiTC3rwFlgLn3Mb9uMeCPxrOUcw83KfZKCHrM2ljuNaOXoPGwJyfbhwSq1JxwZPs5ZTOsRdEzQfS7i9MB2SnwdiCYf4L/08g52ePnT/aMhpYoRxBAPva8IiIwPzlJ5ZaVQuWIN/zRD7Mms2Pzcwr5tJI4AeN4SFcdsqmpl/ICW9K3Pp1d9Z0od7iWGuWG3aR6m/BLEwPjBbKErCUrymBKbXkNz4K8dg==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
-  "requiresNativeUpdate": true
+  "requiresNativeUpdate": false
 }
