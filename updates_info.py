@@ -2353,3 +2353,31 @@ v1_3_999= """
 	</div>
 </div>
 """
+
+
+v1_4_0 = """
+<div style="font-family: 'Segoe UI', system-ui, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
+	<h2 style="color: #2563EB; margin-bottom: 4px; margin-top: 0;">What's Changed?</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+
+	<p style="margin-bottom: 12px;">
+		<b style="color: #059669;">[+]</b> <b>Added Medical Astrology Module<br>
+		<b style="color: #059669;">[+]</b> <b>Powerful Declarative Plugin Architecture:</b> Create rich custom plugins using zero boilerplate or single-line lambda functions.
+	</p>
+
+	<div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 6px; padding: 10px 12px; margin-bottom: 14px;">
+		<b style="color: #1E293B; font-size: 13px;">Plugin Engine Capabilities:</b>
+		<ul style="margin: 6px 0 4px 18px; padding: 0;">
+			<li><b>Polymorphic Entry Points:</b> Write pure functional hooks (<code style="color: #2563EB;">evaluate</code>, <code style="color: #2563EB;">render</code>), declarative classes (<code style="color: #2563EB;">AstroPlugin</code>), or direct PyQt layouts[cite: 1, 2].</li>
+			<li><b>Semantic Object Model:</b> Access positions, dignities, and houses directly via <code style="color: #2563EB;">PlanetProxy</code> and <code style="color: #2563EB;">ChartContext</code> (e.g., <code style="color: #059669;">p.is_in_kendra</code>, <code style="color: #059669;">p.is_combust</code>, <code style="color: #059669;">c.atmakaraka</code>)[cite: 2].</li>
+			<li><b>Automatic UI Synthesis:</b> Returning a string or list automatically renders styled alert badges, while returning a dictionary auto-constructs formatted tables.</li>
+			<li><b>Live Hot-Reload:</b> Plugins inside <code style="color: #2563EB;">my_plugins/</code> reload instantaneously on file save without restarting the app.</li>
+		</ul>
+	</div>
+
+	<h3 style="color: #1E293B; margin-bottom: 6px; margin-top: 14px; font-size: 14px;">One-Liner Plugin Example (Place in <code style="color: #2563EB;">my_plugins/</code>) and reload the plugins pressing the reload button at top right of menu bar:</h3>
+
+	<p style="margin: 6px 0 2px 0;"><b>3. Embedded Mini-Navamsha (D9) Chart Widget:</b></p>
+	<pre style="background-color: #0F172A; color: #38BDF8; border-radius: 5px; padding: 8px 10px; font-family: Consolas, monospace; font-size: 11px; white-space: pre-wrap; margin: 0 0 4px 0;"><code>render = lambda ui, c: ui.chart("D9", height=240)</code></pre>
+</div>
+"""
