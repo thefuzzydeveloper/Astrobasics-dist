@@ -2355,7 +2355,7 @@ v1_3_999= """
 """
 
 
-v1_4_0 = """
+v1_4_001 = """
 <div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">What's Changed?</h2>
 	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
@@ -2363,6 +2363,7 @@ v1_4_0 = """
 	<p style="margin-bottom: 14px;">
 		<b style="color: #059669;">[+]</b> <b>Added Medical Astrology Module</b><br>
 		<b style="color: #059669;">[+]</b> <b>Added One liner results!</b><br>
+		<b style="color: #059669;">[+]</b> <b>Added Clear logs button in logger!</b><br>
 		<b style="color: #059669;">[+]</b> <b>Brand New Plugin System:</b> You can now write custom tools with zero boilerplate or even in a single line of code!
 	</p>
 
