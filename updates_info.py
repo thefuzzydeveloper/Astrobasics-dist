@@ -2361,7 +2361,8 @@ v1_4_0 = """
 	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
 
 	<p style="margin-bottom: 14px;">
-		<b style="color: #059669;">[+]</b> <b>Medical Astrology Module</b><br>
+		<b style="color: #059669;">[+]</b> <b>Added Medical Astrology Module</b><br>
+		<b style="color: #059669;">[+]</b> <b>Added One liner results!</b><br>
 		<b style="color: #059669;">[+]</b> <b>Brand New Plugin System:</b> You can now write custom tools with zero boilerplate or even in a single line of code!
 	</p>
 
@@ -2374,64 +2375,68 @@ v1_4_0 = """
 		<li><b>Live Hot-Reloading:</b> Files placed in <code>my_plugins/</code> reload in real time (or pressing reload button at top right of menu bar) on save without needing to restart the application.</li>
 		</ul>
 	</div>
-	
 	<b style="color: #0F172A; font-size: 13px;">Plugin Quickstart Examples (Drop into <code>my_plugins/</code>):</b>
+	<p style="margin: 10px 0 4px 0;"><b>0. One liner-plugin embed chart</b></p>
+		<div style="font-family: monospace; font-size: 12px; line-height: 1.4; background-color: #F8FAFC; border: 1px solid #E2E8F0; padding: 8px; border-radius: 4px;">
+		def render(ui,chart_instance):<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;ui.chart("D9", height=220)&nbsp;&nbsp;# &lt;--- this directly embeds the interactive D9 chart in left sidebar!
+	</div>
 
 	<p style="margin: 8px 0 4px 0;"><b>1. Angular Separation</b></p>
-	<code>
-	def evaluate(c): # <--- c is chart renderer instance, use it to change divisional chart to other divisions!
-		alerts = []
-		# Moon-Sun forward elongation with exact DMS arc distance
-		moon_sun_arc = c.moon.forward_distance_to(c.sun).dms_str # <--- this line gives distance between moon and sun in degree minutes and seconds (dms)
-		alerts.append("🌙 Solar Elongation: Moon is {0} ahead of Sun (H{1} from Sun)".format(
-			moon_sun_arc, c.moon.house_from(c.sun)  # <--- {0} corresponds to moon sun arc distance and {1} corresponds to second numeric item that is c.moon.house_from(c.sun)
-		))
-		# Detect close planetary conjunctions within 2.0 degrees
-		for p1 in [c.mars, c.mercury, c.jupiter, c.venus, c.saturn]:  #<--- loop to check classical planets wrt other planets!
-			for p2 in [c.mars, c.mercury, c.jupiter, c.venus, c.saturn]:
-			if p1.name &lt; p2.name and p1.distance_to(p2) &lt;= 2.0:
-				alerts.append("Tight Conjunction: {0} &amp; {1} separated by only {2}".format(
-				p1.name, p2.name, p1.dms_distance_to_str(p2)  # <--- similar formatting here as well
-				))
-		return alerts
-	</code>
+	<div style="font-family: monospace; font-size: 12px; line-height: 1.4; background-color: #F8FAFC; border: 1px solid #E2E8F0; padding: 8px; border-radius: 4px;">
+	def evaluate(c): # &lt;--- c is chart renderer instance, use it to change divisional chart to other divisions!<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;alerts = []<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;# Moon-Sun forward elongation with exact DMS arc distance<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;moon_sun_arc = c.moon.forward_distance_to(c.sun).dms_str # &lt;--- this line gives distance between moon and sun in degree minutes and seconds (dms)<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;alerts.append("🌙 Solar Elongation: Moon is {0} ahead of Sun (H{1} from Sun)".format(<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;moon_sun_arc, c.moon.house_from(c.sun)&nbsp;&nbsp;# &lt;--- {0} corresponds to moon sun arc distance and {1} corresponds to second numeric item that is c.moon.house_from(c.sun)<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;))<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;# Detect close planetary conjunctions within 2.0 degrees<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;for p1 in [c.mars, c.mercury, c.jupiter, c.venus, c.saturn]:&nbsp;&nbsp;# &lt;--- loop to check classical planets wrt other planets!<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for p2 in [c.mars, c.mercury, c.jupiter, c.venus, c.saturn]:<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if p1.name &lt; p2.name and p1.distance_to(p2) &lt;= 2.0:<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alerts.append("Tight Conjunction: {0} &amp; {1} separated by only {2}".format(<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p1.name, p2.name, p1.dms_distance_to_str(p2)&nbsp;&nbsp;# &lt;--- similar formatting here as well<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;))<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;return alerts
+	</div>
 
 	<p style="margin: 10px 0 4px 0;"><b>2. Multi-Divisional (D1 ➔ D9 ➔ D10) Vector Matrix</b></p>
-	<code>
-	def evaluate(c):
-		d9 = c.get_divisional_chart("D9")  #< --- get divisions directly from chart renderer
-		d10 = c.get_divisional_chart("D10")
-		report = {}
-		for name, p in c.planets.items():
-			d9_p = d9.get_planet(name)
-			d10_p = d10.get_planet(name)
-			report[name] = "{0} (H{1}) ➔ D9: H{2} ({3}) ➔ D10: H{4} | Dispositor: {5}".format(
-			p.formatted_degree,
-			p.house,
-			d9_p.house,
-			d9_p.sign_name,
-			d10_p.house,
-			p.sign_lord
-			)
-		return report
-	</code>
+	<div style="font-family: monospace; font-size: 12px; line-height: 1.4; background-color: #F8FAFC; border: 1px solid #E2E8F0; padding: 8px; border-radius: 4px;">
+	def evaluate(c):<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;d9 = c.get_divisional_chart("D9")&nbsp;&nbsp;# &lt;--- get divisions directly from chart renderer<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;d10 = c.get_divisional_chart("D10")<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;report = {}<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;for name, p in c.planets.items():<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d9_p = d9.get_planet(name)<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d10_p = d10.get_planet(name)<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;report[name] = "{0} (H{1}) ➔ D9: H{2} ({3}) ➔ D10: H{4} | Dispositor: {5}".format(<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p.formatted_degree,<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p.house,<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d9_p.house,<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d9_p.sign_name,<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d10_p.house,<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p.sign_lord<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;return report
+	</div>
 
 	<p style="margin: 10px 0 4px 0;"><b>3. Embedded Visualizer</b></p>
-	<code>
-	def render(ui, c):
-		ak = c.atmakaraka
-		d9_ak = c.get_divisional_chart("D9").get_planet(ak.name)
-		lagna_lord = c.house_lord(1)
-		
-		ui.metric("Atmakaraka", ak.name, "Position: " + ak.dms_str + " in " + ak.sign_name) #< ----- Embeds sthree levels metric formatting in sidebar!
-		ui.alert("Karakamsha Sign: {0} (Placed in H{1} in Navamsha)".format(d9_ak.sign_name, d9_ak.house), level="info")
-		ui.key_value({
-			"Moon Angular Distance to Sun": c.moon.dms_distance_to_str(c.sun),
-			"Moon Placement from Lagna Lord": "H{0} from {1}".format(c.moon.house_from(lagna_lord), lagna_lord.name),
-			"Sun-Saturn Aspect Distance": c.sun.dms_distance_to_str(c.saturn),
-			"Ascendant Nakshatra": c.ascendant.nakshatra + " (Lord: " + c.ascendant.nakshatra_lord + ")"
-		})
-		ui.chart("D9", height=220) # <---- this directly embeds the interactive D9 chart in left sidebar!
-	</code>
+	<div style="font-family: monospace; font-size: 12px; line-height: 1.4; background-color: #F8FAFC; border: 1px solid #E2E8F0; padding: 8px; border-radius: 4px;">
+	def render(ui, c):<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;ak = c.atmakaraka<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;d9_ak = c.get_divisional_chart("D9").get_planet(ak.name)<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;lagna_lord = c.house_lord(1)<br>
+		<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;ui.metric("Atmakaraka", ak.name, "Position: " + ak.dms_str + " in " + ak.sign_name)&nbsp;&nbsp;# &lt;--- Embeds three levels metric formatting in sidebar!<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;ui.alert("Karakamsha Sign: {0} (Placed in H{1} in Navamsha)".format(d9_ak.sign_name, d9_ak.house), level="info")<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;ui.key_value({<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Moon Angular Distance to Sun": c.moon.dms_distance_to_str(c.sun),<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Moon Placement from Lagna Lord": "H{0} from {1}".format(c.moon.house_from(lagna_lord), lagna_lord.name),<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Sun-Saturn Aspect Distance": c.sun.dms_distance_to_str(c.saturn),<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Ascendant Nakshatra": c.ascendant.nakshatra + " (Lord: " + c.ascendant.nakshatra_lord + ")"<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;})<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;ui.chart("D9", height=220)&nbsp;&nbsp;# &lt;--- this directly embeds the interactive D9 chart in left sidebar!
+	</div>
 </div>
 """
