@@ -2356,28 +2356,83 @@ v1_3_999= """
 
 
 v1_4_0 = """
-<div style="font-family: 'Segoe UI', system-ui, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
-	<h2 style="color: #2563EB; margin-bottom: 4px; margin-top: 0;">What's Changed?</h2>
-	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
+    <h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">What's Changed?</h2>
+    <hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
 
-	<p style="margin-bottom: 12px;">
-		<b style="color: #059669;">[+]</b> <b>Added Medical Astrology Module<br>
-		<b style="color: #059669;">[+]</b> <b>Powerful Declarative Plugin Architecture:</b> Create rich custom plugins using zero boilerplate or single-line lambda functions.
-	</p>
+    <p style="margin-bottom: 14px;">
+        <b style="color: #059669;">[+]</b> <b>Medical Astrology Module</b><br>
+        <b style="color: #059669;">[+]</b> <b>Brand New Plugin System:</b> You can now write custom tools with zero boilerplate or even in a single line of code!
+    </p>
 
-	<div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 6px; padding: 10px 12px; margin-bottom: 14px;">
-		<b style="color: #1E293B; font-size: 13px;">Plugin Engine Capabilities:</b>
-		<ul style="margin: 6px 0 4px 18px; padding: 0;">
-			<li><b>Polymorphic Entry Points:</b> Write pure functional hooks (<code style="color: #2563EB;">evaluate</code>, <code style="color: #2563EB;">render</code>), declarative classes (<code style="color: #2563EB;">AstroPlugin</code>), or direct PyQt layouts.</li>
-			<li><b>Semantic Object Model:</b> Access positions, dignities, and houses directly via <code style="color: #2563EB;">PlanetProxy</code> and <code style="color: #2563EB;">ChartContext</code> (e.g., <code style="color: #059669;">p.is_in_kendra</code>, <code style="color: #059669;">p.is_combust</code>, <code style="color: #059669;">c.atmakaraka</code>).</li>
-			<li><b>Automatic UI Synthesis:</b> Returning a string or list automatically renders styled alert badges, while returning a dictionary auto-constructs formatted tables.</li>
-			<li><b>Live Hot-Reload:</b> Plugins inside <code style="color: #2563EB;">my_plugins/</code> reload instantaneously on file save without restarting the app.</li>
-		</ul>
+    <div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-left: 4px solid #2563EB; border-radius: 4px; padding: 10px 12px; margin-bottom: 14px;">
+        <b style="color: #1E40AF; font-size: 13px;">Why Plugin Creation is Now Supercharged:</b>
+        <ul style="margin: 6px 0 0 0; padding-left: 18px; color: #475569;">
+            <li><b>Semantic Astrological Objects:</b> Access planet and chart properties like <code>c.mars.is_in_kendra</code>, <code>p.is_combust</code>, <code>c.atmakaraka</code>, or <code>c.get_divisional_chart('D9')</code> directly.</li>
+            <li><b>Zero-Qt Declarative Functions:</b> Return a <code>list</code> or <code>str</code> from <code>evaluate(c)</code> to render alert banners automatically, or return a <code>dict</code> to instantly build an auto-formatted table.</li>
+            <li><b>Direct UI Builder Hook:</b> Use <code>render(ui, c)</code> to embed live charts, metrics, inputs, or sliders with no Qt boilerplate required, so essentially one line of code can display whole interactive chart in the sidebar!</li>
+            <li><b>Live Hot-Reloading:</b> Files placed in <code>my_plugins/</code> reload in real time (or pressing reload button at top right of menu bar) on save without needing to restart the application.</li>
+        </ul>
+    </div>
+    
+	<b style="color: #0F172A; font-size: 13px;">Plugin Quickstart Examples (Drop into <code>my_plugins/</code>):</b>
+
+	<p style="margin: 8px 0 4px 0;"><b>1. Angular Separation</b></p>
+	<div style="background-color: #0F172A; color: #E2E8F0; padding: 8px 10px; border-radius: 4px; font-family: Consolas, monospace; font-size: 12px;">
+	<pre style="margin: 0;">def evaluate(c): # <--- c is chart renderer instance, use it to change divisional chart to other divisions!
+		alerts = []
+		# Moon-Sun forward elongation with exact DMS arc distance
+		moon_sun_arc = c.moon.forward_distance_to(c.sun).dms_str # <--- this line gives distance between moon and sun in degree minutes and seconds (dms)
+		alerts.append("🌙 Solar Elongation: Moon is {0} ahead of Sun (H{1} from Sun)".format(
+			moon_sun_arc, c.moon.house_from(c.sun)  # <--- {0} corresponds to moon sun arc distance and {1} corresponds to second numeric item that is c.moon.house_from(c.sun)
+		))
+		# Detect close planetary conjunctions within 2.0 degrees
+		for p1 in [c.mars, c.mercury, c.jupiter, c.venus, c.saturn]:  #<--- loop to check classical planets wrt other planets!
+			for p2 in [c.mars, c.mercury, c.jupiter, c.venus, c.saturn]:
+			if p1.name &lt; p2.name and p1.distance_to(p2) &lt;= 2.0:
+				alerts.append("Tight Conjunction: {0} &amp; {1} separated by only {2}".format(
+				p1.name, p2.name, p1.dms_distance_to_str(p2)  # <--- similar formatting here as well
+				))
+		return alerts</pre>
 	</div>
 
-	<h3 style="color: #1E293B; margin-bottom: 6px; margin-top: 14px; font-size: 14px;">One-Liner Plugin Example (Place in <code style="color: #2563EB;">my_plugins/</code>) and reload the plugins pressing the reload button at top right of menu bar:</h3>
+	<p style="margin: 10px 0 4px 0;"><b>2. Multi-Divisional (D1 ➔ D9 ➔ D10) Vector Matrix</b></p>
+	<div style="background-color: #0F172A; color: #E2E8F0; padding: 8px 10px; border-radius: 4px; font-family: Consolas, monospace; font-size: 12px;">
+		<pre style="margin: 0;">def evaluate(c):
+		d9 = c.get_divisional_chart("D9")  #< --- get divisions directly from chart renderer
+		d10 = c.get_divisional_chart("D10")
+		report = {}
+		for name, p in c.planets.items():
+			d9_p = d9.get_planet(name)
+			d10_p = d10.get_planet(name)
+			report[name] = "{0} (H{1}) ➔ D9: H{2} ({3}) ➔ D10: H{4} | Dispositor: {5}".format(
+			p.formatted_degree,
+			p.house,
+			d9_p.house,
+			d9_p.sign_name,
+			d10_p.house,
+			p.sign_lord
+			)
+		return report</pre>
+	</div>
 
-	<p style="margin: 6px 0 2px 0;"><b>3. Embedded Mini-Navamsha (D9) Chart Widget:</b></p>
-	<pre style="background-color: #0F172A; color: #38BDF8; border-radius: 5px; padding: 8px 10px; font-family: Consolas, monospace; font-size: 11px; white-space: pre-wrap; margin: 0 0 4px 0;"><code>render = lambda ui, c: ui.chart("D9", height=240)</code></pre>
+	<p style="margin: 10px 0 4px 0;"><b>3. Interactive Karakamsha Diagnostic & Embedded Visualizer</b></p>
+	<div style="background-color: #0F172A; color: #E2E8F0; padding: 8px 10px; border-radius: 4px; font-family: Consolas, monospace; font-size: 12px;">
+	<pre style="margin: 0;">def render(ui, c):
+		ak = c.atmakaraka
+		d9_ak = c.get_divisional_chart("D9").get_planet(ak.name)
+		lagna_lord = c.house_lord(1)
+		
+		ui.metric("Atmakaraka", ak.name, "Position: " + ak.dms_str + " in " + ak.sign_name) #< ----- Embeds sthree levels metric formatting in sidebar!
+		ui.alert("Karakamsha Sign: {0} (Placed in H{1} in Navamsha)".format(d9_ak.sign_name, d9_ak.house), level="info")
+		ui.key_value({
+			"Moon Angular Distance to Sun": c.moon.dms_distance_to_str(c.sun),
+			"Moon Placement from Lagna Lord": "H{0} from {1}".format(c.moon.house_from(lagna_lord), lagna_lord.name),
+			"Sun-Saturn Aspect Distance": c.sun.dms_distance_to_str(c.saturn),
+			"Ascendant Nakshatra": c.ascendant.nakshatra + " (Lord: " + c.ascendant.nakshatra_lord + ")"
+		})
+		ui.chart("D9", height=220) # <---- this directly embeds the interactive D9 chart in left sidebar!
+	</pre> 
+		</div>
 </div>
 """
