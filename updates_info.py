@@ -2357,29 +2357,29 @@ v1_3_999= """
 
 v1_4_0 = """
 <div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
-    <h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">What's Changed?</h2>
-    <hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">What's Changed?</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
 
-    <p style="margin-bottom: 14px;">
-        <b style="color: #059669;">[+]</b> <b>Medical Astrology Module</b><br>
-        <b style="color: #059669;">[+]</b> <b>Brand New Plugin System:</b> You can now write custom tools with zero boilerplate or even in a single line of code!
-    </p>
+	<p style="margin-bottom: 14px;">
+		<b style="color: #059669;">[+]</b> <b>Medical Astrology Module</b><br>
+		<b style="color: #059669;">[+]</b> <b>Brand New Plugin System:</b> You can now write custom tools with zero boilerplate or even in a single line of code!
+	</p>
 
-    <div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-left: 4px solid #2563EB; border-radius: 4px; padding: 10px 12px; margin-bottom: 14px;">
-        <b style="color: #1E40AF; font-size: 13px;">Why Plugin Creation is Now Supercharged:</b>
-        <ul style="margin: 6px 0 0 0; padding-left: 18px; color: #475569;">
-            <li><b>Semantic Astrological Objects:</b> Access planet and chart properties like <code>c.mars.is_in_kendra</code>, <code>p.is_combust</code>, <code>c.atmakaraka</code>, or <code>c.get_divisional_chart('D9')</code> directly.</li>
-            <li><b>Zero-Qt Declarative Functions:</b> Return a <code>list</code> or <code>str</code> from <code>evaluate(c)</code> to render alert banners automatically, or return a <code>dict</code> to instantly build an auto-formatted table.</li>
-            <li><b>Direct UI Builder Hook:</b> Use <code>render(ui, c)</code> to embed live charts, metrics, inputs, or sliders with no Qt boilerplate required, so essentially one line of code can display whole interactive chart in the sidebar!</li>
-            <li><b>Live Hot-Reloading:</b> Files placed in <code>my_plugins/</code> reload in real time (or pressing reload button at top right of menu bar) on save without needing to restart the application.</li>
-        </ul>
-    </div>
-    
+	<div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-left: 4px solid #2563EB; border-radius: 4px; padding: 10px 12px; margin-bottom: 14px;">
+		<b style="color: #1E40AF; font-size: 13px;">Why Plugin Creation is Now Supercharged:</b>
+		<ul style="margin: 6px 0 0 0; padding-left: 18px; color: #475569;">
+		<li><b>Semantic Astrological Objects:</b> Access planet and chart properties like <code>c.mars.is_in_kendra</code>, <code>p.is_combust</code>, <code>c.atmakaraka</code>, or <code>c.get_divisional_chart('D9')</code> directly.</li>
+		<li><b>Zero-Qt Declarative Functions:</b> Return a <code>list</code> or <code>str</code> from <code>evaluate(c)</code> to render alert banners automatically, or return a <code>dict</code> to instantly build an auto-formatted table.</li>
+		<li><b>Direct UI Builder Hook:</b> Use <code>render(ui, c)</code> to embed live charts, metrics, inputs, or sliders with no Qt boilerplate required, so essentially one line of code can display whole interactive chart in the sidebar!</li>
+		<li><b>Live Hot-Reloading:</b> Files placed in <code>my_plugins/</code> reload in real time (or pressing reload button at top right of menu bar) on save without needing to restart the application.</li>
+		</ul>
+	</div>
+	
 	<b style="color: #0F172A; font-size: 13px;">Plugin Quickstart Examples (Drop into <code>my_plugins/</code>):</b>
 
 	<p style="margin: 8px 0 4px 0;"><b>1. Angular Separation</b></p>
-	<div style="background-color: #0F172A; color: #E2E8F0; padding: 8px 10px; border-radius: 4px; font-family: Consolas, monospace; font-size: 12px;">
-	<pre style="margin: 0;">def evaluate(c): # <--- c is chart renderer instance, use it to change divisional chart to other divisions!
+	<code>
+	def evaluate(c): # <--- c is chart renderer instance, use it to change divisional chart to other divisions!
 		alerts = []
 		# Moon-Sun forward elongation with exact DMS arc distance
 		moon_sun_arc = c.moon.forward_distance_to(c.sun).dms_str # <--- this line gives distance between moon and sun in degree minutes and seconds (dms)
@@ -2393,12 +2393,12 @@ v1_4_0 = """
 				alerts.append("Tight Conjunction: {0} &amp; {1} separated by only {2}".format(
 				p1.name, p2.name, p1.dms_distance_to_str(p2)  # <--- similar formatting here as well
 				))
-		return alerts</pre>
-	</div>
+		return alerts
+	</code>
 
 	<p style="margin: 10px 0 4px 0;"><b>2. Multi-Divisional (D1 ➔ D9 ➔ D10) Vector Matrix</b></p>
-	<div style="background-color: #0F172A; color: #E2E8F0; padding: 8px 10px; border-radius: 4px; font-family: Consolas, monospace; font-size: 12px;">
-		<pre style="margin: 0;">def evaluate(c):
+	<code>
+	def evaluate(c):
 		d9 = c.get_divisional_chart("D9")  #< --- get divisions directly from chart renderer
 		d10 = c.get_divisional_chart("D10")
 		report = {}
@@ -2413,12 +2413,12 @@ v1_4_0 = """
 			d10_p.house,
 			p.sign_lord
 			)
-		return report</pre>
-	</div>
+		return report
+	</code>
 
-	<p style="margin: 10px 0 4px 0;"><b>3. Interactive Karakamsha Diagnostic & Embedded Visualizer</b></p>
-	<div style="background-color: #0F172A; color: #E2E8F0; padding: 8px 10px; border-radius: 4px; font-family: Consolas, monospace; font-size: 12px;">
-	<pre style="margin: 0;">def render(ui, c):
+	<p style="margin: 10px 0 4px 0;"><b>3. Embedded Visualizer</b></p>
+	<code>
+	def render(ui, c):
 		ak = c.atmakaraka
 		d9_ak = c.get_divisional_chart("D9").get_planet(ak.name)
 		lagna_lord = c.house_lord(1)
@@ -2432,7 +2432,6 @@ v1_4_0 = """
 			"Ascendant Nakshatra": c.ascendant.nakshatra + " (Lord: " + c.ascendant.nakshatra_lord + ")"
 		})
 		ui.chart("D9", height=220) # <---- this directly embeds the interactive D9 chart in left sidebar!
-	</pre> 
-		</div>
+	</code>
 </div>
 """
