@@ -2368,8 +2368,8 @@ v1_4_0 = """
 	<div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 6px; padding: 10px 12px; margin-bottom: 14px;">
 		<b style="color: #1E293B; font-size: 13px;">Plugin Engine Capabilities:</b>
 		<ul style="margin: 6px 0 4px 18px; padding: 0;">
-			<li><b>Polymorphic Entry Points:</b> Write pure functional hooks (<code style="color: #2563EB;">evaluate</code>, <code style="color: #2563EB;">render</code>), declarative classes (<code style="color: #2563EB;">AstroPlugin</code>), or direct PyQt layouts[cite: 1, 2].</li>
-			<li><b>Semantic Object Model:</b> Access positions, dignities, and houses directly via <code style="color: #2563EB;">PlanetProxy</code> and <code style="color: #2563EB;">ChartContext</code> (e.g., <code style="color: #059669;">p.is_in_kendra</code>, <code style="color: #059669;">p.is_combust</code>, <code style="color: #059669;">c.atmakaraka</code>)[cite: 2].</li>
+			<li><b>Polymorphic Entry Points:</b> Write pure functional hooks (<code style="color: #2563EB;">evaluate</code>, <code style="color: #2563EB;">render</code>), declarative classes (<code style="color: #2563EB;">AstroPlugin</code>), or direct PyQt layouts.</li>
+			<li><b>Semantic Object Model:</b> Access positions, dignities, and houses directly via <code style="color: #2563EB;">PlanetProxy</code> and <code style="color: #2563EB;">ChartContext</code> (e.g., <code style="color: #059669;">p.is_in_kendra</code>, <code style="color: #059669;">p.is_combust</code>, <code style="color: #059669;">c.atmakaraka</code>).</li>
 			<li><b>Automatic UI Synthesis:</b> Returning a string or list automatically renders styled alert badges, while returning a dictionary auto-constructs formatted tables.</li>
 			<li><b>Live Hot-Reload:</b> Plugins inside <code style="color: #2563EB;">my_plugins/</code> reload instantaneously on file save without restarting the app.</li>
 		</ul>
