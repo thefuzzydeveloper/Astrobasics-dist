@@ -2322,9 +2322,9 @@ v1_4_003 = """
 		<b style="color: #059669;">[+]</b> <b>Added Medical Astrology Module</b><br>
 		<b style="color: #059669;">[+]</b> <b>Added One liner results!</b><br>
 		<b style="color: #059669;">[+]</b> <b>Added Clear logs button in logger!</b><br>
-		<b style="color: #059669;">[+]</b> <b>Brand New Plugin System:</b> You can now write custom tools with zero boilerplate or even in a single line of code!
-		<b style="color: #059669;">[+]</b> <b>Added plugin development studio:</b> Plugin creation is now self-contained in app with auto complete and suggestion of available keywords making plugin creation intuitive and fun experience!
-		<b style="color: #059669;">[+]</b> <b>Added Shorcuts:</b> Added common shortcuts for easy chart management like Ctrl+S for saving chart or Ctrl + N for launching new window!
+		<b style="color: #059669;">[+]</b> <b>Brand New Plugin System:</b> You can now write custom tools with zero boilerplate or even in a single line of code! <br>
+		<b style="color: #059669;">[+]</b> <b>Added plugin development studio:</b> Plugin creation is now self-contained in app with auto complete and suggestion of available keywords making plugin creation intuitive and fun experience! <br>
+		<b style="color: #059669;">[+]</b> <b>Added Shorcuts:</b> Added common shortcuts for easy chart management like Ctrl+S for saving chart or Ctrl + N for launching new window! <br>
 	</p>
 </div>
 """
