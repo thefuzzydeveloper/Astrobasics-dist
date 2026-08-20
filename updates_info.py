@@ -65,8 +65,6 @@ v1_0_02 = """
 </div>
 """
 
-
-
 v1_0_03 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -89,7 +87,6 @@ v1_0_03 = """
 	</div>
 </div>
 """
-
 
 v1_0_04 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -116,8 +113,6 @@ v1_0_04 = """
 </div>
 """
 
-
-
 v1_0_06 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -142,9 +137,6 @@ v1_0_06 = """
 	</div>
 </div>
 """
-
-
-
 
 v1_0_07 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -172,8 +164,6 @@ v1_0_07 = """
 	</div>
 </div>
 """
-
-
 
 v1_0_08 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -204,7 +194,6 @@ v1_0_08 = """
 </div>
 """
 
-
 v1_0_09 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -234,9 +223,6 @@ v1_0_09 = """
 	</div>
 </div>
 """
-
-
-
 
 v1_0_10 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -292,8 +278,6 @@ v1_0_10 = """
 </div>
 """
 
-
-
 v1_0_11 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -335,9 +319,6 @@ v1_0_11 = """
 	</div>
 </div>
 """
-
-
-
 
 v1_0_12 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -427,10 +408,6 @@ v1_0_13 = """
 </div>
 """
 
-
-
-
-
 v1_1_0 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -456,10 +433,6 @@ v1_1_0 = """
 	</div>
 </div>
 """
-
-
-
-
 
 v1_1_1 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -487,8 +460,6 @@ v1_1_1 = """
 </div>
 """
 
-
-
 v1_1_2 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -514,7 +485,6 @@ v1_1_2 = """
 </div>
 """
 
-
 v1_1_2 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -539,8 +509,6 @@ v1_1_2 = """
 	</div>
 </div>
 """
-
-
 
 v1_1_3 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -566,7 +534,6 @@ v1_1_3 = """
 	</div>
 </div>
 """
-
 
 v1_1_4 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -595,7 +562,6 @@ v1_1_4 = """
 </div>
 """
 
-
 v1_1_5 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -623,8 +589,6 @@ v1_1_5 = """
 </div>
 """
 
-
-
 v1_1_6 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -648,7 +612,6 @@ v1_1_6 = """
 </div>
 """
 
-
 v1_1_7 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -666,7 +629,6 @@ v1_1_7 = """
 	</div>
 </div>
 """
-
 
 v1_1_8 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -701,10 +663,6 @@ v1_1_9 = """
 	</div>
 </div>
 """
-
-
-
-
 
 v1_2_0 = """
 <div style="
@@ -817,9 +775,6 @@ v1_2_0 = """
 </div>
 """
 
-
-
-
 v1_2_1= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -840,7 +795,6 @@ v1_2_1= """
 	</div>
 </div>
 """
-
 
 v1_2_2= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -866,9 +820,6 @@ v1_2_2= """
 	</div>
 </div>
 """
-
-
-
 
 v1_2_3= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -897,9 +848,6 @@ v1_2_3= """
 </div>
 """
 
-
-
-
 v1_2_4= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -926,8 +874,6 @@ v1_2_4= """
 	</div>
 </div>
 """
-
-
 
 v1_2_56= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -956,8 +902,6 @@ v1_2_56= """
 	</div>
 </div>
 """
-
-
 
 v1_2_57= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -988,7 +932,6 @@ v1_2_57= """
 	</div>
 </div>
 """
-
 
 v1_2_58= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1021,8 +964,6 @@ v1_2_58= """
 	</div>
 </div>
 """
-
-
 
 v1_2_6= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1058,8 +999,6 @@ v1_2_6= """
 </div>
 """
 
-
-
 v1_2_7= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1075,9 +1014,6 @@ v1_2_7= """
 </div>
 """
 
-
-
-
 v1_2_8= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1090,7 +1026,6 @@ v1_2_8= """
 	</div>
 </div>
 """
-
 
 v1_2_9= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1109,8 +1044,6 @@ v1_2_9= """
 </div>
 """
 
-
-
 v1_3_0= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1123,7 +1056,6 @@ v1_3_0= """
 	</div>
 </div>
 """
-
 
 v1_3_1= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1154,7 +1086,6 @@ v1_3_2= """
 </div>
 """
 
-
 v1_3_21= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1164,7 +1095,6 @@ v1_3_21= """
 		[+]</span></b>Improved Custom plugins API guide added more examples and better FAQs regarding plugins creation!<br>
 </div>
 """
-
 
 v1_3_22= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1198,7 +1128,6 @@ v1_3_23= """
 </div>
 """
 
-
 v1_3_3= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1221,7 +1150,6 @@ v1_3_3= """
 </div>
 """
 
-
 v1_3_4= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1231,7 +1159,6 @@ v1_3_4= """
 		[+]</span></b>Added planetary aspects in detailed report!<br>
 </div>
 """
-
 
 v1_3_41= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1244,7 +1171,6 @@ v1_3_41= """
 		[+]</span></b>Added one more column for lagna relation with planets in composite strenght for better understanding of lagna related dynamics!<br>
 </div>
 """
-
 
 v1_3_42= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1261,7 +1187,6 @@ v1_3_42= """
 </div>
 """
 
-
 v1_3_45= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1272,8 +1197,6 @@ v1_3_45= """
 
 </div>
 """
-
-
 
 v1_3_5= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1294,8 +1217,6 @@ v1_3_5= """
 		[-]</b>Removed non-functional "include D9" option from LAC! <br>
 </div>
 """
-
-
 
 v1_3_51 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1320,8 +1241,6 @@ v1_3_52 = """
 		[+]</span></b>Better builds with further scraps purged!<br>
 </div>
 """
-
-
 
 v1_3_53 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1361,7 +1280,6 @@ v1_3_55 = """
 </div>
 """
 
-
 v1_3_56 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1373,8 +1291,6 @@ v1_3_56 = """
 		[+]</span></b>Now scaling is optional feature in case it creates "non-realistic" data points!<br>
 </div>
 """
-
-
 
 v1_3_57= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1468,7 +1384,6 @@ v1_3_63 = """
 </div>
 """
 
-
 v1_3_64 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1490,7 +1405,6 @@ v1_3_64 = """
 	</div>
 </div>
 """
-
 
 v1_3_65 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1558,7 +1472,6 @@ v1_3_67 = """
 </div>
 """
 
-
 v1_3_68 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1582,7 +1495,6 @@ v1_3_68 = """
 	</div>
 </div>
 """
-
 
 v1_3_7 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1624,7 +1536,6 @@ v1_3_71 = """
 </div>
 """
 
-
 v1_3_72 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1640,7 +1551,6 @@ v1_3_72 = """
 	</div>
 </div>
 """
-
 
 v1_3_73 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1660,7 +1570,6 @@ v1_3_73 = """
 </div>
 """
 
-
 v1_3_74 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1678,8 +1587,6 @@ v1_3_74 = """
 	</div>
 </div>
 """
-
-
 
 v1_3_75 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1738,7 +1645,6 @@ v1_3_77 = """
 </div>
 """
 
-
 v1_3_78 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1757,7 +1663,6 @@ v1_3_78 = """
 </div>
 """
 
-
 v1_3_79 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1773,7 +1678,6 @@ v1_3_79 = """
 	</div>
 </div>
 """
-
 
 v1_3_80 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1792,7 +1696,6 @@ v1_3_80 = """
 	</div>
 </div>
 """
-
 
 v1_3_81 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1834,8 +1737,6 @@ v1_3_83 = """
 </div>
 """
 
-
-
 v1_3_84 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1849,7 +1750,6 @@ v1_3_84 = """
 	</div>
 </div>
 """
-
 
 v1_3_85 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1883,7 +1783,6 @@ v1_3_86 = """
 </div>
 """
 
-
 v1_3_87 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1895,9 +1794,6 @@ v1_3_87 = """
 	</div>
 </div>
 """
-
-
-
 
 v1_3_88 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1912,8 +1808,6 @@ v1_3_88 = """
 	</div>
 </div>
 """
-
-
 
 v1_3_89 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1930,7 +1824,6 @@ v1_3_89 = """
 	</div>
 </div>
 """
-
 
 v1_3_90 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1949,8 +1842,6 @@ v1_3_90 = """
 	</div>
 </div>
 """
-
-
 
 v1_3_91 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -1976,8 +1867,6 @@ v1_3_91 = """
 </div>
 """
 
-
-
 v1_3_92 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -2001,8 +1890,6 @@ v1_3_92 = """
 	</div>
 </div>
 """
-
-
 
 v1_3_93 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -2070,7 +1957,6 @@ v1_3_95 = """
 </div>
 """
 
-
 v1_3_96 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -2086,8 +1972,6 @@ v1_3_96 = """
 	</div>
 </div>
 """
-
-
 
 v1_3_97 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif;">
@@ -2122,7 +2006,6 @@ v1_3_97 = """
 </div>
 """
 
-
 v1_3_97 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -2136,8 +2019,6 @@ v1_3_97 = """
 	</div>
 </div>
 """
-
-
 
 v1_3_98 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -2156,7 +2037,6 @@ v1_3_98 = """
 	</div>
 </div>
 """
-
 
 v1_3_99 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -2177,7 +2057,6 @@ v1_3_99 = """
 	</div>
 </div>
 """
-
 
 v1_3_991 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -2202,8 +2081,6 @@ v1_3_991 = """
 	</div>
 </div>
 """
-
-
 
 v1_3_992 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -2231,8 +2108,6 @@ v1_3_992 = """
 </div>
 """
 
-
-
 v1_3_993 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -2256,7 +2131,6 @@ v1_3_994 = """
 	</div>
 </div>
 """
-
 
 v1_3_995 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -2310,7 +2184,6 @@ v1_3_997= """
 </div>
 """
 
-
 v1_3_998= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -2330,7 +2203,6 @@ v1_3_998= """
 	</div>
 </div>
 """
-
 
 v1_3_999= """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
@@ -2353,7 +2225,6 @@ v1_3_999= """
 	</div>
 </div>
 """
-
 
 v1_4_002 = """
 <div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
@@ -2441,8 +2312,6 @@ v1_4_002 = """
 	</div>
 </div>
 """
-
-
 
 v1_4_003 = """
 <div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
