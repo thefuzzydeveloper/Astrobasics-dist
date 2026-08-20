@@ -485,31 +485,6 @@ v1_1_2 = """
 </div>
 """
 
-v1_1_2 = """
-<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
-	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
-		AstroBasics Diamond Chart Pro - MAJOR UPDATE!</h2>
-	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
-	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
-	<b><span style="color: #059669;">
-		[+]</span></b>Exhaustively improved the build system!<br>
-	<b><span style="color: #059669;">
-		[+]</span></b>Improved overall security, stability and speed!<br>
-	<b><span style="color: #059669;">
-		[+]</span></b>Implemented hybrid export system for code safety!<br>
-
-	<b><span style="color: #CF153E;">
-		[-]</b> This update may cause your settings to reset back to defaults! Apologies for the inconvenience!
-	<b><span style="color: #CF153E;">
-		[-]</b> In case of any logical errors contact deveoper!
-	<p style="font-size: 15px; color: #334155; margin-top: 0; margin-bottom: 0; line-height: 1.5;">
-		🎮These major changes were a result of a new build system evolved with development of a new game titled "MOKSHA" by the developer!
-		Contact developer for early beta testing of the new game!
-	</p>
-	</div>
-</div>
-"""
-
 v1_1_3 = """
 <div style="font-family: 'Segoe UI', system-ui, sans-serif;">
 	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
@@ -1038,19 +1013,6 @@ v1_2_9= """
 		[+]</span></b>Implemented dark mode for new kundali milan plugin!<br>
 	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
 		[+]</span></b>Now page size can be selected while exporting the kundali milan results!<br>
-	<b><span style="color: #CF153E;">
-		[-]</b> ALL OLDER VERSION FILES WILL NO LONGER OPEN SO IT IS RECOMMENDED TO TAKE PROPER BACKUP! <br>
-	</div>
-</div>
-"""
-
-v1_3_0= """
-<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
-	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">
-		AstroBasics Diamond Chart Pro - MAJOR UPDATE!</h2>
-	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
-	<p style="font-size: 13px; color: #475569; margin-bottom: 20px; line-height: 1.4;">
-		[+]</span></b>Added one more option in Outiles Now you can directly view the Argalas in Outlines!<br>
 	<b><span style="color: #CF153E;">
 		[-]</b> ALL OLDER VERSION FILES WILL NO LONGER OPEN SO IT IS RECOMMENDED TO TAKE PROPER BACKUP! <br>
 	</div>
