@@ -1,9 +1,9 @@
 {
-  "version": "v2026.08.22_0050",
-  "releaseNotes": "Common Improvements",
+  "version": "v2026.08.22_1138",
+  "releaseNotes": "Quick create new chart and Enter custom coordinates",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "40dbdcf18a28b3d77afd939f5a9fd00bfdec49633dd1765cb49813a6d7fa42cc",
-  "signature": "iUNQETn7rNiFuQP0icML7g6bj0pSj06CF6j50GIqUrd1cEsZY8xm0gqjhbSyvA2TVaabiOM8eYuV8RjczlHqB8ki/t/TvrlnoYvjdpX1uztfiI4LbXa+B4hCfO/hUQtODag5KiVIem36SVnpQfCRFji7Z3ZKn4PP0fP3h7zJsky+vPTzef2pxTdr0c2N0QjIuAY++KG0cyLF22ppiS3k8MLNeVegKY8vjK+LmcTR+ii6kn4iWhPLJVAgeHRfaswhs1YgKzMkLa6nONsro8wJbBusTHyO1ZXJvqamQekK9aFkuBdIMkvTubFW3ksgVnemp3kHzSDwtbx/Vm5EoXxaIQ==",
+  "checksum": "b0269dd0337f67011ba2083d506f217254c083f892501992616fc361eb7bdc2c",
+  "signature": "SorW817reWx1qdWgnF+UOmSwjLXvMh0+auv8kM6e2fyKVIm9jljrOa/0mWW9XGbKoMrD7/u9oZ1lcMhKm+efZKOuMtGsYmD+2WOzChAokZHgYR+k3SpkKaBBK2SAoQ591JIB2csLDY0s++KERkMYMA2IA5dkrQ/lSbh0fLubQpKoEt9LVNnuxSQlGbABS5HJXY91xCsIs3ygotq04rLlIIpeQ7+wji+uu6nRp+cB/ygoe8rdlPAIaSQxINFIaHnOs5yXWvkK0fV++51V18EkhtO8NF5SG6NJQb6yRgVShaH00GFC72aq/wZ/rCeZUkAOajLUwuMm+d4oAxbbtNU1xQ==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
