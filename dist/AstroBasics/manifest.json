@@ -1,8 +1,8 @@
 {
-    "version": "1.4.003",
-    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">What's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t<p style=\"margin-bottom: 14px;\">\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added Medical Astrology Module</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added One liner results!</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added Clear logs button in logger!</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Brand New Plugin System:</b> You can now write custom tools with zero boilerplate or even in a single line of code! <br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added plugin development studio:</b> Plugin creation is now self-contained in app with auto complete and suggestion of available keywords making plugin creation intuitive and fun experience! <br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added Shorcuts:</b> Added common shortcuts for easy chart management like Ctrl+S for saving chart or Ctrl + N for launching new window! <br>\n\t</p>\n</div>",
+    "version": "1.4.004",
+    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">What's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t<p style=\"margin-bottom: 14px;\">\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added Medical Astrology Module</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added One liner results!</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added Clear logs button in logger!</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Brand New Plugin System:</b> You can now write custom tools with zero boilerplate or even in a single line of code! <br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added plugin development studio:</b> Plugin creation is now self-contained in app with auto complete and suggestion of available keywords making plugin creation intuitive and fun experience! <br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added Shorcuts:</b> Added common shortcuts for easy chart management like Ctrl+S for saving chart or Ctrl + N for launching new window! <br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added Rashi drishti and Parashari rules for planetary aspects</b><br>\n\t</p>\n</div>",
     "files": {
-        "AstroBasics.exe": "2816362c0f4f8e4a058982cebb82bd718518b2fa289674c58d15eaf92d1deda9",
+        "AstroBasics.exe": "bed5f96da5fc49b3137142f8664f51ee25912e2af3f2ebe8bd0269b8d11547ca",
         "refresh_astrobasics.exe": "9d40a1317aa7f72098f248a3af623268510ecb7be112662991995f79887d4a2e",
         "_internal/animation.pyd": "13dee3628c86028b30a2a86ba441f7d854e21a255303cd56a9d6b93a2f41ca59",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -20,13 +20,13 @@
         "_internal/api-ms-win-crt-string-l1-1-0.dll": "341f489491f992bece2879fea3b660ff2dcd04a59bdb5f3998d58e5ac8ce3341",
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
-        "_internal/astro_engine.pyd": "02e65d985eb7970733d7bebdfb6b0c340314727789e9842200ed3955a8625107",
-        "_internal/base_library.zip": "16b87e0c6a4f2429859425a672f8dbf286feeb7d2ea578b7c456631c01dab99d",
-        "_internal/chart_renderer.pyd": "73c4e4d663e07fa39fb89c11d857f6723c7ceb4692b221e21392c2d1f05eeb47",
+        "_internal/astro_engine.pyd": "95ce60232b6d9c69056024d40d040b62fa682b2572fd92727a5906feb656b1e8",
+        "_internal/base_library.zip": "e16de90debcfe4b5455453109b502fd3c5246dfa7790f759c3fe1c6bfb3d3a5f",
+        "_internal/chart_renderer.pyd": "8ba716fbc4463c11983118fb0ed4cbbff05098750992f5a03e0ca4c7030fc994",
         "_internal/count_lines.pyd": "ed6807635efa9391694d0bb6d524c2421cfa802dbbca9fb9f5a2054c5771ea27",
         "_internal/custom_vargas.pyd": "c5c9404a5c9bef121e5eb681eff6944a7f490c6ebbd303642f6413a900752d10",
         "_internal/dark_theme.qss": "0ea74d7477d196fecfa49486335c2dec350209a85dd7d282bbc2f17c51958fc7",
-        "_internal/entry.pyd": "5e1c6751e8984625cbcc009102f6b2c34bf62c1706d21e9f1e15fc672fbf3911",
+        "_internal/entry.pyd": "f1e662fbf77bcd9d8a809f3edc3eaca0c210e32073f4a4ccbfd50dc7d0c04a40",
         "_internal/extract_strings.pyd": "b73227c06b9019e3d7540b450a5c03e117354dc3585983cb830a7c4621c76b73",
         "_internal/help_content.pyd": "ed3a675e287a2eba8e9d5510731523be0f10e99ea399a3116c32cc84f9e2d267",
         "_internal/kshaurakarma_engine.pyd": "ee0bec68bf07b5a4dcb1cb8d2156ac424fe1605b9e65277c297906aa125a7c1b",
@@ -864,5 +864,5 @@
         "_internal/translation/updater_sa.json": "2f2949bc44a45db512a4cccfd90d6f98f744ada60b7f54f36093906cabc1f28c",
         "_internal/tzfpy/tzfpy.pyd": "0ce4815ff43629c14383cd1edcb9cf32b792677ebd88de2665b8650af4bb97d2"
     },
-    "signature": "3SkSxV+X6Z8JtO5u3YwiDK+9nCmj5Qqsec0j8XLnom/5rX2OmHDCwWOwnbaWijBJiCkKCbmtjIkbIOot9K03Bg=="
+    "signature": "LFth7mf9TWwNqjYu5YTi4P/C3t0cpKE5xQ1SiLXM57NjqufX1+3aJlh9k7IrsAI7/tiPD/TFovJGZXNOk9RGAA=="
 }

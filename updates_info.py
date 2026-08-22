@@ -2292,3 +2292,19 @@ v1_4_003 = """
 """
 
 
+v1_4_004 = """
+<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">What's Changed?</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+
+	<p style="margin-bottom: 14px;">
+		<b style="color: #059669;">[+]</b> <b>Added Medical Astrology Module</b><br>
+		<b style="color: #059669;">[+]</b> <b>Added One liner results!</b><br>
+		<b style="color: #059669;">[+]</b> <b>Added Clear logs button in logger!</b><br>
+		<b style="color: #059669;">[+]</b> <b>Brand New Plugin System:</b> You can now write custom tools with zero boilerplate or even in a single line of code! <br>
+		<b style="color: #059669;">[+]</b> <b>Added plugin development studio:</b> Plugin creation is now self-contained in app with auto complete and suggestion of available keywords making plugin creation intuitive and fun experience! <br>
+		<b style="color: #059669;">[+]</b> <b>Added Shorcuts:</b> Added common shortcuts for easy chart management like Ctrl+S for saving chart or Ctrl + N for launching new window! <br>
+		<b style="color: #059669;">[+]</b> <b>Added Rashi drishti and Parashari rules for planetary aspects</b><br>
+	</p>
+</div>
+"""
