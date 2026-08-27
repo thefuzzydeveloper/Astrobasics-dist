@@ -1,8 +1,8 @@
 {
-    "version": "1.4.005",
-    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">What's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t<p style=\"margin-bottom: 14px;\">\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed race condition in updater</b><br>\n\t</p>\n</div>",
+    "version": "1.4.1",
+    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">What's Changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t<p style=\"margin-bottom: 14px;\">\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed race condition in updater</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Overhauled the menu bar with better grouping of options</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added Tab Naviation system for quick management of charts by tabs</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added an option for retaining the app in memory for faster startup</b><br>\n\t</p>\n</div>",
     "files": {
-        "AstroBasics.exe": "993346e8b5115de250d04ae5ca1f1f9bc949b01570617e868590c15db57c68aa",
+        "AstroBasics.exe": "b692d5402ffdaa5a3b011e65824235472d56cf259a99842b9b04c9440e5d012c",
         "refresh_astrobasics.exe": "9d40a1317aa7f72098f248a3af623268510ecb7be112662991995f79887d4a2e",
         "_internal/animation.pyd": "13dee3628c86028b30a2a86ba441f7d854e21a255303cd56a9d6b93a2f41ca59",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -20,16 +20,16 @@
         "_internal/api-ms-win-crt-string-l1-1-0.dll": "341f489491f992bece2879fea3b660ff2dcd04a59bdb5f3998d58e5ac8ce3341",
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
-        "_internal/astro_engine.pyd": "95ce60232b6d9c69056024d40d040b62fa682b2572fd92727a5906feb656b1e8",
-        "_internal/base_library.zip": "e69cba9e826bf8f4dbfca4c41d65ef00c922a1e54477d3061acbcc8e5b122b09",
-        "_internal/chart_renderer.pyd": "8ba716fbc4463c11983118fb0ed4cbbff05098750992f5a03e0ca4c7030fc994",
+        "_internal/astro_engine.pyd": "68090e61e3e36260727e8086dd39778be9122cbdd587595391240775b21bd462",
+        "_internal/base_library.zip": "f413d8b9cc2e4858985da864f49db36dd72927c7bb2fbb92ad005a07ed5935be",
+        "_internal/chart_renderer.pyd": "574f560252f6944acd59ce528056c54732be10cbfa2a7df19627b5f92ef9624a",
         "_internal/count_lines.pyd": "ed6807635efa9391694d0bb6d524c2421cfa802dbbca9fb9f5a2054c5771ea27",
         "_internal/custom_vargas.pyd": "c5c9404a5c9bef121e5eb681eff6944a7f490c6ebbd303642f6413a900752d10",
         "_internal/dark_theme.qss": "0ea74d7477d196fecfa49486335c2dec350209a85dd7d282bbc2f17c51958fc7",
-        "_internal/entry.pyd": "f1e662fbf77bcd9d8a809f3edc3eaca0c210e32073f4a4ccbfd50dc7d0c04a40",
+        "_internal/entry.pyd": "16a253d815ff2a8b7a9207d0134c17be310821f6907846c152becc5641cc65e0",
         "_internal/extract_strings.pyd": "b73227c06b9019e3d7540b450a5c03e117354dc3585983cb830a7c4621c76b73",
         "_internal/help_content.pyd": "ed3a675e287a2eba8e9d5510731523be0f10e99ea399a3116c32cc84f9e2d267",
-        "_internal/kshaurakarma_engine.pyd": "ee0bec68bf07b5a4dcb1cb8d2156ac424fe1605b9e65277c297906aa125a7c1b",
+        "_internal/kshaurakarma_engine.pyd": "d67075286de4f869cc946688bb607ec610cc04ac6a382764e111b050d480d06e",
         "_internal/libcrypto-3.dll": "53c529145339fb042a3dcd3a09c2d7753204f8b4fc79d99e0d31e69a33985958",
         "_internal/libffi-8.dll": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
         "_internal/libssl-3.dll": "b17a87979862d19241edc4318f967e24c3ec356ed6c2368f561179fab2311001",
@@ -220,6 +220,7 @@
         "_internal/PyQt6/QAxContainer.pyd": "3db2b298ad424c40c9a472409a683e9d8bceac8a47ef8ec43e1ba180e3a91dd1",
         "_internal/PyQt6/QtCore.pyd": "91dd5166110b88a4f4d3acda6fe6c10ed699882dd3602328a59e9f656cc766b1",
         "_internal/PyQt6/QtGui.pyd": "cf5ae37fd119fb29a53f1f2cea1362fdf036d940191be45d83da0f98ce8752b8",
+        "_internal/PyQt6/QtNetwork.pyd": "dc8a352ee9e67efa05bb7c59a266171faa0c0c40e0015fac9b31a9a6d058ec49",
         "_internal/PyQt6/QtOpenGL.pyd": "e713fec5304657bf10231309021b95279374de072998ee192eb324b39f6ea384",
         "_internal/PyQt6/QtOpenGLWidgets.pyd": "0f61eb1a3c8fff30e86c2ea0176b78df5f8f909a4d98e64d6355b94d5a58e859",
         "_internal/PyQt6/QtPrintSupport.pyd": "e8ff8ca8b6dfc34609eab1b0ad5933e2725b94205c06b44962b4e6081095b3be",
@@ -864,5 +865,5 @@
         "_internal/translation/updater_sa.json": "2f2949bc44a45db512a4cccfd90d6f98f744ada60b7f54f36093906cabc1f28c",
         "_internal/tzfpy/tzfpy.pyd": "0ce4815ff43629c14383cd1edcb9cf32b792677ebd88de2665b8650af4bb97d2"
     },
-    "signature": "AESSAJu8tKzPKIdf+7v+bkzYYfD1L+LdcN7njSMl61rNWP2F6SprPOeR3FBDrA8jfZDgrueDJZAcy8WVX4B0AA=="
+    "signature": "7K26crcklimvReEJ7SWTWgvoZ7eZobvPQYwErL38OkG0CCS6RFcMAmaZ2ik/iaEV/ojlQpqCqXJFA9i9wg1+CA=="
 }

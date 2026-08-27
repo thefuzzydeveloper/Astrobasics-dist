@@ -2320,3 +2320,17 @@ v1_4_005 = """
 	</p>
 </div>
 """
+
+v1_4_1 = """
+<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
+	<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">What's Changed?</h2>
+	<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+
+	<p style="margin-bottom: 14px;">
+		<b style="color: #059669;">[+]</b> <b>Fixed race condition in updater</b><br>
+		<b style="color: #059669;">[+]</b> <b>Overhauled the menu bar with better grouping of options</b><br>
+		<b style="color: #059669;">[+]</b> <b>Added Tab Naviation system for quick management of charts by tabs</b><br>
+		<b style="color: #059669;">[+]</b> <b>Added an option for retaining the app in memory for faster startup</b><br>
+	</p>
+</div>
+"""
