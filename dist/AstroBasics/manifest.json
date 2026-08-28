@@ -2,7 +2,7 @@
     "version": "1.4.103",
     "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t<p style=\"margin-bottom: 14px;\">\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed race condition in updater</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Overhauled the menu bar with better grouping of options</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added Tab Naviation system for quick management of charts by tabs</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the Transit bug</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Added an option for retaining the app in memory for faster startup</b><br>\n\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed transit calculation bug</b><br>\n\t</p>\n</div>",
     "files": {
-        "AstroBasics.exe": "13c04069ea6a031b800806d284049f7d241634e78442a09c2504d8438055d20f",
+        "AstroBasics.exe": "5b25a9bca3680d0c7225f99c7603661e38eb613ac54939245df618e123436bc2",
         "refresh_astrobasics.exe": "9d40a1317aa7f72098f248a3af623268510ecb7be112662991995f79887d4a2e",
         "_internal/animation.pyd": "13dee3628c86028b30a2a86ba441f7d854e21a255303cd56a9d6b93a2f41ca59",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -21,12 +21,12 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "c1fd80b6526cd4d836b91061f94631776e9c64799d91fcf48fcc96e286894003",
-        "_internal/base_library.zip": "830fa47a67e9d4fac331649ea60ac2b6002e119cb68ad8f196353460d6f5387c",
+        "_internal/base_library.zip": "9dff16e0aecc14cd2099332ab6e99fa08592a30afc1a9c0f5df2fe05b619b9a3",
         "_internal/chart_renderer.pyd": "80461fa699bae9d024885b5e0d9c006efe1a79a43e5a3031150dc1b486ce3f08",
         "_internal/count_lines.pyd": "ed6807635efa9391694d0bb6d524c2421cfa802dbbca9fb9f5a2054c5771ea27",
         "_internal/custom_vargas.pyd": "c5c9404a5c9bef121e5eb681eff6944a7f490c6ebbd303642f6413a900752d10",
         "_internal/dark_theme.qss": "0ea74d7477d196fecfa49486335c2dec350209a85dd7d282bbc2f17c51958fc7",
-        "_internal/entry.pyd": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "_internal/entry.pyd": "7e6a96f04c4deb70eaf58810b228307fe23a1edfa61b8f107220e153fd6dfe9f",
         "_internal/extract_strings.pyd": "b73227c06b9019e3d7540b450a5c03e117354dc3585983cb830a7c4621c76b73",
         "_internal/help_content.pyd": "ed3a675e287a2eba8e9d5510731523be0f10e99ea399a3116c32cc84f9e2d267",
         "_internal/kshaurakarma_engine.pyd": "d67075286de4f869cc946688bb607ec610cc04ac6a382764e111b050d480d06e",
@@ -89,7 +89,7 @@
         "_internal/dynamic_settings_modules/vishmottari_module.pyd": "785359210d3d74dee2372a199ced4d491308dae7976d412f86fa93a58603c0ac",
         "_internal/dynamic_settings_modules/yoga_explorer_plugin.pyd": "8f8819e7e538991fd7e804a8e8f3b4168a66f4e36ad9c964445955cb6a526e78",
         "_internal/dynamic_settings_modules/zz_logger_module.pyd": "a35eee91056666c98e09ecd5eef69a1f514d3f1520662d93ffc77ca40428c88f",
-        "_internal/dynamic_settings_modules/z_updater.pyd": "b70938bcea26f1757b51f11f05df81a2f5c986414aedaa51839f8d84c59bf900",
+        "_internal/dynamic_settings_modules/z_updater.pyd": "5eaafc5181d12e2c46d9cd8c46a8be11524feb42262eaf428ac78d253ec02c59",
         "_internal/ephe/semom06.se1": "d8be0eaffc82d7a07c4c88fb4984be4b15757716864e6db8e7f1f378dfbb0659",
         "_internal/ephe/semom102.se1": "5c0f5cd45a20ef6f25c3d99d5824adaa4715c36015ec0d01468a8b9da0a64f38",
         "_internal/ephe/semom108.se1": "e9aedc8af9761b35f18d884c8708d357f48d63467a8fb335a04251464caaaeff",
@@ -877,5 +877,5 @@
         "_internal/win32/win32trace.pyd": "9d7eb0f1b4f4041d86420fd0e44fe4b07b6d64c999e8f6b5b5cc3ce8648eabe1",
         "_internal/win32/_win32sysloader.pyd": "6becee5e15c921c2b5457cd6aff39e02b7540426fb3933b90801265ac60ef23b"
     },
-    "signature": "4TzDkHpOpWF7S8CpLDgawHIcKQ8lxbMSz0wd78iicBWj/8y9THv2l6yXdaNc/KKGRrhcyfJqZwe24HInW2eQCQ=="
+    "signature": "jB6GHFov9lLV3sbb0tkw6lWVUnGYHI8DCW5rqY3dGefB4FKoqMOQ9btRczOORRr/PKXk4/Ryxark23ca+eyLBw=="
 }
