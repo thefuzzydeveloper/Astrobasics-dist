@@ -1,8 +1,8 @@
 {
-    "version": "1.4.106",
-    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed? MAJOR UPDATE!</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Major Bug fixes and Better UI layout, Major code transformation and tab workspace stability!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Encryption Bug fixes!</b><br>\n\t\t</p>\n\t</div>",
+    "version": "1.4.107",
+    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed? MAJOR UPDATE!</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Major Bug fixes and Better UI layout, Major code transformation and tab workspace stability!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Encryption Bug fixes!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Translation Bug fixes!</b><br>\n\t\t</p>\n\t</div>",
     "files": {
-        "AstroBasics.exe": "431305b071b1e35f2f42ee34c5d5d1429572257f77922f2797e4446f31af22ef",
+        "AstroBasics.exe": "745131bb590eb6c115af52c8a5861a208e5d8460a757ff94c1d151614af13070",
         "refresh_astrobasics.exe": "9d40a1317aa7f72098f248a3af623268510ecb7be112662991995f79887d4a2e",
         "_internal/animation.pyd": "4ab781377e9f30bc5f1fe8b8604d5a42d349acd67e6bbce487ebc3ce3a7e9ce9",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -21,8 +21,8 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "c1fd80b6526cd4d836b91061f94631776e9c64799d91fcf48fcc96e286894003",
-        "_internal/base_library.zip": "7ac61603e6d699483823a23ff95bb67009e82004a7c552caef8d394d532f88e3",
-        "_internal/chart_renderer.pyd": "2b10fcc4de1ef13633c76a1e7987bf75b0fe7a23ca679d4b0da27d278c417bd5",
+        "_internal/base_library.zip": "91956255d017b2b94eab57b9ac603b7da09d11b5e96c7b6a1373a76b77cf4df4",
+        "_internal/chart_renderer.pyd": "bd350cf8ca3d74bf9bf226404581daaca70eb51c3bcdab0c221a859caa846c37",
         "_internal/count_lines.pyd": "ed6807635efa9391694d0bb6d524c2421cfa802dbbca9fb9f5a2054c5771ea27",
         "_internal/custom_vargas.pyd": "c5c9404a5c9bef121e5eb681eff6944a7f490c6ebbd303642f6413a900752d10",
         "_internal/dark_theme.qss": "0ea74d7477d196fecfa49486335c2dec350209a85dd7d282bbc2f17c51958fc7",
@@ -202,8 +202,8 @@
         "_internal/keyring/backend_complete.zsh": "77c6db88887155cef684d09dda3412279740ec221c9f189659964c0525b0e532",
         "_internal/managers/chart_io_geo_manager.pyd": "c966a0f877b971e0e2a798173e6ad8b7eaf300f6d20ef71a25a473374faa8e53",
         "_internal/managers/layout_theme_manager.pyd": "215e15304589ee78b1d045becaf4756c7c61277099f7ae103938901834f65bbe",
-        "_internal/managers/localization_manager.pyd": "1e8283e4199a4a15d09fbb119f0fc0b00657563753a9a79a0ca195596a091925",
-        "_internal/managers/plugin_manager.pyd": "edc6ae5634f197b3ace7846c708d2a419930b7a914f81b12c266400b9e735dd2",
+        "_internal/managers/localization_manager.pyd": "8b1900b205d2daded0cfb752bd6f0f24b80efcc25ebd17e25ea2fc084c6ad88d",
+        "_internal/managers/plugin_manager.pyd": "0982128439bd83261fdfd98397962ac8eac93fcccdfe6be0a743409c2ea74c9b",
         "_internal/managers/settings_manager.pyd": "4ca5d682bfa8846a67dea1f0d9342d3b01adf41b8983d43610c545f7fe67af54",
         "_internal/managers/tab_workspace_manager.pyd": "1762e89dcbbe7d2283695b0a5e93ee8a475abe0e9788e8adc46b72bdfa348757",
         "_internal/managers/transit_coordinator.pyd": "0f3dfbd686116cdaba2da39f4a74cd51df79f32ec2afb93df2d45926763f89f2",
@@ -892,5 +892,5 @@
         "_internal/win32/win32trace.pyd": "9d7eb0f1b4f4041d86420fd0e44fe4b07b6d64c999e8f6b5b5cc3ce8648eabe1",
         "_internal/win32/_win32sysloader.pyd": "6becee5e15c921c2b5457cd6aff39e02b7540426fb3933b90801265ac60ef23b"
     },
-    "signature": "jry6c3z+qWHzrvMQBlGiL04DdESAslILlR9JWdOVVIPnd4+BD4wwcYCQ2nyn1mSZdH4rgZE1klaTlI9eaxaDDA=="
+    "signature": "UseUcs8KCK/kPtI2lVnBUsMpi3BSQ0TKKKedp+UkAisko8vsCRS9qw0mtwsjOAW1x/sfVJChThA1qyKGYAU3DQ=="
 }
