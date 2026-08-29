@@ -1,3 +1,6 @@
 /build_env/
 TEMPORARY_PYTHON_FILE.PY
 dist/AstroBasics/astro_tabs_session.json
+/dist/AstroBasics/_internal/autosave
+/dist/AstroBasics/_internal/created chart exports
+/dist/AstroBasics/_internal/saves
