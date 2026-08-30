@@ -1,9 +1,9 @@
 {
-  "version": "v2026.08.22_1156",
-  "releaseNotes": "Quick create new chart and Enter custom coordinates",
+  "version": "v2026.08.30_2100",
+  "releaseNotes": "Added House Vitality Outlines",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "00a060c465f529b4f6d93a7e9918cd6a65f7d857b00b4f39c8ffdea2f76416eb",
-  "signature": "ZuyFJuM4fPjnhLIhY6GGg1NThzcCcQz/ulvvVqyAq4v5oqS+jZN63B4RmelAQ/y3qJNuxPmNUnt7/Dpf4f3XjqSOpum6/QZa9M6zo8ubupzJUFudXiuUiKLo9tXB53LPQdsOCgcqe7lxbEgzkhKMXRzilghlMBmM2PnuY7vf4buyRi2/Bzgd+hDngnt+ZDhBOEn9ZKIzg7EouM3F1633QKF01a9dsqpHOwiWcyxY/fukXEPQC80z87+/gSraouWHgDwlgyDDzAIEnmp+vUeZDCy4rSCW7aVUZg7SSdaYlPkzyJJocWk2CBBkgR2p206HAPwj1U2Sx1e65G8EzXil8Q==",
+  "checksum": "3322120d602d0252e0ad5d305bd8771e8041346d8369c281bddf533cd8d021a8",
+  "signature": "Ei2bxCLrgg0Ocu608cO1FU9X4MiwH00PQmjKUX6tYtOu2lR19H5AacPGy2si+QvDLVruMAP4qRCxzvD0JcCkrt4E1tHHVonpd6fNQes7+FoJsBLA9L3RG1wNx7nZ+SDvCsM6P0iNDHabctNVFg0iKAxkPICAojFFB/TPZ7S3z1JzWUjEvRHRMVS6xpPyTBkrNVYGbV+LoBZ7ak0jb2Itf2gTLYFz+ugkKWiWbyLpXaQiMkTT5Csg4ZgZp7LNVo/5dQ3Cgu6DxJKSmz9qgxy6wT2+sDNSlHkLzS6a/qPrqBJvVJ5fqdIILZhvTGqhg9MaQAKrcDG1QKh4At1GsyO0Tg==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
