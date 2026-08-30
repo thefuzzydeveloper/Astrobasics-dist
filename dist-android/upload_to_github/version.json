@@ -1,9 +1,9 @@
 {
-  "version": "v2026.08.30_2201",
+  "version": "v2026.08.30_2248",
   "releaseNotes": "Added House Vitality otuline mode",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "2fa903ea86d03a2e254415d67047353803f94769d7662360492114df4d3cf20c",
-  "signature": "VwM5UQ070LwRLede5fqRapuYva3cF5/rkJZHVMCp1XmIVmTqjIVr5E0Z02V4GJWkN8oVJENdJs446py29nkG5tl2HYJrZBbkgxuGsagieuWbxTly6rEORIeHRaQ/picok5wm5Fib9IJpkYWc/Aq8YXp75ILqH4tHF//Zhv3m+K16uiG+i8SO1tmIPA9qJjk6fIcrLPa1U7VLiGwEYOX0NESXDanTw2gv337JhtUovKRKootXxF17Gtml9GbiOIpteqOJhw1CHbGcnA1q3cxt4U3Z5wJlzaaioZ8dIw5z4AckfixPpGSZE928KjsrnX+zvut/I7YYHW0JGgOezGGU8g==",
+  "checksum": "942120c4e50c9270f47adb4304bca99a669d5c6232f81ed0e1c37d2c6e4767ce",
+  "signature": "bINOKtDaA9sCPcudaUw51x7yAluCbsyTykkdKnxjP1wgXRf8ZdUOf/HzWMeUBoy9jKGwKVvzFSLsa1wqW/12NTrh3XMQ/620lV+9i20qtGzPh+Z9JzdTgSwht/ZpaMc1bPCbbwEUhxuKFCdTkEENnsjPgdjWt2Qk9Ga2ffmfeUroVeBdWSEpyrPlVoyWWrwbBVxNeBp50weOaiLnJtZN/CXMpsA13Z0irfTvtKx8GpPOBEiOK0vPmtRs7nCzpNK+eetd1Nhlg6q6q8Lsp6QThVE9KXzxLWv3LwiUI0xozDGiyHdqIKMxTwOOjXtFVhtrD7fQbbul/kXuQVxSZJvFbA==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
