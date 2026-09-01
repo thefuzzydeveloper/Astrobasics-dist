@@ -1,9 +1,9 @@
 {
-  "version": "v2026.08.30_2317",
-  "releaseNotes": "Added House Outline mode",
+  "version": "v2026.09.01_0736",
+  "releaseNotes": "Fixed Yogakarka Status and added nakshatra details in planetary table",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "cba8de664f753c0f1f0c9e028de07220b01d7a6a825daa02816e52f85be77485",
-  "signature": "jJVVCSIVjfNTBxAljcSqMwTBeOh7mfP5fBbyVMjXPWxEHLWI9ih3A+tE6AvchQ+QEjvtNiyHb0zkaM5uvA9O4yslrsa2tRS+8pDFpUbW/ssA2880Ti+Rho0ooO01kzRn0jlsSfpAaauVUvZ3BrY9B+KTjt16Fg9wXzy+sGjQ4vB1KpeNGQBTh0gU44KPTWsyx88G1Uw9w1bGgifCu4er0LILPlmIp0kr9Adt6v5ZLn8zpoRhFwCv9da9r9/JiMgoBSJqizGMpueuUaXXnU7P1+i9JGImpwd8N89h3+TNUg1HzNoscHoYYC7QwjajZ+N8dzorQT5e0gMRhb6/ohdlNg==",
+  "checksum": "3915109fbb20799a4068bed0e97fc6209a397d0ae89c4bb224ed5176021d899e",
+  "signature": "bkUO3pbmW0eKz+5+yS6vL4SI46dxZCtLjv9a4XORWgLsJ8mxmwps1yuHBaFmXsNf365NOagvh8cvmduy0HTG47skqjrFmBZXFJkCWRATL3TSlgcUgVJ5bTHCMp9KwII8Yue1QORoH7rLhUsZVRM1fcClz4yjTxkBa4iUaOSUKz5OL+ERWrwXllhEMFDY/EVipn9q1ORHr7ieCJtJzme9sQz1pcCkniupNz5HAckxwEGt4ZBU8CjR9dbpbQCRUPDiy8eODxdhrh8aYPJg4jMsUwy/gWC2kWSlAeVKLAQAO0yJdg1gjcgV1jpksqhNoNYhC1paJmilY2gDoo9RuvynLQ==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
