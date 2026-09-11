@@ -92,7 +92,7 @@ v1_4_12 = """
 		<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
 
 		<p style="margin-bottom: 14px;">
-			<b style="color: #059669;">[+]</b> <b>Added more right click context menu options!</b><br>
+			<b style="color: #059669;">[+]</b> <b>Added more right click context menu options</b><br>
 		</p>
 	</div>
 """
