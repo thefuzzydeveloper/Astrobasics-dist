@@ -85,3 +85,14 @@ v1_4_110 = """
 		</p>
 	</div>
 """
+
+v1_4_12 = """
+	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
+		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
+		<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+
+		<p style="margin-bottom: 14px;">
+			<b style="color: #059669;">[+]</b> <b>Added more right click context menu options!</b><br>
+		</p>
+	</div>
+"""
