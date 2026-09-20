@@ -1,9 +1,9 @@
 {
-  "version": "v2026.09.21_0458",
+  "version": "v2026.09.21_0518",
   "releaseNotes": "Updated Date/Time entry enhanced Milan module",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "41a9f3cdb0807e312831dde8679f8219da9abaca8f814257ad5b224a94dbe7d7",
-  "signature": "MIWKmqDyDY1PrYoMBwCTGyP1onOJS2bq2oqWkzMjFn7E7tFMmxIYcsD0vLruOQ/MLLaU0jNj2xoqJbwfdVqF2ulrkrbt8fbt3hO1QwsYi3+bocOqHongxyDx/c5FE+mLU542ZzxA38mN/OzTveTLdNJcOqVdd/2sASy18IBehc/gRLjfuuXsjcjCIbKqhYSIyDzohGQNMgQE4DCRwBsIj42ahshxpcqTCaJx5P1d33sH5lAX+jxcFLpiwt9obnfsrb1C8/tsp3fghcuqGfDT55kcUmeqG9P6EKeWGUZ1urfibIwuuJNMrzhp2xJ2N7IjT0F28i6KbO6nQS5MXWyjxw==",
+  "checksum": "2bb6e10ede01aba3a9c8a77c16530d1faa878fc09ddc5eea11cc62c0e78e16d2",
+  "signature": "GZji0h0nDqXaU9hKTldi4gOQiOQCZzu7b5rA6eDUzr4uXIuAOa5FtZt3ykXu3MyRpgy8oz3x9FENoJ90u0ykMH8IHYRQLgCfZdfoxc8FAUNzQU0944WWKJAX9yY8651/6PuxYfpt1aIsjCHhW1MNDngn+9DY6u0AWOZHp/XNm9goH3Ewb1XTK7vRd9OGG/Cv7FmlVtIitaz26iYiapkS0tn7jY5jyfbVIUpWESGUap1lORwaoMvZ4zrZQ4vOlKUC/Ac2dZlxv0gCatK9DS6Ll+Z1LOCyqStW6MR5sDcVL3HPJxuyfBEiffiu79Xqn1La9RgvUD1PFmQlZC4asUnfiA==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
