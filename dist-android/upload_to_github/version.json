@@ -1,9 +1,9 @@
 {
-  "version": "v2026.09.21_0656",
+  "version": "v2026.09.21_0810",
   "releaseNotes": "Updated Date/Time entry fields, better translation, and milan module",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "a8267cdd06e202cd2d027010a1ab348e201be14e9f43fe7f46eec4e0120f1a6a",
-  "signature": "EA+CeT15RYjqqWOwQOAMyYqnrbdY1tRi8dZqyv760IBaKvOqRNRXpG3k6mViut6pwH5xDGEILZRBFkZXlzY0Sj5exLfpyTDX0s1OjKIqEP6kHOiSuM589+4uwjff24ZCTL/DtJVz+Q9iqpL1Fk9z5TTRJbk7kcVl9iY88JOj/EBvo1mcO8NmNhtyAjcempR/8lx49ZJIPL/LvmzE4N+TJbVgzTf1k3pefMVm07kgmB+3VimzeHdvE6+XGj4FPaxEw2Ny2Yt3jLByDx3kmxk2rOeQK/fu0bVHWgleFhdvC/hDiAVtWf4CvBS2UHUrhlHNe9Ay1rH1gor/zs453LdvjA==",
+  "checksum": "77925064ce4658a5422079bb2383e020b9971c38207b89f2ba3fc25268c682c2",
+  "signature": "TzggCy7/5K78Gr5ROEJGiuigF5P7RJghjyGmXZcqbOCrvAIjgpX4QVeH7NXzRnigRxhIvvtFe1dZ23fS5urRfEEAf/S1Nvpbcc7mQzQXekBmX4AJqSwUivDKIl+JgY4/Vc2Z+FI+0pamQI1y8sTs3ar6ss+6My7vPMjoSzQH/RkpzNMC/1SHN03f7ta9ISEbSP80LZIEp7Izg/ui/SW8Iq1zY+UfsVDVlbuP9ABeVD/OVRYVKoujhR9DLPPzFv42hqFQp3N1M3z/Uz1GuSWLDfQ4Kx6F7fx5IuaeKP/f1r4A45HwX9jlu/xxxx2c7nIuFSnk0ckgTuOlOyLp0+zVjA==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
