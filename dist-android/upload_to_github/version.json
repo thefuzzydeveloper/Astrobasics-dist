@@ -1,9 +1,9 @@
 {
-  "version": "v2026.09.22_1535",
+  "version": "v2026.09.22_1538",
   "releaseNotes": "General bug fixes and performance enhancements.",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "8dc4151b11774169389910bb9fac8603f70bd14478f2f16ae55a05fda0875e70",
-  "signature": "Dx7iixm90RBkHcJ2Il57oELtcJ+C8lHWTuD06EAVeU+TOwzbwPNMLldbdZ2Kp0ZPzkm6wGFwtXZgHFJQS7wu4DTKh6Jca5orTCzoZ2XD59EKcwZ0VvuJVH53ZOioyw1+xUYNmbvPjdHHY6D2VigyHdDGZBt+RefioqdBZ2pqMLex9zUiZ/7mOkU8PiPKmEqFDlBy85g4Vk62k0zNQFL7eFCNCg+xmSaG5RhMeisSipg3er7sK+o6oqu8i69Ww03fZysjtnTYG31YVk0tSEs/dyfLm9qr847lInFsrTXYxlXpdvo+fIYAtY4xZm0+jhAPdAt9iLm/pW+47KcFmYsswA==",
+  "checksum": "2fc7fba6e78d2dfe60a7aaaebe86cc0763008e49d2846828aaae88e7f409b0b3",
+  "signature": "RcB4JVa7OjjnNzDMZCYbdI1xbZ3iL0xtyEWBa40VsuCL1l9QzGdsEkVPACKkPr0kgMvFqMwR2QQQsaizYWylTdm92Ngk9Kg3TC9MvBwUKxbfFWAaliOo4yEVDwsl3e8xEKmjbcSU0lD8ZVoco8pQQ9jWfKwfatPO3Vak86xnkpMr7K0JfX0Hikxc2gj8iTcl2NS41YD0+o/86qEXQgBczlErZnDPZwTn+Q3meqDIyrMm4fiyJ+QOmGCmEDg/TgsuAA6m+gEBBnoZs5cEw12ewP47YTaSWOrm3ZyU3Wgc+0TDBoH4DsMB1z2ljKZ6HF6GiLUQxXM7S7ZEx5+eimWAFw==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
