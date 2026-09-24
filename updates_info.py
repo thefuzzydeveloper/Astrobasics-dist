@@ -123,3 +123,18 @@ v1_4_131 = """
 		</p>
 	</div>
 """
+
+v1_4_132 = """
+	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
+		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
+		<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+
+		<p style="margin-bottom: 14px;">
+			<b style="color: #059669;">[+]</b> <b>Fixed the custom rules engine, now it triggers on tab change!</b><br>
+			<b style="color: #059669;">[+]</b> <b>Fixed the reverse lookup search engine!</b><br>
+			<b style="color: #059669;">[+]</b> <b>Added more options and safety checks in Rectification engine making it versatile! </b><br>
+			<b style="color: #059669;">[+]</b> <b>Added solar/lunar eclipses and major planetary events in panchang! </b><br>
+			<b style="color: #059669;">[+]</b> <b>Updated kundali milan module to include parihars/cancellations for doshas! </b><br>
+		</p>
+	</div>
+"""
