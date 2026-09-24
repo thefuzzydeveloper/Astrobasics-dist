@@ -1,8 +1,8 @@
 {
-    "version": "1.4.131",
-    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the custom rules engine, now it triggers on tab change!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the reverse lookup search engine!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added more options and safety checks in Rectification engine making it versatile! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added solar/lunar eclipses and major planetary events in panchang! </b><br>\n\t\t</p>\n\t</div>",
+    "version": "1.4.132",
+    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the custom rules engine, now it triggers on tab change!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the reverse lookup search engine!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added more options and safety checks in Rectification engine making it versatile! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added solar/lunar eclipses and major planetary events in panchang! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Updated kundali milan module to include parihars/cancellations for doshas! </b><br>\n\t\t</p>\n\t</div>",
     "files": {
-        "AstroBasics.exe": "6bdc28f2e1fd16436f9f1c9b4b73ea89c7cdd71a455416ccf5c55682c78961bb",
+        "AstroBasics.exe": "8d7678fc74b88229159f5fccd68deddaa0e01cb968a9bab41b350307f7ab9dee",
         "refresh_astrobasics.exe": "9d40a1317aa7f72098f248a3af623268510ecb7be112662991995f79887d4a2e",
         "_internal/animation.pyd": "4ab781377e9f30bc5f1fe8b8604d5a42d349acd67e6bbce487ebc3ce3a7e9ce9",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -21,7 +21,7 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "cbebfb12d9a84f8fdb41c57726e29f07179d2402242b61bef256fc4d34a791e4",
-        "_internal/base_library.zip": "506afc4413b1e466e7bb26b310a719044d06bf0ee345cf724748d817ecb11ced",
+        "_internal/base_library.zip": "d3e5b51a03c8d7189af4d8cb6e40198fd64953c541ed58248b4a6a0547b219f3",
         "_internal/chart_renderer.pyd": "f6fb73098b50ddb5488c171a535765cffa325cd820bf9e5be816f88c9249d275",
         "_internal/custom_vargas.pyd": "c5c9404a5c9bef121e5eb681eff6944a7f490c6ebbd303642f6413a900752d10",
         "_internal/dark_theme.qss": "0ea74d7477d196fecfa49486335c2dec350209a85dd7d282bbc2f17c51958fc7",
@@ -74,7 +74,7 @@
         "_internal/dynamic_settings_modules/detailed_report_module.pyd": "230bcdbf10f87d25115ceaa6513040de0c8c7bd2b844609171b1dcda6120dae5",
         "_internal/dynamic_settings_modules/education_module.pyd": "41cded8b0b8d578bfe1e5d75151378dd7461db1feab5dcccb2f1670800d9d4af",
         "_internal/dynamic_settings_modules/horary_module.pyd": "8fb6e177016a75dd5a99f64e09b26aae8e38d1f1cb59b5cb6b3e648ba7c769ba",
-        "_internal/dynamic_settings_modules/kundali_milan.pyd": "cbd5f300a6d061ba875b6f4503280a27d6d19b1e7cb6c49dea5b440d3ab2fb52",
+        "_internal/dynamic_settings_modules/kundali_milan.pyd": "b05141e344190994cccd0552f85c4e1ed3042e01cffcf85d632462ec6d1b3651",
         "_internal/dynamic_settings_modules/life_activity_module.pyd": "ccbeb0d313e0aff682f244b6f3c6d6ea62b3b7271cd40f15a0066b8cf79311b9",
         "_internal/dynamic_settings_modules/medical_astrology_moduel.pyd": "0a638d1bec94eee9d0d09fa519b83cd5a35433505a7a7f8d5766ae060dadc4c1",
         "_internal/dynamic_settings_modules/muhurta_module.pyd": "4404b94cabb1801df5057a76db7c44a5a761f7f689f8aa53b6c3258485d13421",
@@ -899,5 +899,5 @@
         "_internal/win32/win32trace.pyd": "9d7eb0f1b4f4041d86420fd0e44fe4b07b6d64c999e8f6b5b5cc3ce8648eabe1",
         "_internal/win32/_win32sysloader.pyd": "6becee5e15c921c2b5457cd6aff39e02b7540426fb3933b90801265ac60ef23b"
     },
-    "signature": "u2XJZFRSr/ZVTlDpQj5OnKj4k3y6RzRlA62pXIHJ0xmawsTCWgHlMweK6od7TnMJGuY61wU3RAT4wJvnDYtZDQ=="
+    "signature": "2M29n2VdIoRJbtZ3ErbXeL0FLFg5tXksr14K/IxT2XPJAbKhC5s1P2ZVDGWJQl5hyBviwBAimZdMyDoIIy0SAg=="
 }
