@@ -1,8 +1,8 @@
 {
-    "version": "1.4.133",
-    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the custom rules engine, now it triggers on tab change!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the reverse lookup search engine!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added more options and safety checks in Rectification engine making it versatile! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added solar/lunar eclipses and major planetary events in panchang! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Updated kundali milan module to include parihars/cancellations for doshas! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added pip (picture in picture) view for charts so one can comparethe charts even when opening plugins or reading books! </b><br>\n\t\t</p>\n\t</div>",
+    "version": "1.4.134",
+    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the custom rules engine, now it triggers on tab change!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the reverse lookup search engine!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added more options and safety checks in Rectification engine making it versatile! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added solar/lunar eclipses and major planetary events in panchang! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Updated kundali milan module to include parihars/cancellations for doshas! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added pip (picture in picture) view for charts so one can comparethe charts even when opening plugins or reading books! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>fixed pip settings bug! </b><br>\n\t\t</p>\n\t</div>",
     "files": {
-        "AstroBasics.exe": "f64f60934676d765d6a31709b4a30effcff43b09d1c76040c26af3a83835cdda",
+        "AstroBasics.exe": "1f125111f581e53040c37cdd36f648203e0701acafee89804c43cd0ad00d41f1",
         "refresh_astrobasics.exe": "9d40a1317aa7f72098f248a3af623268510ecb7be112662991995f79887d4a2e",
         "_internal/animation.pyd": "4ab781377e9f30bc5f1fe8b8604d5a42d349acd67e6bbce487ebc3ce3a7e9ce9",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -21,7 +21,7 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "cbebfb12d9a84f8fdb41c57726e29f07179d2402242b61bef256fc4d34a791e4",
-        "_internal/base_library.zip": "58ee924d35c76e5d743166b767799adcd08601ecce2aa31b63038ee80c707358",
+        "_internal/base_library.zip": "4dd15f4a2908851aaa178e7866424fdedfac0eaecde5790897552964e1ca762e",
         "_internal/chart_renderer.pyd": "1f63215c8cd4126c1c1813d60e58e9a0dcd787e0076d5897de5b15a430f09355",
         "_internal/custom_vargas.pyd": "c5c9404a5c9bef121e5eb681eff6944a7f490c6ebbd303642f6413a900752d10",
         "_internal/dark_theme.qss": "0ea74d7477d196fecfa49486335c2dec350209a85dd7d282bbc2f17c51958fc7",
@@ -89,7 +89,7 @@
         "_internal/dynamic_settings_modules/vishmottari_module.pyd": "785359210d3d74dee2372a199ced4d491308dae7976d412f86fa93a58603c0ac",
         "_internal/dynamic_settings_modules/yoga_explorer_plugin.pyd": "8f8819e7e538991fd7e804a8e8f3b4168a66f4e36ad9c964445955cb6a526e78",
         "_internal/dynamic_settings_modules/zz_logger_module.pyd": "a35eee91056666c98e09ecd5eef69a1f514d3f1520662d93ffc77ca40428c88f",
-        "_internal/dynamic_settings_modules/z_updater.pyd": "5eaafc5181d12e2c46d9cd8c46a8be11524feb42262eaf428ac78d253ec02c59",
+        "_internal/dynamic_settings_modules/z_updater.pyd": "bf1a32224534972645912a2900b5acd322d83d37349f34645d8be6831deece35",
         "_internal/ephe/semom06.se1": "d8be0eaffc82d7a07c4c88fb4984be4b15757716864e6db8e7f1f378dfbb0659",
         "_internal/ephe/semom102.se1": "5c0f5cd45a20ef6f25c3d99d5824adaa4715c36015ec0d01468a8b9da0a64f38",
         "_internal/ephe/semom108.se1": "e9aedc8af9761b35f18d884c8708d357f48d63467a8fb335a04251464caaaeff",
@@ -899,5 +899,5 @@
         "_internal/win32/win32trace.pyd": "9d7eb0f1b4f4041d86420fd0e44fe4b07b6d64c999e8f6b5b5cc3ce8648eabe1",
         "_internal/win32/_win32sysloader.pyd": "6becee5e15c921c2b5457cd6aff39e02b7540426fb3933b90801265ac60ef23b"
     },
-    "signature": "me1lkKNd/Qkmjn76hOQHSoGOUxVbxOK0a376axpmCwG3tQRAk5iDXP46CjQ1xiqFIxHxVSX9rf1cKDSV2Qg+Aw=="
+    "signature": "VIPCNMNKSzobgbUETPsyLafjrOPaLrY1kTYRrApyB0BSSh36S5CtAi+wylGBo4e3il/dn97wOsXbCuVpEv0wCA=="
 }
