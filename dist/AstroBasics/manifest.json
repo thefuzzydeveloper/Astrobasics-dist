@@ -1,8 +1,8 @@
 {
-    "version": "1.4.134",
-    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the custom rules engine, now it triggers on tab change!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the reverse lookup search engine!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added more options and safety checks in Rectification engine making it versatile! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added solar/lunar eclipses and major planetary events in panchang! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Updated kundali milan module to include parihars/cancellations for doshas! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added pip (picture in picture) view for charts so one can comparethe charts even when opening plugins or reading books! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>fixed pip settings bug! </b><br>\n\t\t</p>\n\t</div>",
+    "version": "1.4.135",
+    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the custom rules engine, now it triggers on tab change!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Fixed the reverse lookup search engine!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added more options and safety checks in Rectification engine making it versatile! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added solar/lunar eclipses and major planetary events in panchang! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Updated kundali milan module to include parihars/cancellations for doshas! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added pip (picture in picture) view for charts so one can comparethe charts even when opening plugins or reading books! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>fixed pip settings bug! </b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Minor fixes across app and overhauled the date/time entry making it easier to enter date in multiple formats! </b><br>\n\t\t</p>\n\t</div>",
     "files": {
-        "AstroBasics.exe": "1f125111f581e53040c37cdd36f648203e0701acafee89804c43cd0ad00d41f1",
+        "AstroBasics.exe": "97308a0aa04b2a1fe720496a89fa36cfe6cc9fd1e4d96d651d35ef7dbcefc1be",
         "refresh_astrobasics.exe": "9d40a1317aa7f72098f248a3af623268510ecb7be112662991995f79887d4a2e",
         "_internal/animation.pyd": "4ab781377e9f30bc5f1fe8b8604d5a42d349acd67e6bbce487ebc3ce3a7e9ce9",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -20,12 +20,12 @@
         "_internal/api-ms-win-crt-string-l1-1-0.dll": "341f489491f992bece2879fea3b660ff2dcd04a59bdb5f3998d58e5ac8ce3341",
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
-        "_internal/astro_engine.pyd": "cbebfb12d9a84f8fdb41c57726e29f07179d2402242b61bef256fc4d34a791e4",
-        "_internal/base_library.zip": "4dd15f4a2908851aaa178e7866424fdedfac0eaecde5790897552964e1ca762e",
-        "_internal/chart_renderer.pyd": "1f63215c8cd4126c1c1813d60e58e9a0dcd787e0076d5897de5b15a430f09355",
+        "_internal/astro_engine.pyd": "5b4905639d0f71660540aa0e869231bc215801fd352f92e7b9e9c4541080da3b",
+        "_internal/base_library.zip": "1e21da018cb693d8ecc668756018e02413c27166f60c31da4637ff1438544d56",
+        "_internal/chart_renderer.pyd": "283fe530bcabf41880fcbf982e8d266bc78d4bd47389211be75f3f08bbbf6eb4",
         "_internal/custom_vargas.pyd": "c5c9404a5c9bef121e5eb681eff6944a7f490c6ebbd303642f6413a900752d10",
         "_internal/dark_theme.qss": "0ea74d7477d196fecfa49486335c2dec350209a85dd7d282bbc2f17c51958fc7",
-        "_internal/entry.pyd": "81a983324811370a9c17c116d0e7dbccfd4fc4b91cc807b6a0804b9e4b70aad4",
+        "_internal/entry.pyd": "5c67041afb89d4090a374fdeb1a174705b86515a52985f950edfe3d9a4b7fa46",
         "_internal/help_content.pyd": "1763d522424c6a50980729e5c6d531c96116c289beff9551e6ac47b6542584bc",
         "_internal/kshaurakarma_engine.pyd": "d67075286de4f869cc946688bb607ec610cc04ac6a382764e111b050d480d06e",
         "_internal/libcrypto-3.dll": "53c529145339fb042a3dcd3a09c2d7753204f8b4fc79d99e0d31e69a33985958",
@@ -200,7 +200,7 @@
         "_internal/keyring/backend_complete.bash": "955b8f083f152c3181634dbf70b1eda1dec46f33b56fa88a80288b8e44e58a3b",
         "_internal/keyring/backend_complete.zsh": "77c6db88887155cef684d09dda3412279740ec221c9f189659964c0525b0e532",
         "_internal/managers/chart_io_geo_manager.pyd": "82bf30a971bbdafddfc43e20449d441092039cbd6266aa11fe8e47a7e2efc467",
-        "_internal/managers/layout_theme_manager.pyd": "82ba6361fd28e58c656e98580a13c7cc342f74d9adc39775a24e78a0610b97c9",
+        "_internal/managers/layout_theme_manager.pyd": "23b6b1429dac349c1f67b3d047df286d6a6791d39b0be4efb31e71d343503f5a",
         "_internal/managers/localization_manager.pyd": "8b1900b205d2daded0cfb752bd6f0f24b80efcc25ebd17e25ea2fc084c6ad88d",
         "_internal/managers/plugin_manager.pyd": "a6e9ecb2a79cf898646bdc898964cd7cd869812445a2c8fd00d4094ad826c6f9",
         "_internal/managers/settings_manager.pyd": "4ca5d682bfa8846a67dea1f0d9342d3b01adf41b8983d43610c545f7fe67af54",
@@ -899,5 +899,5 @@
         "_internal/win32/win32trace.pyd": "9d7eb0f1b4f4041d86420fd0e44fe4b07b6d64c999e8f6b5b5cc3ce8648eabe1",
         "_internal/win32/_win32sysloader.pyd": "6becee5e15c921c2b5457cd6aff39e02b7540426fb3933b90801265ac60ef23b"
     },
-    "signature": "VIPCNMNKSzobgbUETPsyLafjrOPaLrY1kTYRrApyB0BSSh36S5CtAi+wylGBo4e3il/dn97wOsXbCuVpEv0wCA=="
+    "signature": "hUT6geLTVKC/jXfB1d06/bBYMZ0gWNwk+CgH3G0dp6kL+jlEq8mnwlfaUc5JDwUw9rC7DwoqmUCBwveQZdVNCw=="
 }
