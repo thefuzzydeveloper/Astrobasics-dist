@@ -8,3 +8,4 @@ dist/AstroBasics/astro_tabs_session.json
 BUGS
 DOCUMENTATION
 /dist/AstroBasics/_internal/obj
+*.pyc

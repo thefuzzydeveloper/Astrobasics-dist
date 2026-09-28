@@ -24,7 +24,6 @@ v1_4_106 = """
 	</div>
 """
 
-
 v1_4_107 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed? MAJOR UPDATE!</h2>
@@ -37,7 +36,6 @@ v1_4_107 = """
 		</p>
 	</div>
 """
-
 
 v1_4_108 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
@@ -53,7 +51,6 @@ v1_4_108 = """
 	</div>
 """
 
-
 v1_4_109 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
@@ -68,7 +65,6 @@ v1_4_109 = """
 		</p>
 	</div>
 """
-
 
 v1_4_110 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
@@ -171,7 +167,6 @@ v1_4_134 = """
 		</p>
 	</div>
 """
-
 
 v1_4_135 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
