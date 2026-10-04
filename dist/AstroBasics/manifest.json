@@ -1,8 +1,8 @@
 {
-    "version": "1.4.137",
-    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Replaced complicated aspects with standard!</b><br>\n\t\t</p>\n\t</div>",
+    "version": "1.4.138",
+    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Replaced complicated aspects with standard!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added comparision mode in research module!</b><br>\n\t\t</p>\n\t</div>",
     "files": {
-        "AstroBasics.exe": "63ad31770e5f9ffd8fa98abdd31a74cce0e6948b5f0f45bb26eab033d62c3c95",
+        "AstroBasics.exe": "c334c5ea0dd2590b834611fa5b51c2b90c0a80c852baa46b55247c56fe25ed01",
         "refresh_astrobasics.exe": "9d40a1317aa7f72098f248a3af623268510ecb7be112662991995f79887d4a2e",
         "_internal/animation.pyd": "d8b8537f99996cf7331127ddea0dabcfa41479c7499a437062481b8da6eea5a6",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -21,7 +21,7 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "ed477e03f9335e53a2cca31c30d071a3a91a20564dd051490e17dd4e63b461c0",
-        "_internal/base_library.zip": "daf643643863b4ab96d06754038368462f52e035eb59d0d2a9ff583e8402770e",
+        "_internal/base_library.zip": "2bd2530cf0ff336c89e913dee67ca0d344e8bff39f81f8fc06986f798b6d7ade",
         "_internal/better_braces.pyd": "b90654f54eaf3ec6221b005128e7e158b1d302b9fdb20c933f3b1d64468bb211",
         "_internal/chart_renderer.pyd": "553e327af371d467bf323892d8a710a088eae121453f5696f3634a4d5ae50f98",
         "_internal/custom_vargas.pyd": "b35880f69602ebda22e1639f963061eff6073228d280a14118745ec4a10c1841",
@@ -83,7 +83,7 @@
         "_internal/dynamic_settings_modules/numerology_module.pyd": "c28f4a0366cf1ca0a9a540242c7e765e704bd582a913ac71cda867b7b646b1ec",
         "_internal/dynamic_settings_modules/pdf_exporter_module.pyd": "721416032ab4bc090a59c269920d3007721203a659f2d0bed45d0196c982d43e",
         "_internal/dynamic_settings_modules/rating_module.pyd": "36c4faadccd7a2232831958019ddd28e1a1a155ce7aab3f157f78887197fe0a2",
-        "_internal/dynamic_settings_modules/research_module.pyd": "d8bee34ad5d03e68e226ebdca057715699460acfaa627f14d6327511fe6a19c2",
+        "_internal/dynamic_settings_modules/research_module.pyd": "7fbc85daee610e20b26893770694316f276e184a40c6ff95ab535ffacb85e397",
         "_internal/dynamic_settings_modules/shadbal_module.pyd": "ad5e1863b5cf1b589ebdc86d8f06e88a5e16f1b0d8fc2f635fbcceedeb2a91c6",
         "_internal/dynamic_settings_modules/strength_module.pyd": "71512a1aa38cb11cf767f8a2ba6a1859326459369ba467ebf46b3da24345990c",
         "_internal/dynamic_settings_modules/transit_module.pyd": "cdfb1f4f8ebdb8847151e0ba96555472ecc2bbc6d07e11a07f8110f75c1aefc0",
@@ -901,5 +901,5 @@
         "_internal/win32/win32trace.pyd": "9d7eb0f1b4f4041d86420fd0e44fe4b07b6d64c999e8f6b5b5cc3ce8648eabe1",
         "_internal/win32/_win32sysloader.pyd": "6becee5e15c921c2b5457cd6aff39e02b7540426fb3933b90801265ac60ef23b"
     },
-    "signature": "MNPLX99nUQtuRiMwEmcT4z/O0Azi5ZguvdHgXnJOtP1Gz4JpG2crxUpH0vqTxI3KVFxC6UOE7YwMaV+1eQE4BQ=="
+    "signature": "/zJxmPyV5+sXktaY0yI0iD8thT3lGNi4SQLRXzyYTsOy+mKG81jACypk7fjF1EYZf0e918XIiM28HMi1hKFxDQ=="
 }
