@@ -237,3 +237,16 @@ v1_4_140 = """
 		</p>
 	</div>
 """
+
+v1_4_141 = """
+	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
+		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
+		<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+
+		<p style="margin-bottom: 14px;">
+			<b style="color: #059669;">[+]</b> <b>Added KP system of prediction!</b><br>
+			<b style="color: #059669;">[+]</b> <b>Added KumKum Chandan Theme for better view!</b><br>
+			<b style="color: #059669;">[+]</b> <b>Added an option to disable plugins from plugin studio!</b><br>
+		</p>
+	</div>
+"""
