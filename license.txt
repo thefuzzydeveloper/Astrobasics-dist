@@ -1,23 +1,44 @@
 END USER LICENSE AGREEMENT (EULA)
 FOR NON-COMMERCIAL USE ONLY
+
 IMPORTANT — READ CAREFULLY:
-By installing, copying, or otherwise using AstroBasics Diamond Chart Pro, hereby referred to as "AstroBasics", you agree to be bound by the terms of this End User License Agreement. 
-If you do not agree to the terms of this EULA, do not install or use the software.
+By installing, copying, accessing, or otherwise using AstroBasics Diamond Chart Pro (the "Software"), you agree to be bound by the terms of this End User License Agreement ("Agreement"). If you do not agree to the terms of this Agreement, do not install, copy, access, or use the Software.
 
-GRANT OF LICENSE
-This application is licensed, not sold. 
-The Developer grants you a personal, non-exclusive, non-transferable, and revocable license to install and use AstroBasics for personal, educational, or other non-commercial purposes only.
+1. GRANT OF LICENSE
+The Software is licensed, not sold. Subject to your strict compliance with this Agreement, the Developer grants you a personal, revocable, non-exclusive, non-transferable, and non-sublicensable license to install and execute the Software on your personal device(s) solely for personal, educational, research, and non-commercial purposes.
 
-RESTRICTIONS ON COMMERCIAL USE
+2. RESTRICTIONS ON COMMERCIAL USE & INTEGRITY
+You expressly agree NOT to:
+   a) Sell, rent, lease, sublicense, distribute, host, or commercially exploit the Software or any modified version thereof.
+   b) Use the Software or its generated analytical reports to deceive, mislead, or commit fraud. Furthermore, you may not use the Software to provide professional or commercial astrological consulting services unless you possess independent, prior astrological expertise. (A formal academic credential or certificate in astrology does not constitute verified expertise).
+   c) Embed, bundle, or incorporate the Software, its source code, or its compiled dependencies into any commercial product, platform, or enterprise service.
 
-1. You may NOT use this software for any commercial purpose. 
-2. Prohibited commercial uses include, but are not limited to:
-	a) Selling, renting, leasing, or distributing the modified/unmodified software.
-	b) Fraud and Unqualified Services: Using the Software or its generated outputs to deceive others or commit fraud. Furthermore, you may not use the Software to provide astrological consulting services unless you possess independent, prior knowledge of astrology. (Note: A formal degree in astrology is not equivalent to "knowledge").
-	c) Incorporating the software or its codebase into a commercial product, service, or enterprise environment.
+3. OWNERSHIP AND INTELLECTUAL PROPERTY
+The Software—including but not limited to its source code, algorithms, visual layouts, styling, icons, and documentation—remains the sole and exclusive intellectual property of the Developer. This Agreement grants you only limited user privileges and transfers no title, copyright, trademark, or ownership interest. You may not use the Developer's name, brand, or logos for any promotional or associative purposes without prior written authorization.
 
-OWNERSHIP AND INTELLECTUAL PROPERTY
-AstroBasics —including its underlying source code, design, logos, and features— remains the exclusive property of the Developer. This EULA only grants you a limited right to use the software; it does not transfer any ownership rights to you. Furthermore, you may not use the Developer's name, brand, logos, or trademarks for any commercial, promotional, or associative purposes without explicit written consent.
+4. LOCAL DATA PRIVACY & CONFIDENTIALITY GUARANTEE
+   a) 100% Local Processing: All astrological computations, planetary engines, divisional calculations, and interpretation rules execute entirely offline on your local device.
+   b) Confidential Data Protection: The Developer guarantees that NO personal names, birth dates, birth times, birth coordinates, natal charts, notes, custom rules, or exported files (.astrobasic, .json, .milan, .astroanalysis) are ever uploaded, accessed, scanned, or transmitted over the network. All such user-generated files remain strictly stored on your local disk.
 
-DISCLAIMER OF WARRANTY
-The software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the Developer be liable for any claim, damages, or other liability arising from, out of, or in connection with the software or the use of the software.
+5. DIAGNOSTIC TELEMETRY, UPDATES, AND TRANSPARENCY
+   a) Legitimate Purpose: To ensure software stability, diagnose deployment faults, confirm successful updates, and prevent corrupted installations, the Software is configured by default to transmit minimal, non-personal diagnostic telemetry to the Developer's update infrastructure.
+   b) Data Fields Collected: Transmitted information is limited strictly to:
+      - A pseudo-anonymous machine identifier (a one-way cryptographic SHA-256 hash of system parameters prefixed with "DEV-").
+      - Operating system name and major version (e.g., Windows 10, Windows 11).
+      - Active application version.
+      - Operational status indicator (startup ping, 5-minute activity heartbeat, application exit notification) accompanied by a timestamp.
+      - Feature index response if you voluntarily participate in community update polling dialogs.
+   c) Exclusion of PII: Diagnostic telemetry does NOT collect names, emails, IP logs, device file trees, or browsing history.
+   d) Voluntary Opt-Out: Diagnostic telemetry and automatic update checks can be disabled at any time. You may exercise your right to opt out by unchecking "Check for updates automatically on startup" in the sidebar Updater panel or the "Auto-Check on Startup" setting in the Updates menu. Opting out immediately terminates all telemetry network transmissions.
+
+6. THIRD-PARTY SERVICES & NETWORK ACCESS
+When you use the optional location search box, the query text is transmitted solely to the open-source OpenStreetMap (Nominatim) API to fetch latitude, longitude, and timezone offsets. No birth details or astrological parameters are attached to geocoding requests.
+
+7. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, SYSTEM INTEGRATION, AND NON-INFRINGEMENT. ASTROLOGY IS AN INTERPRETATIVE DISCIPLINE; THE DEVELOPER MAKES NO REPRESENTATIONS REGARDING THE ABSOLUTE ACCURACY, COMPLETENESS, OR PREDICTIVE RELIABILITY OF THE CALCULATIONS GENERATED.
+
+8. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE DEVELOPER BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, REGARDLESS OF THE LEGAL THEORY (TORT, CONTRACT, OR OTHERWISE), EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+9. TERMINATION
+This Agreement remains in effect until terminated. Your rights under this license terminate automatically without notice if you fail to comply with any of its terms. Upon termination, you must cease all use and uninstall all copies of the Software.

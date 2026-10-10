@@ -42,6 +42,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
+Name: "telemetry"; Description: "Enable automatic updates and anonymous diagnostic telemetry"; GroupDescription: "Updates and Diagnostics"; Flags: checkedonce
 
 [Files]
 Source: "dist\AstroBasics\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
@@ -89,8 +90,26 @@ Type: files; Name: "{app}\astro_settings.json"
 Type: files; Name: "{app}\chart_cache_index.json"
 Type: files; Name: "{app}\manifest.json"
 Type: files; Name: "{app}\.hash_cache.json"
+Type: files; Name: "{app}\updater_config.json"
 
 Type: filesandordirs; Name: "{app}\update_cache"
 Type: filesandordirs; Name: "{app}\__pycache__"
 Type: filesandordirs; Name: "{app}\dynamic_settings_modules\__pycache__"
 Type: filesandordirs; Name: "{app}\my_plugins\__pycache__"
+
+[Code]
+procedure CurStepChanged(CurStep: TSetupStep);
+var
+  ConfigPath: String;
+  JsonContent: String;
+begin
+  if CurStep = ssPostInstall then
+  begin
+    ConfigPath := ExpandConstant('{app}\updater_config.json');
+    if WizardIsTaskSelected('telemetry') then
+      JsonContent := '{'#13#10'    "auto_update": true'#13#10'}'
+    else
+      JsonContent := '{'#13#10'    "auto_update": false'#13#10'}';
+    SaveStringToFile(ConfigPath, JsonContent, False);
+  end;
+end;
