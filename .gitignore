@@ -10,4 +10,3 @@ DOCUMENTATION
 /dist/AstroBasics/_internal/obj
 *.pyc
 __pycache__/updates_info.cpython-314.pyc
-/dist/AstroBasics/_internal/pyqtgraph
