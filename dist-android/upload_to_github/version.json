@@ -1,9 +1,0 @@
-{
-  "version": "v2026.10.10_1455",
-  "releaseNotes": "added telemetry",
-  "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "e7d70db533bbe866c500c25453b142cd4c780560722c59ec575f414aac13c741",
-  "signature": "EEYLmkOUh5TNUouW3VSV0TzxtjEQ0XVZQ0GxfWMkFIHDnaggEGnVwQK/dQdI/9jyd5fIqwOjt4FWu9nal3S3mfOMNAlFKxmjs4n6Lty9VSiIehDKDPl6h9+btg+6PVoRQRFNu4sp7n4sf1r6DdJzL4OWCgDq7Vew64gfzbR/kzAvYismtyFRSwgnkunTJhrfJDLCHwPbEX20Wi0rG3WG4g65mJoF2raCIAli9z2Dg61sbGrbIp7NXjwjZPtaU+/zDQhyTTMp2gczPNjtb5BuyHbOzuEXm64mNotKH/am0+ttu5jbz5rB7AybcH6f6VCM/Rf+gy9jtSzFWnZvLtbbtg==",
-  "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
-  "requiresNativeUpdate": false
-}
