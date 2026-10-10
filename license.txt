@@ -14,31 +14,25 @@ You expressly agree NOT to:
    c) Embed, bundle, or incorporate the Software, its source code, or its compiled dependencies into any commercial product, platform, or enterprise service.
 
 3. OWNERSHIP AND INTELLECTUAL PROPERTY
-The Software—including but not limited to its source code, algorithms, visual layouts, styling, icons, and documentation—remains the sole and exclusive intellectual property of the Developer. This Agreement grants you only limited user privileges and transfers no title, copyright, trademark, or ownership interest. You may not use the Developer's name, brand, or logos for any promotional or associative purposes without prior written authorization.
+The Software—including but not limited to its source code, algorithms, visual layouts, styling, icons, and documentation—remains the sole and exclusive intellectual property of the Developer. This Agreement grants you only limited user privileges and transfers no title, copyright, trademark, or ownership interest.
 
-4. LOCAL DATA PRIVACY & CONFIDENTIALITY GUARANTEE
-   a) 100% Local Processing: All astrological computations, planetary engines, divisional calculations, and interpretation rules execute entirely offline on your local device.
-   b) Confidential Data Protection: The Developer guarantees that NO personal names, birth dates, birth times, birth coordinates, natal charts, notes, custom rules, or exported files (.astrobasic, .json, .milan, .astroanalysis) are ever uploaded, accessed, scanned, or transmitted over the network. All such user-generated files remain strictly stored on your local disk.
+4. LOCAL DATA PRIVACY & ZERO-COLLECTION COVENANT
+   a) 100% Local Processing: All astrological computations, planetary ephemeris math, divisional varga engines, and interpretive evaluations execute strictly offline on your local device.
+   b) User Data Sovereignty: The Developer guarantees that NO personal names, birth dates, birth times, geographic coordinates, natal charts, notes, custom rules, or exported files (.astrobasic, .json, .milan, .astroanalysis) are ever uploaded, accessed, scanned, or transmitted over any network. All user-generated chart data remains strictly stored on your local disk.
+   c) No Background Telemetry: The Software contains no background tracking cookies, advertising trackers, device fingerprinting routines, crash telemetry services, or periodic activity heartbeat pings.
 
-5. DIAGNOSTIC TELEMETRY, UPDATES, AND TRANSPARENCY
-   a) Legitimate Purpose: To ensure software stability, diagnose deployment faults, confirm successful updates, and prevent corrupted installations, the Software is configured by default to transmit minimal, non-personal diagnostic telemetry to the Developer's update infrastructure.
-   b) Data Fields Collected: Transmitted information is limited strictly to:
-      - A pseudo-anonymous machine identifier (a one-way cryptographic SHA-256 hash of system parameters prefixed with "DEV-").
-      - Operating system name and major version (e.g., Windows 10, Windows 11).
-      - Active application version.
-      - Operational status indicator (startup ping, 5-minute activity heartbeat, application exit notification) accompanied by a timestamp.
-      - Feature index response if you voluntarily participate in community update polling dialogs.
-   c) Exclusion of PII: Diagnostic telemetry does NOT collect names, emails, IP logs, device file trees, or browsing history.
-   d) Voluntary Opt-Out: Diagnostic telemetry and automatic update checks can be disabled at any time. You may exercise your right to opt out by unchecking "Check for updates automatically on startup" in the sidebar Updater panel or the "Auto-Check on Startup" setting in the Updates menu. Opting out immediately terminates all telemetry network transmissions.
+5. NETWORK OPERATIONS, UPDATES, AND VOLUNTARY FEEDBACK
+The Software initiates network connections exclusively for transparent, functional operations:
+   a) Location Geocoding: Location searches transmit solely the entered text query to the open-source OpenStreetMap (Nominatim) API and the Open-Meteo API to resolve latitude, longitude, and timezone offsets. No birth details or chart data are attached to these requests.
+   b) Software Updates: If update checks are enabled, the Software connects over HTTPS to a static GitHub distribution manifest to compare version hashes. Downloads are verified using SHA-256 hashes and asymmetric digital signatures (Ed25519) to prevent tampering.
+   c) Voluntary Feature Polling: Following updates, the Software may display an optional community poll. If submitted, only the numerical option index is transmitted.
+   d) Voluntary Feedback & Ratings: An optional feedback panel allows users to submit ratings and recommendations. Submissions transmit your review, chosen display name, and a one-way cryptographic SHA-256 hash derived from the system network node identifier (to prevent duplicate ballot spam without user accounts). The raw hardware identifier is never transmitted, collected, or retrievable.
 
-6. THIRD-PARTY SERVICES & NETWORK ACCESS
-When you use the optional location search box, the query text is transmitted solely to the open-source OpenStreetMap (Nominatim) API to fetch latitude, longitude, and timezone offsets. No birth details or astrological parameters are attached to geocoding requests.
-
-7. DISCLAIMER OF WARRANTIES
+6. DISCLAIMER OF WARRANTIES
 THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, SYSTEM INTEGRATION, AND NON-INFRINGEMENT. ASTROLOGY IS AN INTERPRETATIVE DISCIPLINE; THE DEVELOPER MAKES NO REPRESENTATIONS REGARDING THE ABSOLUTE ACCURACY, COMPLETENESS, OR PREDICTIVE RELIABILITY OF THE CALCULATIONS GENERATED.
 
-8. LIMITATION OF LIABILITY
+7. LIMITATION OF LIABILITY
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE DEVELOPER BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, REGARDLESS OF THE LEGAL THEORY (TORT, CONTRACT, OR OTHERWISE), EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-9. TERMINATION
+8. TERMINATION
 This Agreement remains in effect until terminated. Your rights under this license terminate automatically without notice if you fail to comply with any of its terms. Upon termination, you must cease all use and uninstall all copies of the Software.

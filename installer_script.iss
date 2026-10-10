@@ -42,7 +42,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
-Name: "telemetry"; Description: "Enable automatic updates and anonymous diagnostic telemetry"; GroupDescription: "Updates and Diagnostics"; Flags: checkedonce
+Name: "autoupdate"; Description: "Automatically check for software updates on startup"; GroupDescription: "Updates"; Flags: checkedonce
 
 [Files]
 Source: "dist\AstroBasics\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
@@ -50,7 +50,6 @@ Source: "icon.ico"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\icon.ico"
-Name: "{group}\Update {#MyAppName}"; Filename: "{app}\refresh_astrobasics.exe"; IconFilename: "{app}\icon.ico"
 Name: "{group}\Uninstall {#MyAppName}"; Filename: "{uninstallexe}"; IconFilename: "{app}\icon.ico"
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\icon.ico"; Tasks: desktopicon
 
@@ -83,14 +82,12 @@ Root: HKCU; Subkey: "Software\Classes\AstroBasics.Research\shell\open\command"; 
 Filename: "{app}\{#MyAppExeName}"; Description: "Launch {#MyAppName}"; Flags: nowait postinstall skipifsilent
 
 [UninstallDelete]
-; --- STRICTLY ONLY CLEAN EXECUTABLE / RUNTIME CACHE FILES ---
-; The {app}\saves, {app}\analysis_export, and Documents\AstroBasics folders are EXPLICITLY PRESERVED.
-
 Type: files; Name: "{app}\astro_settings.json"
 Type: files; Name: "{app}\chart_cache_index.json"
 Type: files; Name: "{app}\manifest.json"
 Type: files; Name: "{app}\.hash_cache.json"
 Type: files; Name: "{app}\updater_config.json"
+Type: files; Name: "{app}\rating.json"
 
 Type: filesandordirs; Name: "{app}\update_cache"
 Type: filesandordirs; Name: "{app}\__pycache__"
@@ -106,7 +103,7 @@ begin
   if CurStep = ssPostInstall then
   begin
     ConfigPath := ExpandConstant('{app}\updater_config.json');
-    if WizardIsTaskSelected('telemetry') then
+    if WizardIsTaskSelected('autoupdate') then
       JsonContent := '{'#13#10'    "auto_update": true'#13#10'}'
     else
       JsonContent := '{'#13#10'    "auto_update": false'#13#10'}';
