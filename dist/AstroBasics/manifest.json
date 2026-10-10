@@ -1,8 +1,8 @@
 {
-    "version": "1.4.146",
-    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added KP system of prediction!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added KumKum Chandan Theme for better view!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added an option to disable plugins from plugin studio!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added Karakas directly in chart, option in font settings to show minuntes with degrees in chart itself!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Remember similar options are implemented in android version of app as well, do check sidebar for equvalent options!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added necessary telemetry (for maintainence purpose) !</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Minor fix!</b><br>\n\t\t</p>\n\t</div>",
+    "version": "1.4.147",
+    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added KP system of prediction!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added KumKum Chandan Theme for better view!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added an option to disable plugins from plugin studio!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added Karakas directly in chart, option in font settings to show minuntes with degrees in chart itself!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Remember similar options are implemented in android version of app as well, do check sidebar for equvalent options!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Added necessary telemetry (for maintainence purpose, this can be disabled by disabling automatic update checks)!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Minor fix!</b><br>\n\t\t</p>\n\t</div>",
     "files": {
-        "AstroBasics.exe": "bff186e4f53671039f961d6c40f064d1687ac1ea77bf3238736d6d63b560ac80",
+        "AstroBasics.exe": "95ba9abb2ea4e3d42ac929ccef7ed0376aac5c22462e54961b386d9724676108",
         "refresh_astrobasics.exe": "9d40a1317aa7f72098f248a3af623268510ecb7be112662991995f79887d4a2e",
         "_internal/animation.pyd": "d8b8537f99996cf7331127ddea0dabcfa41479c7499a437062481b8da6eea5a6",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
@@ -21,13 +21,13 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "ed477e03f9335e53a2cca31c30d071a3a91a20564dd051490e17dd4e63b461c0",
-        "_internal/base_library.zip": "c99e546417b58c897c66b4f8e164b0a3a7365a447d6ef1d29f28e59179722e21",
+        "_internal/base_library.zip": "a4c67464e19109bfb04dc0bf63632d1bffa2ec9b34dc408bbb8bc6dbd07d80a2",
         "_internal/better_braces.pyd": "b90654f54eaf3ec6221b005128e7e158b1d302b9fdb20c933f3b1d64468bb211",
         "_internal/chart_renderer.pyd": "93d1e3de9af6e7e80a68d8dd33947c203c94431082f45ad2b68a5aa3041b9f2a",
         "_internal/custom_vargas.pyd": "b35880f69602ebda22e1639f963061eff6073228d280a14118745ec4a10c1841",
         "_internal/dark_theme.qss": "0ea74d7477d196fecfa49486335c2dec350209a85dd7d282bbc2f17c51958fc7",
-        "_internal/entry.pyd": "7b1455279cc9ef3f73655f7ffc99876542bf5ff500703fe569d86e359a2f1ffa",
-        "_internal/help_content.pyd": "b8ff40ce600ad397c637974a5ff5c17189d06a35d989d7335808c64af2054696",
+        "_internal/entry.pyd": "d8af4f15e4fc6242ceca0971b71204625eb28474d8bf7659d80e960563394ba7",
+        "_internal/help_content.pyd": "40f78d99b3340118ab103293cd05fac4f665f718fe6e5ea6f95fe0b63ab0ce21",
         "_internal/kshaurakarma_engine.pyd": "485b0f31c459b3eb471e40c8bf77e9e1a65df30ef19d8265da42413bcb8173e0",
         "_internal/libcrypto-3.dll": "53c529145339fb042a3dcd3a09c2d7753204f8b4fc79d99e0d31e69a33985958",
         "_internal/libffi-8.dll": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
@@ -91,7 +91,7 @@
         "_internal/dynamic_settings_modules/vishmottari_module.pyd": "4813567d3810a306bc7c8c6523cf0065563e732dd7d887c7fcb2c966b4bf8ace",
         "_internal/dynamic_settings_modules/yoga_explorer_plugin.pyd": "329f5eb149ef05e1b24191247e02ee4fe34c146ae56c0791a1ce816cc81074c1",
         "_internal/dynamic_settings_modules/zz_logger_module.pyd": "e3f23f01db3c1e36ad91f0a7cef94103f90a41c2eccaa913596690c72ff62e94",
-        "_internal/dynamic_settings_modules/z_updater.pyd": "16cb5302d71ae61923ba9591379a8448e903a5e678a2320863827ca8308109d0",
+        "_internal/dynamic_settings_modules/z_updater.pyd": "1d17b7d625fc138ea054e8a14114d0c23f5a1820f0275975e5b084970dc85849",
         "_internal/ephe/semom06.se1": "d8be0eaffc82d7a07c4c88fb4984be4b15757716864e6db8e7f1f378dfbb0659",
         "_internal/ephe/semom102.se1": "5c0f5cd45a20ef6f25c3d99d5824adaa4715c36015ec0d01468a8b9da0a64f38",
         "_internal/ephe/semom108.se1": "e9aedc8af9761b35f18d884c8708d357f48d63467a8fb335a04251464caaaeff",
@@ -902,5 +902,5 @@
         "_internal/win32/win32trace.pyd": "9d7eb0f1b4f4041d86420fd0e44fe4b07b6d64c999e8f6b5b5cc3ce8648eabe1",
         "_internal/win32/_win32sysloader.pyd": "6becee5e15c921c2b5457cd6aff39e02b7540426fb3933b90801265ac60ef23b"
     },
-    "signature": "mZWUPH7ybVtlgNbdcOYOe6SosRhR5r0pPHzto/hsF8h2zF2UUoaWCY2Ilg7Vs5OZxBMjw/wacO55xCVHdTrmCg=="
+    "signature": "nmj0ux9o/vtYwbe2kK4EYkGind430Cuq2pvpEq1MxLUvGomopLwTNuVADNhOVtQgJoNetEzhpToRsDTQhU7DAQ=="
 }
