@@ -1,9 +1,9 @@
 {
-  "version": "v2026.10.12_0946",
+  "version": "v2026.10.12_1004",
   "releaseNotes": ".",
   "url": "https://raw.githubusercontent.com/thefuzzydeveloper/Astrobasics-dist/refs/heads/main/dist-android/upload_to_github/bundle.zip",
-  "checksum": "7ec4714ce4e51026997e953a3e773556268473d174e78950780b1c28e729fb34",
-  "signature": "IW+enalwU5n3pxEkHKgQa8DC+dM4aDB6OBEQ2a5dalJ7G5TjaqTrYEDiS+woG6e4sccdzdvqJoasrQJLkM2arIBznJoCqN0H7lzZ6FG1bM7lrsoBrn9yv1/yzzYKiatdWdtmSAkKxcdBDrw01LUE5LDIyL7jsymuqvqNBlFhU67p4fVVQrHvoaPQsWvZmCnsSqbVhF6876U7TNTLRJMjkmJXI4AjEzq7rCR2ZWVFo5NfPJTunZy4q8bXNhluiRO/yzHT1bNOcyMrR3SI1lj+Mm6SzdIkTubNnj28Iks8SDvIApZoHatcaPzxAZAcpweIdyZc3gn5lqD8Ogfwew1WFw==",
+  "checksum": "f6226a658188d10261bdfab727f77c341b0309d8002be0addbf856390b31cd0c",
+  "signature": "AiLHCaklQYvob7WB76sX21uLOsXClcjZjJAOpIaRrK5c4XnLskg8xvT0WcIW0B9FAZQ17sg4fcUO8YlVTXjAPz61+moihExDtePBphOXy8dhRtUMNX5jVCkBnryFfeWAA4qDbRz8iKB3QrEEEiR4daHst0/GTT6KZMV8KVI7/iCbhH6tKPZgaGOvcyOZ6mFSpy6VuGmK6gvxuKUSaqEfliyedqvDLRIEUWb7PPyt5gdeDbw22Nvnf+BjKZZMM/87BHuBWE9rzPghW3UspdJgyhRyMZgN+OUDzCYxexuFUFsrPdJTbhG1L0+3enZY1PHyz+/KnOzxnfZUNs88ZhDzjg==",
   "websiteUrl": "https://thefuzzydeveloper.github.io/Astrobasics-website/",
   "requiresNativeUpdate": false
 }
