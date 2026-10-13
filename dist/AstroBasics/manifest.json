@@ -5,7 +5,7 @@
         "AstroBasics.exe": "2ae69a4266e405082d02b74a5a1d26fe77832fd800f051bea41df88a39da4f8d",
         "license.txt": "6889fde1e16268fc61147cd846cc328d01f3db6345796f28783d8531fd47c99b",
         "refresh_astrobasics.exe": "e6310986bc660b46e233151d20ce00297de38e79c2947bb57553a2050e58d949",
-        "updater_config.json": "a33ac2241b6bc6bbd2fa9937d30681a122130e186c921abfa80d850837e59588",
+        "updater_config.json": "a92a4ab608de0e2b76a5fe8367a845ec6909bf60b0eedbe55bf2acbc3e4dd305",
         "_internal/animation.pyd": "d8b8537f99996cf7331127ddea0dabcfa41479c7499a437062481b8da6eea5a6",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
         "_internal/api-ms-win-crt-conio-l1-1-0.dll": "25bbdabc7b8d8edf5cd05b5591edca13236724cad1011393e010df3c58fd6f7e",
@@ -905,5 +905,5 @@
         "_internal/win32/win32trace.pyd": "9d7eb0f1b4f4041d86420fd0e44fe4b07b6d64c999e8f6b5b5cc3ce8648eabe1",
         "_internal/win32/_win32sysloader.pyd": "6becee5e15c921c2b5457cd6aff39e02b7540426fb3933b90801265ac60ef23b"
     },
-    "signature": "f7GAPiEGdhiU39OfFc7Obd1WX9f5ThvNE8HiOyGWrSScqSZCExQY3Q2W6gXOJ7bgAob5BAq2ODmsY39wYf81DQ=="
+    "signature": "ZwaA4pLlWNR2xEZWYljbSmgLivMvxB/FHOX7KwVL3fqytUIM72i3NDIrdHfAMm/1fDpcHH8q46oQglNQw30xBQ=="
 }
