@@ -59,7 +59,7 @@ EXCLUDE_FILES = ['manifest.json','education_weights_config.json','csi_weights_pr
     'custom_astro_rules.db','.just_updated',
     'custom_astro_rules.db-shm','custom_astro_rules.db-wal','custom_astro_rules.db',
     'icon.ico', 'astro_settings.json', 'custom_vargas.json',
-    'apply_update.bat', 'apply_update.sh', 
+    'apply_update.bat', 'apply_update.sh', 'licence.txt',
     '.hash_cache.json', 'unins000.exe', 'unins000.dat', 'custom_astro_rules.json',
     'voting_info.py', 'updates_info.py','installer_splash.gif']
 
