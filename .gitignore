@@ -11,3 +11,10 @@ DOCUMENTATION
 *.pyc
 __pycache__/updates_info.cpython-314.pyc
 /AstrobasicsLatestInstaller
+/_boot_work
+/dist/AstroBasics/_internal/pyqtgraph
+/dist/VelopackReleases
+installer_splash.gif
+installer_splash.png
+AstroBasics-Setup.spec
+/dist/AstroBasics/_internal/my_plugins_z

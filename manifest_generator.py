@@ -52,7 +52,7 @@ OUTPUT_FILE = os.path.join(BUILD_DIR, "manifest.json")
 
 EXCLUDE_DIRS = [
     'update_cache', 'autosave', 'analysis_export', 'created chart exports',
-    'saves', '__pycache__']
+    'saves', '__pycache__','pyqtgraph','my_plugins_z']
 
 EXCLUDE_FILES = ['manifest.json','education_weights_config.json','csi_weights_prefs.json', 
     'life_curve_prefs.json','muhurta_advanced_prefs.json',
@@ -61,7 +61,7 @@ EXCLUDE_FILES = ['manifest.json','education_weights_config.json','csi_weights_pr
     'icon.ico', 'astro_settings.json', 'custom_vargas.json',
     'apply_update.bat', 'apply_update.sh', 
     '.hash_cache.json', 'unins000.exe', 'unins000.dat', 'custom_astro_rules.json',
-    'voting_info.py', 'updates_info.py']
+    'voting_info.py', 'updates_info.py','installer_splash.gif']
 
 EXCLUDE_EXTENSIONS = ['.pyc', '.pyi', '.c', '.bak']
 
