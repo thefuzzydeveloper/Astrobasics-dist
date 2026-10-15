@@ -54,6 +54,4 @@ This repository (`Astrobasics-dist`) serves as the official distribution hub for
 * **OS Vault Protection**: Saved charts and session state are secured via native OS Credential Vault hardware encryption.
 * **Engine**: Powered by Python, PyQt6, and optional Swiss Ephemeris (`swisseph`) with J2 mathematical fallbacks.
 
-*Note: Astrology helps only those who are genuinely in need.*
-
 [🌐 Visit Web Portal](https://thefuzzydeveloper.github.io/Astrobasics-website/) • [🐛 Report Issues](https://github.com/thefuzzydeveloper/Astrobasics-dist/issues) • [⭐ Star Repository](https://github.com/thefuzzydeveloper/Astrobasics-dist)
