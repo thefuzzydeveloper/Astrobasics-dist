@@ -1,6 +1,6 @@
 {
-    "version": "1.4.154",
-    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Minor Fixes!</b><br>\n\t\t</p>\n\t</div>",
+    "version": "1.4.155",
+    "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Re-install of the app after this release is highly recommended (Un-install the current version, make sure that %LOCALAPPDATA%\\AstroBasics is entirely empty or does not exist, and download the installer from website to do a fresh install)!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>It is recommended to take a backup of the settings by copying astro-settings.json to some suitable location and placing be back next to the main application %LOCALAPPDATA%\\AstroBasics\\current folder!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Minor Fixes!</b><br>\n\t\t</p>\n\t</div>",
     "files": {
         "AstroBasics.exe": "12b9b9f4786a01f312d09f190fcde480c41bdbb49aeae1e6ffe7dafd9649ed31",
         "refresh_astrobasics.exe": "e6310986bc660b46e233151d20ce00297de38e79c2947bb57553a2050e58d949",
@@ -902,5 +902,5 @@
         "_internal/win32/win32trace.pyd": "9d7eb0f1b4f4041d86420fd0e44fe4b07b6d64c999e8f6b5b5cc3ce8648eabe1",
         "_internal/win32/_win32sysloader.pyd": "6becee5e15c921c2b5457cd6aff39e02b7540426fb3933b90801265ac60ef23b"
     },
-    "signature": "3FAILaalRh+ugN7AyvMl6ICTI1fBz9yKmK9LyYeyK/58wBd2NGy9ET9o5VbCIPlZhdXKH656uOcsOTWiE2aBAQ=="
+    "signature": "I4yahl52v5ukbeiAQwSAG7aFL28yFTkiYcpC3PdM5BxqDbjwfNOEcBUbEDoPsUgw+EEHOyDIy5guJMMPmm5PCQ=="
 }

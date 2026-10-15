@@ -331,8 +331,8 @@ v1_4_155 = """
 		<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
 
 		<p style="margin-bottom: 14px;">
-			<b style="color: #059669;">[+]</b> <b>Re-install of the app after this release is highly recommended (Un-install the current version, make sure that %LOCALAPPDATA%\AstroBasics is entirely empty or does not exist, and download the installer from website to do a fresh install)!</b><br>
-			<b style="color: #059669;">[+]</b> <b>It is recommended to take a backup of the settings by copying Astro-settings.json to some suitable location and placing be back next to the main application current/AstroBasics.exe binary!</b><br>
+			<b style="color: #059669;">[+]</b> <b>Re-install of the app after this release is highly recommended (Un-install the current version, make sure that %LOCALAPPDATA%\\AstroBasics is entirely empty or does not exist, and download the installer from website to do a fresh install)!</b><br>
+			<b style="color: #059669;">[+]</b> <b>It is recommended to take a backup of the settings by copying astro-settings.json to some suitable location and placing be back next to the main application %LOCALAPPDATA%\\AstroBasics\\current folder!</b><br>
 			<b style="color: #059669;">[+]</b> <b>Minor Fixes!</b><br>
 		</p>
 	</div>
