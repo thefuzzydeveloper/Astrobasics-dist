@@ -16,7 +16,7 @@
   <a href="https://thefuzzydeveloper.github.io/Astrobasics-website/">
     <img src="https://img.shields.io/badge/Website-Visit_App_Portal-00C853?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Website" />
   </a>
-  <a href="https://github.com/thefuzzydeveloper/Astrobasics-dist/releases/download/v-final-installer/astrobasics_installer.exe">
+  <a href="https://github.com/thefuzzydeveloper/Astrobasics-dist/releases/download/v-final-installer/AstroBasics-Setup.exe">
     <img src="https://img.shields.io/badge/Download-Windows_.exe-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Download" />
   </a>
   <a href="https://github.com/thefuzzydeveloper/Astrobasics-dist/releases/download/v-final-installer/AstroBasics.apk">
@@ -43,7 +43,7 @@ This repository (`Astrobasics-dist`) serves as the official distribution hub for
 
 ### 🚀 Direct Download Links
 
-* 🖥️ **Windows Desktop Installer:** [Download `astrobasics_installer.exe`](https://github.com/thefuzzydeveloper/Astrobasics-dist/releases/download/v-final-installer/astrobasics_installer.exe)
+* 🖥️ **Windows Desktop Installer:** [Download `AstroBasics-Setup.exe`](https://github.com/thefuzzydeveloper/Astrobasics-dist/releases/download/v-final-installer/AstroBasics-Setup.exe)
 * 📱 **Android Package:** [Download `AstroBasics.apk`](https://github.com/thefuzzydeveloper/Astrobasics-dist/releases/download/v-final-installer/AstroBasics.apk)
 * 🌐 **Live Web Portal:** [https://thefuzzydeveloper.github.io/Astrobasics-website/](https://thefuzzydeveloper.github.io/Astrobasics-website/)
 

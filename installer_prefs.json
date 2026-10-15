@@ -6,7 +6,7 @@
     "MAIN_EXE": "AstroBasics.exe",
     "ICON_FILE": "F:/Coding/dist/Astrobasics Latest/icon.ico",
     "LICENSE_FILE": "F:\\Coding\\dist\\Astrobasics Latest\\license.txt",
-    "OUTPUT_INSTALLER": "astrobasics_installer.exe",
+    "OUTPUT_INSTALLER": "AstroBasics-Setup.exe",
     "EXTENSIONS": [
         "milan",
         "astrobasic",
