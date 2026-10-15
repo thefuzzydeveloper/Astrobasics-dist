@@ -325,12 +325,14 @@ v1_4_152 = """
 	</div>
 """
 
-v1_4_154 = """
+v1_4_155 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
 		<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
 
 		<p style="margin-bottom: 14px;">
+			<b style="color: #059669;">[+]</b> <b>Re-install of the app after this release is highly recommended (Un-install the current version, make sure that %LOCALAPPDATA%\AstroBasics is entirely empty or does not exist, and download the installer from website to do a fresh install)!</b><br>
+			<b style="color: #059669;">[+]</b> <b>It is recommended to take a backup of the settings by copying Astro-settings.json to some suitable location and placing be back next to the main application current/AstroBasics.exe binary!</b><br>
 			<b style="color: #059669;">[+]</b> <b>Minor Fixes!</b><br>
 		</p>
 	</div>
