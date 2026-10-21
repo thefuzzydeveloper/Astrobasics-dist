@@ -2,11 +2,10 @@
     "version": "1.6.1",
     "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>AstroBasics now uses more reliable NASA JPL (modified) DE-Ephermis for higher precision and stability!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Full Re-install recommended!</b><br>\n\t\t</p>\n\t</div>",
     "files": {
-        "AstroBasics.exe": "163f566a49fdb510775313f85db05fd5559dd298aa9f4e010795a06c205b50ea",
+        "AstroBasics.exe": "443ea26092bb6343a4a43057d6ec6fe913e4e357156c509cbd48e7de9e263676",
         "libnovas.dll": "5464e086f937f1e5f49f6e365b57381b02a6bcfde4bc07fc526a24763585468c",
         "libnovas.so": "d0681206a51656596444cf7820d54fa257b170afde62aa95326dbf3d818082b6",
-        "refresh_astrobasics.exe": "51521ac1579113f392f9f12ee0264b4dc03ec603532544ec506de58279fbfdf7",
-        "updater_config.json": "f72776eedc7e1e157485bec4f156abafcd54e0d0b06e2fe0bb36ddbec9019b3e",
+        "refresh_astrobasics.exe": "89051c7dee6202c55cf3c4a4d05331fcb52ba355e5aa288d84e77f5bb2587e49",
         "_internal/animation.pyd": "6e817c897f854d4dec811a93d0e21e02c6deb063157622c3483ae3781d9fd333",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
         "_internal/api-ms-win-crt-conio-l1-1-0.dll": "25bbdabc7b8d8edf5cd05b5591edca13236724cad1011393e010df3c58fd6f7e",
@@ -24,7 +23,7 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "2c33e129b84a3e3f9572d24180d322782cc386596a83060c5b21ded22502af2d",
-        "_internal/base_library.zip": "508f493b89351bf6ab89b7f22d8027c7b4608838e877286ef18bc39c37f2406f",
+        "_internal/base_library.zip": "b8bc2389df9a49f251751ad148df25d12c220f8ce41c02998017359e99ce72b2",
         "_internal/better_braces.pyd": "3ba887e7f97cf31370f990e2c86c596a5f16ce42229e20b8a71922fda9c044ad",
         "_internal/chart_renderer.pyd": "fa3dee202fc9307499156f32b23e9c1f7c7d1789118ac7a2e251a9cf17611b10",
         "_internal/custom_vargas.pyd": "1023da633eb1a196a8c93b32c7b14962ccf037589bf459a9a348190fadf836dd",
@@ -68,7 +67,7 @@
         "_internal/_sqlite3.pyd": "b0c4edff6d60f300373ec929ab915f95ee601bf167e04d28e4e9e28a8e536fe0",
         "_internal/_ssl.pyd": "5c07572df2913618cfb851b608cb5f74d740fcce5c3f2e63dc0a2ba39ab35dad",
         "_internal/_uuid.pyd": "a09308efd309732e3745e70b4456235579c450cac32bed616dfb3913b56f6637",
-        "_internal/_velopack_lifecycle.pyd": "85571be4355031bf05c08a2ffedb0cda66b83b77fb1344cfd6acf7a57141853f",
+        "_internal/_velopack_lifecycle.pyd": "a363cc1685ca039a9afd2f9a89e390fc00fe9b9cb0fd9a49978e43fea69bace2",
         "_internal/_wmi.pyd": "0ab1fbcf18c95d70343012feb1aad61e1ba95aaed5b4a08e57fc5990e8a9a452",
         "_internal/_zoneinfo.pyd": "c471587b0741aa0b795dcda76667a69e40aeb881b54ea3601a26e050cb27dc8a",
         "_internal/_zstd.pyd": "262aea62a994920daf152a10bdc0ca83a8b1c0874e71db23734862431de182c6",
@@ -821,5 +820,5 @@
         "_internal/win32/win32print.pyd": "f57d443d761c8eb22f52c8cb19c91e355bf4af7076e120a6ab0303893d17d050",
         "_internal/win32/_win32sysloader.pyd": "6becee5e15c921c2b5457cd6aff39e02b7540426fb3933b90801265ac60ef23b"
     },
-    "signature": "iPARVh4htHY+1qk1TEQB3+6SOy1sIG2wBQmjyxzz4ILeFw9UR7bAtqmD1IPiX8O6HTMQuVbnsBKC/A/DHRG6DA=="
+    "signature": "FQPWH/SIKRAkFtVTGIEYHjz12pBIworGwVPzFJKpbE6uz6a6vPOvtn942ILPMFqmp7hw9NXklF9GgXsVSIhMCQ=="
 }
