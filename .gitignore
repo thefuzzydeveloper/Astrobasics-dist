@@ -1,0 +1,21 @@
+/build_env/
+TEMPORARY_PYTHON_FILE.PY
+dist/AstroBasics/astro_tabs_session.json
+/dist/AstroBasics/_internal/autosave
+/dist/AstroBasics/_internal/created chart exports
+/dist/AstroBasics/_internal/saves
+/dist/AstroBasics/_internal/analysis_export
+BUGS
+DOCUMENTATION
+/dist/AstroBasics/_internal/obj
+*.pyc
+__pycache__/updates_info.cpython-314.pyc
+/AstrobasicsLatestInstaller
+/_boot_work
+/dist/AstroBasics/_internal/pyqtgraph
+/dist/VelopackReleases
+installer_splash.gif
+installer_splash.png
+AstroBasics-Setup.spec
+/dist/AstroBasics/_internal/my_plugins_z
+license.txt
