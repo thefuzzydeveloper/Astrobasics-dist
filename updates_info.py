@@ -362,6 +362,7 @@ v1_6_0 = """
 		</p>
 	</div>
 """
+
 v1_6_1 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
