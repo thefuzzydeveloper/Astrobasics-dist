@@ -370,6 +370,7 @@ v1_6_1 = """
 		<p style="margin-bottom: 14px;">
 			<b style="color: #059669;">[+]</b> <b>AstroBasics now uses more reliable NASA JPL (modified) DE-Ephermis for higher precision and stability!</b><br>
 			<b style="color: #059669;">[+]</b> <b>Full Re-install recommended!</b><br>
+			<b style="color: #059669;">[+]</b> <b>Minor fixes and improved stability!</b><br>
 		</p>
 	</div>
 """
