@@ -1,12 +1,11 @@
 {
-    "version": "1.6.1",
+    "version": "1.6.2",
     "changelog": "<div style=\"font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;\">\n\t\t<h2 style=\"color: #2563EB; margin-bottom: 5px; margin-top: 0;\">Whats changed?</h2>\n\t\t<hr style=\"background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;\">\n\t\t<p style=\"margin-bottom: 14px;\">\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>AstroBasics now uses more reliable NASA JPL (modified) DE-Ephermis for higher precision and stability!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Full Re-install recommended!</b><br>\n\t\t\t<b style=\"color: #059669;\">[+]</b> <b>Minor fixes and improved stability!</b><br>\n\t\t</p>\n\t</div>",
     "files": {
-        "AstroBasics.exe": "8cabd3d1ce14cbe330516074811f882103e031672c707c4ecda341ba9b863126",
+        "AstroBasics.exe": "50d377856d9ec38b6ba9ea469e71b386ef97e5967b6c413df93ead036aaf0e9c",
         "libnovas.dll": "5464e086f937f1e5f49f6e365b57381b02a6bcfde4bc07fc526a24763585468c",
         "libnovas.so": "d0681206a51656596444cf7820d54fa257b170afde62aa95326dbf3d818082b6",
         "refresh_astrobasics.exe": "d8568bc2445a5a1c3b6d30d6ba671d59c0be1ca6e02a6399293f08c66e66883d",
-        "updater_config.json": "f72776eedc7e1e157485bec4f156abafcd54e0d0b06e2fe0bb36ddbec9019b3e",
         "_internal/animation.pyd": "a99343bbe6bee56a4322fbb1a5f734088af925c3190f0b9de8f3a47ca1ab26a7",
         "_internal/api-ms-win-core-synch-l1-2-0.dll": "d3e6256c2dd7150cff8ffca9c9cc6ef477c1da72c0d32972d1022381927b8295",
         "_internal/api-ms-win-crt-conio-l1-1-0.dll": "25bbdabc7b8d8edf5cd05b5591edca13236724cad1011393e010df3c58fd6f7e",
@@ -24,7 +23,7 @@
         "_internal/api-ms-win-crt-time-l1-1-0.dll": "2b7fed76ba52606e442d5069f42077f0cf304e49326dddcf3695a06530c4b5c1",
         "_internal/api-ms-win-crt-utility-l1-1-0.dll": "47aa51ad00153edd4f3dd42bf89da2325f9e0106e9772396c066666182b22d07",
         "_internal/astro_engine.pyd": "cbf70fbadbecbfe6796bca15dd2a5a929b96bf9326101c8ce4eddf1dfbcada58",
-        "_internal/base_library.zip": "d83de6582dbd2c23e5e09971f72184af9261dcec3ad9f0f851ae613cfcabb8d3",
+        "_internal/base_library.zip": "1e59e14ca39a5d22a12aa16103de1e7c2f4fee0b830752e963bed95f3778ffe3",
         "_internal/better_braces.pyd": "3ba887e7f97cf31370f990e2c86c596a5f16ce42229e20b8a71922fda9c044ad",
         "_internal/chart_renderer.pyd": "b6f37033340b0a4c9459fd6223c528581ad5876326fc113e3e7001c8c6677bed",
         "_internal/custom_vargas.pyd": "d32012d2842d225ca301ee88ef4683265eae166a51f9a89cf678ef7d1ba18c64",
@@ -117,7 +116,7 @@
         "_internal/managers/plugin_manager.pyd": "ad80717c33f307124e5bbc20af2be0969e8e96ae758625fdb56d444c74c30264",
         "_internal/managers/settings_manager.pyd": "3633d3dc237dacb5c66fb8b23cbebd781df74676666e38d60b0b22d35a18f497",
         "_internal/managers/tab_workspace_manager.pyd": "e4c68dd3a278ce9c09dfa0ac95a6e11b458fe45a6b8283a1e5e424a6ac5257dd",
-        "_internal/managers/transit_coordinator.pyd": "69b9af21faf099c06bdf7dbbbe86abfb64f669b5bbc1235c4441c449364ec3db",
+        "_internal/managers/transit_coordinator.pyd": "a1a7b7662d5f7755bb2d74efb80d253476dec2f9e7ee6e8e944fe3b0e0d8821f",
         "_internal/numpy/fft/_pocketfft_umath.cp314-win_amd64.pyd": "3095ab2b0c0196fe435de9c9c2a8536b12caa6937438fa63cdbab29fc5d618d9",
         "_internal/numpy/linalg/lapack_lite.cp314-win_amd64.pyd": "88c58fd95a753f56085d88138ec941e06aa76a17e441d528e80861aa21c06e74",
         "_internal/numpy/linalg/_umath_linalg.cp314-win_amd64.pyd": "e14722dde128b4874187c15226b7d4c76d84fd64b12ac91118ec1da5b7b8d348",
@@ -821,5 +820,5 @@
         "_internal/win32/win32print.pyd": "f57d443d761c8eb22f52c8cb19c91e355bf4af7076e120a6ab0303893d17d050",
         "_internal/win32/_win32sysloader.pyd": "6becee5e15c921c2b5457cd6aff39e02b7540426fb3933b90801265ac60ef23b"
     },
-    "signature": "rn3VXuKsYrNXbeioAhtnc1CuIq7fv7RZcUC1Srf60XArmK+C2zTBVKzi9k9g2mnAi60HYVIpcX6EiLblAqgbBA=="
+    "signature": "c4marr1P7sPUn1eKgswzQNCY0tSAp8uB/BfWv5otqzecTCl9eOczwlR9NFg/VqZldyoUtx3PqidkWBE/aVysCA=="
 }
