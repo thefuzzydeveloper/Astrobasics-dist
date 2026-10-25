@@ -53,7 +53,7 @@ This repository (`Astrobasics-dist`) serves as the official distribution hub for
 ---
 
 ### 🛡️ Release Integrity & Security
-- **Zero Telemetry**: AstroBasics runs without background tracking, analytics, or ads (exceptions are mentioned in section 5 of EULA).
+- **Zero Telemetry**: AstroBasics runs without background tracking, analytics, or ads (network requirements related exceptions are mentioned in section 5 of EULA).
 
 - **OS Vault Protection**: Saved charts and session state are secured via native OS Credential Vault hardware encryption.
 
