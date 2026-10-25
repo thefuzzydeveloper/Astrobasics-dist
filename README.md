@@ -1,4 +1,4 @@
-# 🌌 AstroBasics Diamond Chart Pro
+  # 🌌 AstroBasics Diamond Chart Pro
 
 ### *Offline Vedic Astrology Desktop & Mobile Suite*
 
