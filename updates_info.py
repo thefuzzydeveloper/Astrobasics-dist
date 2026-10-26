@@ -1,5 +1,8 @@
 # updates_info.py
 
+from types import resolve_bases
+
+
 v1_4_105 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed? MAJOR UPDATE!</h2>
@@ -225,8 +228,6 @@ v1_4_139 = """
 		</p>
 	</div>
 """
-
-
 v1_4_140 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
@@ -237,7 +238,6 @@ v1_4_140 = """
 		</p>
 	</div>
 """
-
 v1_4_141 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
@@ -250,7 +250,6 @@ v1_4_141 = """
 		</p>
 	</div>
 """
-
 v1_4_142 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
@@ -264,7 +263,6 @@ v1_4_142 = """
 		</p>
 	</div>
 """
-
 v1_4_144 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
@@ -280,7 +278,6 @@ v1_4_144 = """
 		</p>
 	</div>
 """
-
 v1_4_149 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
@@ -313,7 +310,6 @@ v1_4_151 = """
 		</p>
 	</div>
 """
-
 v1_4_152 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
@@ -324,7 +320,6 @@ v1_4_152 = """
 		</p>
 	</div>
 """
-
 v1_4_155 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
@@ -337,7 +332,6 @@ v1_4_155 = """
 		</p>
 	</div>
 """
-
 v1_4_158 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
@@ -351,8 +345,6 @@ v1_4_158 = """
 		</p>
 	</div>
 """
-
-
 v1_6_0 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
@@ -362,7 +354,6 @@ v1_6_0 = """
 		</p>
 	</div>
 """
-
 v1_6_2 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
@@ -374,7 +365,6 @@ v1_6_2 = """
 		</p>
 	</div>
 """
-
 v1_6_4 = """
 	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
 		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
@@ -386,4 +376,19 @@ v1_6_4 = """
 			<b style="color: #059669;">[+]</b> <b>Minor fixes and improved stability!</b><br>
 		</p>
 	</div>
+"""
+
+v1_6_5 = """
+	<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #334155; line-height: 1.5; font-size: 13px;">
+		<h2 style="color: #2563EB; margin-bottom: 5px; margin-top: 0;">Whats changed?</h2>
+		<hr style="background-color: #CBD5E1; border: none; height: 1px; margin-bottom: 12px;">
+		<p style="margin-bottom: 14px;">
+			<b style="color: #059669;">[+]</b> <b>Removed inaccurate life activity curve!</b><br>
+		</p>
+	</div>
+"""
+
+"""
+READ THIS BEFORE PUBLISHING NEXT resolve_bases
+--> PIP MINI VIEW DOES NOT SAVES ANYTHING AT ALL! MAKE SURE THAT THE PIP PREFERENCES ARE SAVED AUTOMATICALLY!
 """
