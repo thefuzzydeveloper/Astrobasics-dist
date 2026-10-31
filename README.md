@@ -30,7 +30,7 @@
 
   <!-- TECH & FEATURE SHIELDS -->
   <img src="https://img.shields.io/badge/100%25-Offline_%26_Private-FF6F00?style=flat-square&logo=shield" alt="100% Offline" />
-  <img src="https://img.shields.io/badge/Engine-Python_|_PyQt6-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python PyQt6" />
+  <img src="https://img.shields.io/badge/Engine-Python_|_PySide6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Python PySide6" />
   <img src="https://img.shields.io/badge/Ephemeris-NASA_JPL_DE-0B3D91?style=flat-square&logo=nasa&logoColor=white" alt="NASA JPL Ephemeris" />
   <img src="https://img.shields.io/badge/Astrometry-USNO_NOVAS_C_3.1-002D62?style=flat-square" alt="USNO NOVAS C 3.1" />
   <img src="https://img.shields.io/badge/UI_Languages-English_|_हिन्दी_|_संस्कृतम्-8A2BE2?style=flat-square" alt="Languages" />
