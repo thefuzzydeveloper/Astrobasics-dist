@@ -41,6 +41,7 @@
 ## 📦 About Distribution
 
 This repository (`Astrobasics-dist`) serves as the official distribution hub for pre-compiled binaries, installers, and public releases of **AstroBasics Diamond Chart Pro**.
+THIS REPO DOES NOT CONTAIN SOURCE FILES OF ASTROBASICS.
 
 ### 🚀 Direct Download Links
 
