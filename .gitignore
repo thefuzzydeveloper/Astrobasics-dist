@@ -20,3 +20,12 @@ AstroBasics-Setup.spec
 /dist/AstroBasics/_internal/my_plugins_z
 license.txt
 /dist/AstroBasics/ephe
+
+# Standard build & release ignores
+[Rr]elease/
+*.apk
+[Oo]bj/
+[Bb]in/
+*.lock
+__pycache__/
+_delete_me/
