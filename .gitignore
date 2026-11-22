@@ -21,11 +21,7 @@ AstroBasics-Setup.spec
 license.txt
 /dist/AstroBasics/ephe
 
-# Standard build & release ignores
-[Rr]elease/
-*.apk
-[Oo]bj/
-[Bb]in/
+# Distribution repository ignores (keep release binaries & APKs tracked)
 *.lock
 __pycache__/
 _delete_me/
