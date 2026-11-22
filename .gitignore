@@ -7,21 +7,16 @@ dist/AstroBasics/astro_tabs_session.json
 /dist/AstroBasics/_internal/analysis_export
 BUGS
 DOCUMENTATION
-/dist/AstroBasics/_internal/obj
-*.pyc
-__pycache__/updates_info.cpython-314.pyc
 /AstrobasicsLatestInstaller
 /_boot_work
-/dist/AstroBasics/_internal/pyqtgraph
 /dist/VelopackReleases
-installer_splash.gif
-installer_splash.png
-AstroBasics-Setup.spec
-/dist/AstroBasics/_internal/my_plugins_z
-license.txt
-/dist/AstroBasics/ephe
 
 # Distribution repository ignores (keep release binaries & APKs tracked)
 *.lock
 __pycache__/
 _delete_me/
+dist/AstroBasics/_internal/pyqtgraph/
+dist/AstroBasics/ephe/de440s.bin
+dist/AstroBasics/_internal/my_plugins_z/gender_evaluator.pyd
+AstroBasics-Setup.spec
+installer_splash.gif
